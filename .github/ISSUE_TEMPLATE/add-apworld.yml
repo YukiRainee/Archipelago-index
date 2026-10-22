@@ -1,0 +1,28 @@
+name: Add an apworld
+description: Paste a link - the bot works out the rest and adds it to this index.
+title: "Add apworld"
+labels: ["add-apworld"]
+body:
+  - type: input
+    attributes:
+      label: Link
+      description: "GitHub/Codeberg repo, a release page, or a direct .apworld download URL."
+      placeholder: "https://github.com/someone/some-apworld"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Display name (optional)
+      description: "Only if the game name is ugly, e.g. \"Manual: Some Game\"."
+  - type: input
+    attributes:
+      label: Version override (optional)
+      description: "Only if it can't work out the version itself. Must be X.Y.Z."
+  - type: input
+    attributes:
+      label: Asset name (optional)
+      description: "Only if the release has several .apworld files, e.g. \"foo.apworld\"."
+  - type: input
+    attributes:
+      label: Homepage (optional)
+      description: "Discord thread or website. Defaults to the repo."

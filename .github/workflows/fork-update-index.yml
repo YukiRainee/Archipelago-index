@@ -1,0 +1,116 @@
+name: "Fork: sync upstream + auto-update apworlds"
+
+# Fork-only workflow (the fork-* prefix keeps it clear of upstream's files).
+#  1. turns off upstream's own workflows here (they need ionium's GitLab secrets)
+#  2. merges ionium-ap/Archipelago-index into this fork
+#  3. bumps apworlds that have newer releases, writing index.lock hashes
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily, 09:17 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (report only, change nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write   # to disable upstream's workflows in this fork
+
+concurrency:
+  group: index-write   # shared with fork-add-apworld.yml so pushes never race
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Optional fine-grained PAT (Contents + Workflows: read/write on this
+          # repo). Without it, syncs that change upstream's .github/workflows
+          # files can't be pushed - GitHub forbids that for the default token.
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+
+      - name: Configure git
+        run: |
+          git config user.name "index-auto-updater"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Disable upstream workflows in this fork
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/workflows" --paginate \
+            --jq '.workflows[] | select(.state == "active") | select(.path | test("/fork-") | not) | "\(.id) \(.path)"' |
+          while read -r id path; do
+            echo "disabling $path"
+            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/$id/disable" || true
+          done
+
+      - name: Sync with upstream
+        id: sync
+        continue-on-error: true
+        run: |
+          git remote add upstream https://github.com/ionium-ap/Archipelago-index.git
+          git fetch upstream main
+          if git merge-base --is-ancestor upstream/main HEAD; then
+            echo "Already contains upstream."; exit 0
+          fi
+          # Upstream is the authority: on a conflict (e.g. both sides bumped the
+          # same world / index.lock) take theirs; our bumps get redone below.
+          git merge upstream/main -X theirs --no-edit -m "Sync with upstream ionium-ap/Archipelago-index"
+          if [ "${{ inputs.dry_run }}" != "true" ]; then
+            git push origin HEAD:main
+          fi
+
+      - name: Explain sync failure
+        if: steps.sync.outcome == 'failure'
+        run: |
+          {
+            echo "## Upstream sync failed"
+            echo "Usually upstream changed a file under .github/workflows/ and this repo has no"
+            echo "SYNC_TOKEN secret. Add one (see autoupdate/README.md) or click 'Sync fork' on GitHub."
+          } >> "$GITHUB_STEP_SUMMARY"
+          git merge --abort 2>/dev/null || true
+          git reset --hard origin/main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install tomlkit requests packaging
+
+      - name: Check for newer releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python autoupdate/check_updates.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Summary
+        run: cat update_summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push version bumps
+        id: push
+        run: |
+          if [ "$(cat changes_made.flag)" != "1" ]; then
+            echo "No changes."; exit 0
+          fi
+          git add index/ index.lock
+          git commit -m "Auto-update apworld versions" -m "$(grep '^- \*\*' update_summary.md | head -50)"
+          for i in 1 2 3; do
+            git push origin HEAD:main && echo "pushed=1" >> "$GITHUB_OUTPUT" && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
+
+      # Optional: tell your lobby to re-read the index right away.
+      # Set repo variable LOBBY_REFRESH_URL and secret LOBBY_ADMIN_TOKEN to enable.
+      - name: Ping lobby to refresh
+        if: ${{ steps.push.outputs.pushed == '1' && vars.LOBBY_REFRESH_URL != '' }}
+        run: |
+          curl -fsS -X POST "${{ vars.LOBBY_REFRESH_URL }}" \
+            -H "X-Api-Key: ${{ secrets.LOBBY_ADMIN_TOKEN }}" ||
+            echo "::warning::Lobby refresh ping failed"

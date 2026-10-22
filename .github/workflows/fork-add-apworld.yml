@@ -1,0 +1,141 @@
+name: "Fork: add apworld from a link"
+
+# Two ways in:
+#  - Actions tab -> this workflow -> "Run workflow", paste the link
+#  - New issue -> "Add an apworld" form (only issues opened by the repo owner
+#    are acted on - anyone can open issues on a public repo)
+
+on:
+  workflow_dispatch:
+    inputs:
+      link:
+        description: "GitHub/Codeberg repo, release page, or direct .apworld link"
+        required: true
+      display_name:
+        description: "Display name (optional, e.g. 'Manual: Some Game')"
+        required: false
+      version:
+        description: "Version override (optional, X.Y.Z)"
+        required: false
+      asset:
+        description: "Which .apworld file, if the release has several (optional)"
+        required: false
+      home:
+        description: "Homepage / Discord thread (optional, defaults to the repo)"
+        required: false
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: index-write
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       (contains(github.event.issue.labels.*.name, 'add-apworld') ||
+        startsWith(github.event.issue.title, 'Add apworld')))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install tomlkit requests packaging
+
+      - name: Collect the request
+        env:
+          # Passed via env, never interpolated into the script, so issue text
+          # can't inject shell commands.
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          IN_LINK: ${{ inputs.link }}
+          IN_DISPLAY: ${{ inputs.display_name }}
+          IN_VERSION: ${{ inputs.version }}
+          IN_ASSET: ${{ inputs.asset }}
+          IN_HOME: ${{ inputs.home }}
+        run: |
+          python - <<'EOF'
+          import json, os, re
+          fields = {"link": os.environ["IN_LINK"], "display_name": os.environ["IN_DISPLAY"],
+                    "version": os.environ["IN_VERSION"], "asset": os.environ["IN_ASSET"],
+                    "home": os.environ["IN_HOME"]}
+          body = os.environ.get("ISSUE_BODY") or ""
+          if body:
+              # Issue forms render as "### <label>\n\n<value>"; map by label keyword.
+              keys = {"link": "link", "display": "display_name", "version": "version",
+                      "asset": "asset", "home": "home"}
+              for label, value in re.findall(r"^### (.+?)\s*\n+(.*?)(?=^### |\Z)", body, re.S | re.M):
+                  value = value.strip()
+                  if value == "_No response_":
+                      value = ""
+                  for kw, field in keys.items():
+                      if kw in label.lower():
+                          fields[field] = value
+                          break
+              if not fields["link"]:
+                  m = re.search(r"https://\S+", body)
+                  fields["link"] = m.group(0) if m else ""
+          json.dump(fields, open("request.json", "w"))
+          print(fields)
+          EOF
+
+      - name: Add it
+        id: add
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'EOF'
+          import json, subprocess, sys
+          f = json.load(open("request.json"))
+          cmd = [sys.executable, "autoupdate/add_apworld.py", f["link"]]
+          for key, flag in (("display_name", "--display-name"), ("version", "--version"),
+                            ("asset", "--asset"), ("home", "--home")):
+              if f.get(key):
+                  cmd += [flag, f[key]]
+          sys.exit(subprocess.call(cmd))
+          EOF
+
+      - name: Commit and push
+        id: push
+        if: steps.add.outcome == 'success'
+        run: |
+          git config user.name "index-auto-updater"
+          git config user.email "actions@users.noreply.github.com"
+          git add index/ index.lock
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          worlds=$(git diff --cached --name-only -- index/ | sed 's#index/##; s#\.toml$##' | paste -sd, -)
+          git commit -m "Add apworld: ${worlds}" -m "$(cat add_result.md)"
+          for i in 1 2 3; do
+            git push origin HEAD:main && echo "pushed=1" >> "$GITHUB_OUTPUT" && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
+
+      - name: Report
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          ADD_OK: ${{ steps.add.outcome == 'success' && steps.push.outcome == 'success' }}
+        run: |
+          [ -f add_result.md ] || echo "Something went wrong before the apworld could be checked - see the workflow log." > add_result.md
+          cat add_result.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$ISSUE" ]; then
+            gh issue comment "$ISSUE" --body-file add_result.md
+            if [ "$ADD_OK" = "true" ]; then gh issue close "$ISSUE"; fi
+          fi
+
+      - name: Ping lobby to refresh
+        if: ${{ steps.push.outputs.pushed == '1' && vars.LOBBY_REFRESH_URL != '' }}
+        run: |
+          curl -fsS -X POST "${{ vars.LOBBY_REFRESH_URL }}" \
+            -H "X-Api-Key: ${{ secrets.LOBBY_ADMIN_TOKEN }}" ||
+            echo "::warning::Lobby refresh ping failed"
