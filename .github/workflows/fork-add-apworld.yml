@@ -4,6 +4,10 @@ name: "Fork: add apworld from a link"
 #  - Actions tab -> this workflow -> "Run workflow", paste the link
 #  - New issue -> "Add an apworld" form (only issues opened by the repo owner
 #    are acted on - anyone can open issues on a public repo)
+#  - Suggestions from the lobby's "Suggest an apworld" page arrive as issues
+#    labelled `apworld-suggestion`. Those only get a dry-run preview comment;
+#    the world is added once the repo owner adds the `approved` label. The
+#    same label approves an "Add an apworld" issue someone else opened.
 
 on:
   workflow_dispatch:
@@ -24,7 +28,7 @@ on:
         description: "Homepage / Discord thread (optional, defaults to the repo)"
         required: false
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   contents: write
@@ -38,10 +42,18 @@ jobs:
   add:
     if: >-
       github.event_name == 'workflow_dispatch' ||
-      (github.event.issue.user.login == github.repository_owner &&
+      (github.event.action == 'opened' &&
+       github.event.issue.user.login == github.repository_owner &&
        (contains(github.event.issue.labels.*.name, 'add-apworld') ||
-        startsWith(github.event.issue.title, 'Add apworld')))
+        startsWith(github.event.issue.title, 'Add apworld'))) ||
+      (github.event.action == 'opened' &&
+       contains(github.event.issue.labels.*.name, 'apworld-suggestion')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'approved' &&
+       github.event.sender.login == github.repository_owner)
     runs-on: ubuntu-latest
+    env:
+      # A freshly opened lobby suggestion is only previewed; nothing is written.
+      PREVIEW: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'apworld-suggestion') }}
     steps:
       - uses: actions/checkout@v4
 
@@ -93,19 +105,21 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           python - <<'EOF'
-          import json, subprocess, sys
+          import json, os, subprocess, sys
           f = json.load(open("request.json"))
           cmd = [sys.executable, "autoupdate/add_apworld.py", f["link"]]
           for key, flag in (("display_name", "--display-name"), ("version", "--version"),
                             ("asset", "--asset"), ("home", "--home")):
               if f.get(key):
                   cmd += [flag, f[key]]
+          if os.environ.get("PREVIEW") == "true":
+              cmd.append("--dry-run")
           sys.exit(subprocess.call(cmd))
           EOF
 
       - name: Commit and push
         id: push
-        if: steps.add.outcome == 'success'
+        if: steps.add.outcome == 'success' && env.PREVIEW != 'true'
         run: |
           git config user.name "index-auto-updater"
           git config user.email "actions@users.noreply.github.com"
@@ -127,15 +141,21 @@ jobs:
           ADD_OK: ${{ steps.add.outcome == 'success' && steps.push.outcome == 'success' }}
         run: |
           [ -f add_result.md ] || echo "Something went wrong before the apworld could be checked - see the workflow log." > add_result.md
-          cat add_result.md >> "$GITHUB_STEP_SUMMARY"
+          if [ "$PREVIEW" = "true" ]; then
+            { echo '**Preview** - this is what approving would do. Add the `approved` label to add it.'
+              echo; cat add_result.md; } > comment.md
+          else
+            cp add_result.md comment.md
+          fi
+          cat comment.md >> "$GITHUB_STEP_SUMMARY"
           if [ -n "$ISSUE" ]; then
-            gh issue comment "$ISSUE" --body-file add_result.md
-            if [ "$ADD_OK" = "true" ]; then gh issue close "$ISSUE"; fi
+            gh issue comment "$ISSUE" --body-file comment.md
+            if [ "$ADD_OK" = "true" ] && [ "$PREVIEW" != "true" ]; then gh issue close "$ISSUE"; fi
           fi
 
       - name: Ping lobby to refresh
         if: ${{ steps.push.outputs.pushed == '1' && vars.LOBBY_REFRESH_URL != '' }}
         run: |
-          curl -fsS -X POST "${{ vars.LOBBY_REFRESH_URL }}" \
+          curl -fsS "${{ vars.LOBBY_REFRESH_URL }}" \
             -H "X-Api-Key: ${{ secrets.LOBBY_ADMIN_TOKEN }}" ||
             echo "::warning::Lobby refresh ping failed"

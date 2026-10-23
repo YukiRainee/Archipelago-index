@@ -30,6 +30,12 @@ Any of these work. Give it a repo link, a release page, or a direct `.apworld` U
   Submit. The bot replies with what it added and closes the issue. Only
   issues **you** open are acted on.
 - **Actions form**: Actions → *Fork: add apworld from a link* → Run workflow.
+- **From the lobby**: players use *Suggest an apworld* on the lobby's apworld
+  pages (`YukiRainee/Archipelago-lobby`, settings `APWORLD_SUGGEST_REPO` and
+  `APWORLD_SUGGEST_TOKEN`). Each suggestion opens an issue labelled
+  `apworld-suggestion`, and the bot comments a preview of what it would add.
+  **Nothing is added until you put the `approved` label on the issue.** The
+  same label approves an *Add an apworld* issue opened by someone else.
 - **Locally / ask Claude**: `python autoupdate/add_apworld.py <link>`
   (add `--dry-run` to preview), then commit and push. In a Claude Code
   session in this repo you can just say "add <link>".
@@ -65,7 +71,7 @@ APWORLDS_INDEX_REPO_BRANCH: "main"
 ```
 
 To make it refresh right after each change, set repo variable
-`LOBBY_REFRESH_URL` and secret `LOBBY_ADMIN_TOKEN`. Check your lobby's docs
+`LOBBY_REFRESH_URL` (e.g. `https://your-lobby/worlds/refresh`) and secret `LOBBY_ADMIN_TOKEN`. Check your lobby's docs
 for the exact endpoint and auth header first.
 
 ## Caveat

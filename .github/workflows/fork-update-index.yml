@@ -111,6 +111,6 @@ jobs:
       - name: Ping lobby to refresh
         if: ${{ steps.push.outputs.pushed == '1' && vars.LOBBY_REFRESH_URL != '' }}
         run: |
-          curl -fsS -X POST "${{ vars.LOBBY_REFRESH_URL }}" \
+          curl -fsS "${{ vars.LOBBY_REFRESH_URL }}" \
             -H "X-Api-Key: ${{ secrets.LOBBY_ADMIN_TOKEN }}" ||
             echo "::warning::Lobby refresh ping failed"
