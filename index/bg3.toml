@@ -1,0 +1,6 @@
+name = "Baldur's Gate 3"
+home = "https://discord.com/channels/1085716850370957462/1419417116842393821"
+default_url = "https://github.com/zane31415/ArchipelagoBG3/releases/download/v{{version}}/bg3.apworld"
+
+[versions]
+"0.8.0" = {}

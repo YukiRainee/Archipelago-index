@@ -1,0 +1,6 @@
+name = "Spirit Valley"
+home = "https://discord.com/channels/1085716850370957462/1419952926062936126"
+default_url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/V{{version}}/spiritvalley.apworld"
+
+[versions]
+"2.1.1" = {}

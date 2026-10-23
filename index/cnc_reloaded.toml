@@ -1,0 +1,5 @@
+name = "C&C Reloaded"
+home = "https://discord.com/channels/731205301247803413/1547140084166565899"
+
+[versions]
+"1.8.0" = {url = "https://github.com/Heinki/Reloaded-Randomizer/releases/download/V1.8/cnc_reloaded.apworld"}

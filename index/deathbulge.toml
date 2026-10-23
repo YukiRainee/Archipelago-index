@@ -1,0 +1,6 @@
+name = "Deathbulge"
+home = "https://discord.com/channels/731205301247803413/1508221337812865074"
+default_url = "https://github.com/neverhelios/Archipelago/releases/download/v{{version}}/deathbulge.apworld"
+
+[versions]
+"0.3.0" = {}

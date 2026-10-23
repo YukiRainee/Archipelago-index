@@ -1,0 +1,6 @@
+name = "Mario is Missing"
+home = "https://discord.com/channels/731205301247803413/1188695271941603348"
+default_url = "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases/download/{{version}}/mariomissing.apworld"
+
+[versions]
+"0.0.3" = {}

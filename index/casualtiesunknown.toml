@@ -1,0 +1,6 @@
+name = "Casualties: Unknown"
+home = "https://discord.com/channels/1085716850370957462/1409902818952745051"
+default_url = "https://github.com/Nichologeam/CUAP/releases/download/v{{version}}/casualtiesunknown.apworld"
+
+[versions]
+"0.12.0" = {}

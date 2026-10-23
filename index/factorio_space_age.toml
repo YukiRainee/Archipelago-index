@@ -1,0 +1,6 @@
+name = "Factorio: Space Age"
+home = "https://discord.com/channels/731205301247803413/1475714948608036977"
+default_url = "https://github.com/thejoshwolfe/Archipelago/releases/download/space-age-v{{version}}/factorio_space_age.apworld"
+
+[versions]
+"2.2.4" = {}

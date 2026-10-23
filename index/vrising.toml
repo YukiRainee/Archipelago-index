@@ -1,0 +1,6 @@
+name = "V Rising"
+home = "https://discord.com/channels/731205301247803413/1217846329330634783"
+default_url = "https://github.com/dghalfor/V-Rising-APWorld/releases/download/{{version}}/vrising.apworld"
+
+[versions]
+"0.3.3" = {}

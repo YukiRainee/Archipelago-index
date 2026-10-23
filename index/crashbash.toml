@@ -1,0 +1,6 @@
+name = "Crash Bash"
+home = "https://discord.com/channels/731205301247803413/1206500627912327188"
+default_url = "https://github.com/JustinMarshall98/Crash-Bash-PSX-Archipelago/releases/download/v{{version}}/crashbash.apworld"
+
+[versions]
+"0.1.0" = {}

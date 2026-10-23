@@ -1,0 +1,6 @@
+name = "Arzette: The Jewel of Faramore"
+home = "https://discord.com/channels/731205301247803413/1233481310060937236"
+default_url = "https://github.com/nicolasberube/Arzette_Randomizer/releases/download/{{version}}/arzette.apworld"
+
+[versions]
+"1.0.0" = {}

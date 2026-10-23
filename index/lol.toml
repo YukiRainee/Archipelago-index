@@ -1,0 +1,6 @@
+name = "League of Legends"
+home = "https://discord.com/channels/731205301247803413/1184691812099686492"
+default_url = "https://github.com/kbab13reel/Archipelago/releases/download/lol_{{version}}/lol.apworld"
+
+[versions]
+"0.2.6" = {}

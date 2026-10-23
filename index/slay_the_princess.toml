@@ -1,0 +1,6 @@
+name = "Slay The Princess"
+home = "https://discord.com/channels/1085716850370957462/1374828534312468551"
+default_url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-{{version}}/slay_the_princess.apworld"
+
+[versions]
+"1.2.2" = {}

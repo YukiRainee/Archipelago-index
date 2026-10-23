@@ -1,0 +1,5 @@
+name = "Fakutori"
+home = "https://discord.com/channels/731205301247803413/1480232889659559966"
+
+[versions]
+"0.1.1" = {url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v0.1.1/fakutori.apworld"}

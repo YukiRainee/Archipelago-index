@@ -1,0 +1,6 @@
+name = "Scooby-Doo! Unmasked"
+home = "https://discord.com/channels/731205301247803413/1009608126321922180/threads/1322710196794949652"
+default_url = "https://github.com/Its-Retro/Archipelago/releases/download/v{{version}}/scooby_doo_unmasked.apworld"
+
+[versions]
+"0.2.1" = {}

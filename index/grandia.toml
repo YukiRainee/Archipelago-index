@@ -1,0 +1,6 @@
+name = "Grandia"
+home = "https://discord.com/channels/731205301247803413/1527463109353275544"
+default_url = "https://github.com/Wakamu/Grandiarchipelago/releases/download/{{version}}/grandia.apworld"
+
+[versions]
+"0.15.0" = {}

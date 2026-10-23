@@ -1,0 +1,6 @@
+name = "Neon White"
+home = "https://discord.com/channels/731205301247803413/1195422552202432603"
+default_url = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/download/v{{version}}/neonwhite.apworld"
+
+[versions]
+"0.1.1" = {}

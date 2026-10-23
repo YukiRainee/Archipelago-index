@@ -1,0 +1,5 @@
+name = "UZDoom"
+home = "https://discord.com/channels/731205301247803413/1344142763842601090"
+
+[versions]
+"0.8.5" = {url = "https://github.com/ToxicFrog/doom-mods/releases/download/gzap-0.8.5/uzdoom.apworld"}

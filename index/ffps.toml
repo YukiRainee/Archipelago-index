@@ -1,0 +1,6 @@
+name = "FFPS"
+home = "https://discord.com/channels/731205301247803413/1078423429310582806"
+default_url = "https://github.com/EviVirus/Archipelago-FFPS/releases/download/v{{version}}/ffps.apworld"
+
+[versions]
+"1.0.0-pre1" = {}

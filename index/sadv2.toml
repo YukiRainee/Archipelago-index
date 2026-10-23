@@ -1,0 +1,6 @@
+name = "Sonic Advance 2"
+home = "https://discord.com/channels/731205301247803413/1430335663601090692"
+default_url = "https://github.com/NiwatoriCode/sadv2_ap_releases/releases/download/sadv2-v{{version}}/sadv2.apworld"
+
+[versions]
+"0.1.0" = {}

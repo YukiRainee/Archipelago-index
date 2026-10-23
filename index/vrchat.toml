@@ -1,0 +1,6 @@
+name = "VRChat"
+home = "https://discord.com/channels/731205301247803413/1471670620038234292"
+default_url = "https://github.com/Nichologeam/VRChat-AP/releases/download/v{{version}}/vrchat.apworld"
+
+[versions]
+"0.0.2" = {}

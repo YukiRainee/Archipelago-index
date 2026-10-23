@@ -1,0 +1,6 @@
+name = "PAYDAY 2: Criminal Dawn"
+home = "https://discord.com/channels/1085716850370957462/1488893550296043652"
+default_url = "https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/download/v{{version}}/pd2_crimdawn.apworld"
+
+[versions]
+"1.0.13" = {}

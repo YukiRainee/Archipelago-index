@@ -1,0 +1,6 @@
+name = "Turok 2"
+home = "https://discord.com/channels/731205301247803413/1238135254947074129"
+default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{{version}}/turok2.apworld"
+
+[versions]
+"0.6.0" = {}

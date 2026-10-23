@@ -1,0 +1,6 @@
+name = "Mega Man ZX"
+home = "https://discord.com/channels/731205301247803413/1094201958887337994"
+default_url = "https://github.com/Nekusen/Archipelago-MegaManZX/releases/download/v{{version}}/mmzx.apworld"
+
+[versions]
+"0.2.1" = {}

@@ -1,0 +1,6 @@
+name = "Mario Golf: Toadstool Tour"
+home = "https://discord.com/channels/731205301247803413/1197160767666000043"
+default_url = "https://github.com/JackalopeSJ/MGTT-Archipelago/releases/download/v{{version}}/mgtt.apworld"
+
+[versions]
+"1.0.4" = {}

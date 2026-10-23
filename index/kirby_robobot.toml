@@ -1,0 +1,6 @@
+name = "Kirby: Planet Robobot"
+home = "https://discord.com/channels/731205301247803413/1211154166005891172"
+default_url = "https://github.com/WindChill404/Kirby-Planet-Robobot-Archipelago/releases/download/v{{version}}/kirby_robobot.apworld"
+
+[versions]
+"0.0.2" = {}

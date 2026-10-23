@@ -1,0 +1,6 @@
+name = "Mario Tennis GBC"
+home = "https://discord.com/channels/731205301247803413/1557532504385130587"
+default_url = "https://github.com/gerbiljames/mario-tennis-gbc-disasm/releases/download/apworld-v{{version}}/mario_tennis_gbc.apworld"
+
+[versions]
+"0.2.0" = {}

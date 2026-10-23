@@ -1,0 +1,6 @@
+name = "Stella"
+home = "https://discord.gg/ZzhtdtpfDy"
+default_url = "https://github.com/giovannialayan/oigArchipelago/releases/download/{{version}}/stella.apworld"
+
+[versions]
+"1.0.2" = {}

@@ -1,0 +1,6 @@
+name = "Wizard of Legend"
+home = "https://discord.com/channels/731205301247803413/1364977254391615489"
+default_url = "https://github.com/Skelrin/WoLArchipelago/releases/download/v{{version}}/wizardoflegend.apworld"
+
+[versions]
+"1.0.0" = {}

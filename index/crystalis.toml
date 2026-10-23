@@ -1,0 +1,6 @@
+name = "Crystalis"
+home = "https://discord.com/channels/731205301247803413/1041412559460389017"
+default_url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v{{version}}/crystalis.apworld"
+
+[versions]
+"3.1.0-Crystalis" = {}

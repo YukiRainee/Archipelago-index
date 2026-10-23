@@ -1,0 +1,6 @@
+name = "Look Outside"
+home = "https://discord.com/channels/731205301247803413/1453571058832506921"
+default_url = "https://github.com/Turese/LOArchipelagoPlugins/releases/download/{{version}}/look_outside.apworld"
+
+[versions]
+"1.2.4" = {}

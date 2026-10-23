@@ -1,0 +1,6 @@
+name = "DUSK"
+home = "https://discord.com/channels/1085716850370957462/1376670697308557312"
+default_url = "https://github.com/FlapjackRetro/dusk-rando/releases/download/v{{version}}/dusk.apworld"
+
+[versions]
+"0.4.7" = {}

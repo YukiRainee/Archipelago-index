@@ -1,0 +1,6 @@
+name = "Planet Zoo"
+home = "https://discord.com/channels/731205301247803413/1326681567665324082"
+default_url = "https://github.com/tinkieZo/ArchipelagoPZ/releases/download/v{{version}}/planetzoo.apworld"
+
+[versions]
+"1.4.0" = {}

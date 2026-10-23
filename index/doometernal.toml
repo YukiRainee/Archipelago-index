@@ -1,0 +1,6 @@
+name = "DOOM Eternal"
+home = "https://discord.com/channels/1085716850370957462/1269672758930047106"
+default_url = "https://github.com/snowzzrra/DoomEternal-AP-Mod/releases/download/{{version}}/doometernal.apworld"
+
+[versions]
+"0.6.6" = {}

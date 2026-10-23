@@ -1,0 +1,6 @@
+name = "Voices of the Void"
+home = "https://discord.com/channels/731205301247803413/1273988504942022687"
+default_url = "https://github.com/Nathan-R-Og/Archipelago/releases/download/votv-v{{version}}/votv.apworld"
+
+[versions]
+"0.7.0" = {}

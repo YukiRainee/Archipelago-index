@@ -1,0 +1,6 @@
+name = "Arkham Horror The Card Game"
+home = "https://discord.com/channels/731205301247803413/1517662936187928616"
+default_url = "https://github.com/Totox00/ap-ahlcg/releases/download/v{{version}}/ahlcg.apworld"
+
+[versions]
+"0.2.0" = {}

@@ -1,0 +1,5 @@
+name = "Sternly Worded Adventures"
+home = "https://discord.com/channels/731205301247803413/1526068157461041172"
+
+[versions]
+"1.1.0" = {url = "https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/download/V1.1/sternly_worded_adventures.apworld"}

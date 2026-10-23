@@ -1,0 +1,6 @@
+name = "Path of Exile"
+home = "https://discord.com/channels/1085716850370957462/1412913973161885766"
+default_url = "https://github.com/stubobis1/Archipelago/releases/download/{{version}}/poe.apworld"
+
+[versions]
+"2.2.1" = {}

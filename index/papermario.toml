@@ -6,3 +6,4 @@ disabled = true # AssertionError: 897 != 895 : Paper Mario modified locations co
 [versions]
 "0.6.3" = {}
 "0.6.4" = {}
+"0.6.8" = {url = "https://github.com/icebound777/PMR_APWorld/releases/download/0.6.8/papermario.apworld"}

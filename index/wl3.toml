@@ -1,0 +1,6 @@
+name = "Wario Land 3"
+home = "https://discord.com/channels/731205301247803413/1164678545818263683"
+default_url = "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/releases/download/v{{version}}/wl3.apworld"
+
+[versions]
+"0.7.0" = {}

@@ -1,0 +1,6 @@
+name = "Pokemon XD Gale of Darkness"
+home = "https://discord.com/channels/731205301247803413/1211030543198855269"
+default_url = "https://github.com/GiovanavoiG/PokemonXD_Archipelago/releases/download/v{{version}}/pokemon_xd.apworld"
+
+[versions]
+"0.1.5" = {}

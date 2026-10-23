@@ -1,0 +1,6 @@
+name = "Ape Escape 2"
+home = "https://discord.com/channels/731205301247803413/1401349387229073438"
+default_url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v{{version}}/ae2.apworld"
+
+[versions]
+"1.3.4" = {}

@@ -1,0 +1,6 @@
+name = "Paquerette Down The Bunburrows"
+home = "https://discord.com/channels/731205301247803413/1350308108521443378"
+default_url = "https://github.com/SergeAzel/Archipelago_PDTB/releases/download/paquerette_down_the_bunburrows-{{version}}/paquerette_down_the_bunburrows.apworld"
+
+[versions]
+"0.2.0" = {}

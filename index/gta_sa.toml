@@ -1,0 +1,6 @@
+name = "Grand Theft Auto: San Andreas"
+home = "https://discord.com/channels/1085716850370957462/1098055987648282717"
+default_url = "https://github.com/awakenbad/SanAndreasAP/releases/download/v{{version}}/gta_sa.apworld"
+
+[versions]
+"0.9.0" = {}

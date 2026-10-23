@@ -1,0 +1,6 @@
+name = "Splasher"
+home = "https://discord.com/channels/731205301247803413/1510215626403086376"
+default_url = "https://github.com/Frisk202020/Archipelago/releases/download/{{version}}/splasher.apworld"
+
+[versions]
+"0.0.9" = {}

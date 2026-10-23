@@ -1,0 +1,6 @@
+name = "Crash2"
+home = "https://discord.com/channels/731205301247803413/1371461990794657863"
+default_url = "https://github.com/Sim10XXX/C2AP/releases/download/v{{version}}/crash2.apworld"
+
+[versions]
+"0.4.1" = {}

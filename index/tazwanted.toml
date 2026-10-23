@@ -1,0 +1,6 @@
+name = "Taz Wanted"
+home = "https://discord.com/channels/731205301247803413/1509296168931164190"
+default_url = "https://github.com/imklubb/Archipelago-Taz-Wanted/releases/download/{{version}}/tazwanted.apworld"
+
+[versions]
+"1.2.4" = {}

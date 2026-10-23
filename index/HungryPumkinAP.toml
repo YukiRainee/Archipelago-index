@@ -1,0 +1,5 @@
+name = "Hungry Pumkin"
+home = "https://discord.com/channels/731205301247803413/1488307600595488920"
+
+[versions]
+"0.1.0" = {url = "https://github.com/NotFamilyJules/hungry_pumkin_ap/releases/download/v0.1/HungryPumkinAP.apworld"}

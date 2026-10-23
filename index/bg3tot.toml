@@ -1,0 +1,6 @@
+name = "Baldur's Gate 3 - ToT"
+home = "https://discord.com/channels/1085716850370957462/1487979178463854732"
+default_url = "https://github.com/Zoltun456/Archipelago-BG3-ToT/releases/download/v{{version}}/bg3tot.apworld"
+
+[versions]
+"1.2.2" = {}

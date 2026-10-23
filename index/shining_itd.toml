@@ -1,0 +1,6 @@
+name = "Shining in the Darkness"
+home = "https://discord.com/channels/731205301247803413/1205892028551012364"
+default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{version}}/shining_itd.apworld"
+
+[versions]
+"0.0.4" = {}

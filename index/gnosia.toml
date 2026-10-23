@@ -1,0 +1,6 @@
+name = "Gnosia"
+home = "https://discord.com/channels/731205301247803413/1425147593851273346"
+default_url = "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/download/v{{version}}/gnosia.apworld"
+
+[versions]
+"0.1.4" = {}

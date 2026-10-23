@@ -1,0 +1,6 @@
+name = "Persona 5 Royal"
+home = "https://discord.com/channels/731205301247803413/1137890749309001819"
+default_url = "https://github.com/Daphoa/ArchipelagoP5RMod/releases/download/v{{version}}/p5r.apworld"
+
+[versions]
+"0.1.4" = {}

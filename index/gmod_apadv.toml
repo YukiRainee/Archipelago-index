@@ -1,0 +1,6 @@
+name = "GMod - apAdventure"
+home = "https://discord.com/channels/1085716850370957462/1492516400747778159"
+default_url = "https://github.com/ChrisCj8/ap_adventure/releases/download/v{{version}}/gmod_apadv.apworld"
+
+[versions]
+"0.4.1" = {}

@@ -1,0 +1,6 @@
+name = "Yu-Gi-Oh! World Championship 2008"
+home = "https://discord.com/channels/731205301247803413/1481377900161667240"
+default_url = "https://github.com/eatntcg/Archipelago/releases/download/{{version}}/yugioh_wc2008.apworld"
+
+[versions]
+"0.1.1" = {}

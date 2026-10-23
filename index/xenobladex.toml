@@ -1,0 +1,6 @@
+name = "Xenoblade X"
+home = "https://discord.com/channels/731205301247803413/1333863771868762265"
+default_url = "https://github.com/MaragonMH/Archipelago/releases/download/XenoX{{version}}/xenobladex.apworld"
+
+[versions]
+"0.2.10" = {}

@@ -1,0 +1,6 @@
+name = "The Legend of Dragoon"
+home = "https://discord.com/channels/731205301247803413/1334988609249345567"
+default_url = "https://github.com/pkolb-dev/Archipelago/releases/download/{{version}}/legend_of_dragoon.apworld"
+
+[versions]
+"2.0.0" = {}

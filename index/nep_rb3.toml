@@ -1,0 +1,6 @@
+name = "Hyperdimension Neptunia Re;Birth3 V GENERATION"
+home = "https://discord.com/channels/731205301247803413/1420461188990369863"
+default_url = "https://github.com/vegemiiBG/Archipelago-NepRb3/releases/download/v{{version}}/nep_rb3.apworld"
+
+[versions]
+"0.2.0" = {}

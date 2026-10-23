@@ -1,0 +1,6 @@
+name = "Lobotomy Corporation"
+home = "https://discord.com/channels/1085716850370957462/1349105013783400529"
+default_url = "https://github.com/Kli333/LobCorp-AP/releases/download/1.{{version}}/lobotomycorporation.apworld"
+
+[versions]
+"3.1.0" = {}

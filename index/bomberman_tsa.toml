@@ -1,0 +1,6 @@
+name = "Bomberman 64 The Second Attack"
+home = "https://discord.com/channels/731205301247803413/1064213698861879459"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bombtsa_v{{version}}/bomberman_tsa.apworld"
+
+[versions]
+"0.1.3" = {}

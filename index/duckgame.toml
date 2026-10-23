@@ -1,0 +1,6 @@
+name = "DuckGame"
+home = "https://discord.com/channels/731205301247803413/1526871890226974750"
+default_url = "https://github.com/Marsavue/Archipelago-DuckGame/releases/download/v{{version}}/duckgame.apworld"
+
+[versions]
+"0.1.1" = {}

@@ -1,0 +1,6 @@
+name = "Resident Evil 7"
+home = "https://discord.com/channels/1085716850370957462/1356323012298936602"
+default_url = "https://github.com/ElGrenier/RE7_AP_World/releases/download/{{version}}/residentevil7biohazard.apworld"
+
+[versions]
+"0.4.0" = {}

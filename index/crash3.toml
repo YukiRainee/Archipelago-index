@@ -1,0 +1,6 @@
+name = "Crash Bandicoot 3: Warped"
+home = "https://discord.com/channels/731205301247803413/1245812237822857318"
+default_url = "https://github.com/LimeDreaming/C3AP/releases/download/v{{version}}/crash3.apworld"
+
+[versions]
+"0.2.0-pre-alpha" = {}

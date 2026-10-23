@@ -1,0 +1,6 @@
+name = "vardrain--"
+home = "https://discord.com/channels/731205301247803413/1533820247532896318"
+default_url = "https://github.com/flingoXD/Archipelago/releases/download/{{version}}/vardrain--.apworld"
+
+[versions]
+"0.1.0" = {}

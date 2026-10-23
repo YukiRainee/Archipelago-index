@@ -1,0 +1,6 @@
+name = "La-Mulana 2"
+home = "https://discord.com/channels/731205301247803413/1495328589460144128"
+default_url = "https://github.com/Crownmuri/Archipelago/releases/download/v{{version}}/lamulana2.apworld"
+
+[versions]
+"1.1.0" = {}

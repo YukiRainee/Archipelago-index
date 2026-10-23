@@ -1,0 +1,6 @@
+name = "A Difficult Game About Climbing"
+home = "https://discord.com/channels/731205301247803413/1336857648464920586"
+default_url = "https://github.com/BlastSlimey/GrabbingChecks/releases/download/{{version}}/difficult_climbing.apworld"
+
+[versions]
+"0.1.2" = {}

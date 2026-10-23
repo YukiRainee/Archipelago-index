@@ -1,0 +1,6 @@
+name = "TimeSplitters Future Perfect"
+home = "https://discord.gg/M9cbCqc8sF"
+default_url = "https://github.com/captpurpleheart/tsfp-archipelago/releases/download/v{{version}}/timesplitters_future_perfect.apworld"
+
+[versions]
+"1.1.0" = {}

@@ -1,0 +1,6 @@
+name = "Geometry Dash"
+home = "https://discord.com/channels/731205301247803413/1195348290754072640"
+default_url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v{{version}}/geometrydash.apworld"
+
+[versions]
+"1.0.0-alpha.11" = {}

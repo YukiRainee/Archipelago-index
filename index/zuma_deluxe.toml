@@ -1,0 +1,6 @@
+name = "Zuma Deluxe"
+home = "https://discord.com/channels/731205301247803413/1421382335781273670"
+default_url = "https://github.com/Movido51/Archipelago/releases/download/zuma-deluxe-v{{version}}/zuma_deluxe.apworld"
+
+[versions]
+"0.1.6-b" = {}

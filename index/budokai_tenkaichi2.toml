@@ -1,0 +1,6 @@
+name = "Dragon Ball Z Budokai Tenkaichi 2"
+home = "https://discord.com/channels/731205301247803413/1431082485961330729"
+default_url = "https://github.com/z3xox/Tenkaichi2AP/releases/download/v{{version}}/budokai_tenkaichi2.apworld"
+
+[versions]
+"0.3.3" = {}

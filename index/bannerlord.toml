@@ -1,0 +1,5 @@
+name = "Mount And Blade Bannerlord"
+home = "https://discord.com/channels/731205301247803413/1519746398013095946"
+
+[versions]
+"0.4.0" = {url = "https://github.com/dghalfor/Archipelago/releases/download/0.4.0/bannerlord.apworld"}

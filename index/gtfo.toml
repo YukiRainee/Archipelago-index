@@ -1,0 +1,6 @@
+name = "GTFO (Vanilla)"
+home = "https://discord.com/channels/731205301247803413/1269239559212761160"
+default_url = "https://github.com/RoboRyGuy/Archipelago-GTFO/releases/download/{{version}}/gtfo.apworld"
+
+[versions]
+"0.1.1" = {}

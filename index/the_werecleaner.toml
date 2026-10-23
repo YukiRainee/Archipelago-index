@@ -1,0 +1,6 @@
+name = "The WereCleaner"
+home = "https://discord.com/channels/731205301247803413/1377102804232966216"
+default_url = "https://github.com/SWCreeperKing/Werepelago/releases/download/v{{version}}/the_werecleaner.apworld"
+
+[versions]
+"0.1.2" = {}

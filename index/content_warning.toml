@@ -1,0 +1,6 @@
+name = "Content Warning"
+home = "https://discord.com/channels/731205301247803413/1291395204254928916"
+default_url = "https://github.com/Jakeodude/cw-apworld/releases/download/{{version}}/content_warning.apworld"
+
+[versions]
+"1.0.1" = {}

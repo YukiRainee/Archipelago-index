@@ -1,0 +1,5 @@
+name = "Super Meat Boy"
+home = "https://discord.com/channels/731205301247803413/1191413101829046312"
+
+[versions]
+"1.1.0" = {url = "https://github.com/PixelShake92/Super-Meat-Boy-AP/releases/download/Alpha_2/super_meat_boy.apworld"}

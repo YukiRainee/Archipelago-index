@@ -1,0 +1,6 @@
+name = "Bugsnax"
+home = "https://discord.com/channels/731205301247803413/1199229478233186524"
+default_url = "https://github.com/robofett28/bugsnax_ap_world/releases/download/v{{version}}/bugsnax.apworld"
+
+[versions]
+"0.1.1-alpha" = {}

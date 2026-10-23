@@ -1,0 +1,6 @@
+name = "Running with Rifles"
+home = "https://discord.com/channels/731205301247803413/1475490719216042074"
+default_url = "https://github.com/mjousse72/archipelago_rwr/releases/download/v{{version}}/rwr.apworld"
+
+[versions]
+"0.5.0" = {}

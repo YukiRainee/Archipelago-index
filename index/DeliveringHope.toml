@@ -1,0 +1,6 @@
+name = "Delivering Hope"
+home = "https://discord.com/channels/731205301247803413/1435067745476546600"
+default_url = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases/download/v{{version}}/DeliveringHope.apworld"
+
+[versions]
+"0.3.0" = {}

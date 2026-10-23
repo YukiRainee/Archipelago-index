@@ -1,0 +1,6 @@
+name = "Anno 1800"
+home = "https://discord.com/channels/731205301247803413/1507379489049677958"
+default_url = "https://github.com/Dark-Listener/ArchipelagoA1800/releases/download/release/v{{version}}/a1800.apworld"
+
+[versions]
+"1.5.0" = {}

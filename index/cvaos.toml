@@ -1,0 +1,5 @@
+name = "Castlevania - Aria of Sorrow"
+home = "https://discord.com/channels/731205301247803413/1132665257983234089"
+
+[versions]
+"2026.9.4" = {url = "https://github.com/anonymous-heap/Archipelago/releases/download/cvaos-apworld-2026.09.04/cvaos.apworld"}

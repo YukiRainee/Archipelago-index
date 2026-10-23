@@ -1,0 +1,6 @@
+name = "Cursed Words"
+home = "https://discord.com/channels/731205301247803413/1499176806962692196"
+default_url = "https://github.com/JammyGeeza/CursedWords-Archipelago/releases/download/v{{version}}/cursed_words.apworld"
+
+[versions]
+"0.5.5" = {}

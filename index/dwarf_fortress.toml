@@ -1,0 +1,6 @@
+name = "Dwarf Fortress"
+home = "https://discord.com/channels/731205301247803413/1390000973329596537"
+default_url = "https://github.com/EthanTheBrave/Dwarfipelago/releases/download/{{version}}/dwarf_fortress.apworld"
+
+[versions]
+"2.1.1" = {}

@@ -1,0 +1,6 @@
+name = "Mega Man 7"
+home = "https://discord.com/channels/731205301247803413/1316055297466564682"
+default_url = "https://github.com/SanchoBob8/Archipelago-MM7/releases/download/v{{version}}/mm7.apworld"
+
+[versions]
+"0.4.0" = {}

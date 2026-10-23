@@ -1,0 +1,6 @@
+name = "Animal Crossing: Wild World"
+home = "https://discord.com/channels/731205301247803413/1533452794638503947"
+default_url = "https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/download/v{{version}}/acww.apworld"
+
+[versions]
+"0.1.2-alpha" = {}

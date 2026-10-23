@@ -1,0 +1,6 @@
+name = "Vacation Simulator"
+home = "https://discord.com/channels/731205301247803413/1204935955580985414"
+default_url = "https://github.com/energymaster22/Archipelago/releases/download/vacation_simulator_{{version}}/vsim.apworld"
+
+[versions]
+"0.0.5" = {}

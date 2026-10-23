@@ -1,0 +1,5 @@
+name = "hytale"
+home = "https://discord.com/channels/731205301247803413/1459051256457723988"
+
+[versions]
+"1.6.1" = {url = "https://github.com/LucasRenaudineau/hytelago/releases/download/release6/hytale.apworld"}

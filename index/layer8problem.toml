@@ -1,0 +1,6 @@
+name = "Layer8Problem"
+home = "https://discord.com/channels/731205301247803413/1501404053689733140"
+default_url = "https://github.com/TheZockerBrain069/Layer8Problem-AP/releases/download/v{{version}}/layer8problem.apworld"
+
+[versions]
+"0.9.3" = {}

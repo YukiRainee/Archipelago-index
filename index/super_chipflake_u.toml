@@ -4,3 +4,4 @@ default_url = "https://github.com/Max-G4/Chipflake_AP/releases/download/tag1/sup
 
 [versions]
 "0.1.0" = {}
+"0.0.1" = {url = "https://github.com/Max-G4/Chipflake_AP/releases/download/tag1/super_chipflake_u_0.1.0.apworld"}

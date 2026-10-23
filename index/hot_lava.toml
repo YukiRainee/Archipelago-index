@@ -1,0 +1,6 @@
+name = "Hot Lava"
+home = "https://discord.com/channels/731205301247803413/1458296575326421064"
+default_url = "https://github.com/Bongo9911/HotLavaAPWorld/releases/download/{{version}}/hot_lava.apworld"
+
+[versions]
+"0.1.0" = {}

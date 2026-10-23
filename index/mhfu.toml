@@ -1,0 +1,6 @@
+name = "Monster Hunter Freedom Unite"
+home = "https://discord.com/channels/731205301247803413/1488987888388542495"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_{{version}}/mhfu.apworld"
+
+[versions]
+"0.0.3" = {}

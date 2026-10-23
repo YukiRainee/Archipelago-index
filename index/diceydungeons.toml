@@ -1,0 +1,6 @@
+name = "Dicey Dungeons"
+home = "https://discord.com/channels/731205301247803413/1172783536474947595"
+default_url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v{{version}}/diceydungeons.apworld"
+
+[versions]
+"0.6.0-beta" = {}

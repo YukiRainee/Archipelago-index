@@ -1,0 +1,6 @@
+name = "Shadowgate 64"
+home = "https://discord.com/channels/731205301247803413/1295834685548658819"
+default_url = "https://github.com/jjjj12212/Archipelago-Shadowgate64/releases/download/V{{version}}/shadowgate64.apworld"
+
+[versions]
+"1.0.1" = {}

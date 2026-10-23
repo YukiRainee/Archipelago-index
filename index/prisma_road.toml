@@ -1,0 +1,6 @@
+name = "Prisma Road"
+home = "https://discord.com/channels/731205301247803413/1499228802360807464"
+default_url = "https://github.com/MoraAntonio/Prisma-Road-APWorld/releases/download/v{{version}}/prisma_road.apworld"
+
+[versions]
+"0.1.0" = {}

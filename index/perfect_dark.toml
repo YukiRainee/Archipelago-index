@@ -1,0 +1,6 @@
+name = "Perfect Dark"
+home = "https://discord.com/channels/1085716850370957462/1252399497502392361"
+default_url = "https://github.com/ajeloom/Perfect-Dark-PC-AP/releases/download/pd-v{{version}}/perfect_dark.apworld"
+
+[versions]
+"0.7.0" = {}

@@ -1,0 +1,6 @@
+name = "Spyro: A Hero's Tail"
+home = "https://discord.com/channels/731205301247803413/1475326594523336936"
+default_url = "https://github.com/PhoenixAki/PhoenixAP/releases/download/AHT-v{{version}}/spyro_aht.apworld"
+
+[versions]
+"2.2.2" = {}

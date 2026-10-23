@@ -1,0 +1,5 @@
+name = "Ocarina of Time but it's just Master Quest Water Temple"
+home = "https://discord.com/channels/731205301247803413/1211745516807782410"
+
+[versions]
+"2.1.0" = {url = "https://github.com/Alchav/Archipelago/releases/download/ootbijmqwt-v2.1/ootbijmqwt.apworld"}

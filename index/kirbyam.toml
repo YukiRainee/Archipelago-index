@@ -1,0 +1,6 @@
+name = "Kirby & The Amazing Mirror"
+home = "https://discord.com/channels/731205301247803413/1282157351402602570"
+default_url = "https://github.com/hasherwi/Archipelago-kirbyam/releases/download/kirbyam-v{{version}}/kirbyam.apworld"
+
+[versions]
+"0.4.1" = {}

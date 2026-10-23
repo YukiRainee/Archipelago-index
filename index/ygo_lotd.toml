@@ -1,0 +1,6 @@
+name = "YGO LotD-LE"
+home = "https://discord.com/channels/731205301247803413/1332879180244713522"
+default_url = "https://github.com/HillbillyDroid/YGO-LotD-LE-APWorld/releases/download/v{{version}}/ygo_lotd.apworld"
+
+[versions]
+"0.0.2" = {}

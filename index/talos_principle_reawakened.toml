@@ -1,0 +1,6 @@
+name = "The Talos Principle Reawakened"
+home = "https://discord.com/channels/731205301247803413/1473070314165633215"
+default_url = "https://github.com/johnso48/TalosPrincipleArchipelago/releases/download/v{{version}}/talos_principle_reawakened.apworld"
+
+[versions]
+"1.4.0" = {}

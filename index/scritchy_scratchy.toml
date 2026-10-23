@@ -1,0 +1,6 @@
+name = "Scritchy Scratchy"
+home = "https://discord.com/channels/731205301247803413/1490574506337505385"
+default_url = "https://github.com/ksteve35/ScritchyScratchyAP/releases/download/v{{version}}/scritchy_scratchy.apworld"
+
+[versions]
+"0.1.2-hotfix.2-linuxtest.2" = {}

@@ -1,0 +1,6 @@
+name = "DQ2"
+home = "https://discord.com/channels/731205301247803413/1481440820941946953"
+default_url = "https://github.com/BigBomba88/Archipelago/releases/download/{{version}}/dq2.apworld"
+
+[versions]
+"0.0.3" = {}

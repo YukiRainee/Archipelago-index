@@ -1,0 +1,6 @@
+name = "Idle Loops"
+home = "https://discord.com/channels/731205301247803413/1517497718933684287"
+default_url = "https://github.com/IHaveNoFunnyName/Archipelago/releases/download/{{version}}/idleloops.apworld"
+
+[versions]
+"0.4.7" = {}

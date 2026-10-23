@@ -1,0 +1,6 @@
+name = "Supraland"
+home = "https://discord.com/channels/731205301247803413/1093038054337433670"
+default_url = "https://github.com/DrNjitram/ArchipelagoSupra/releases/download/V{{version}}/supraland.apworld"
+
+[versions]
+"0.3.0" = {}

@@ -1,0 +1,6 @@
+name = "The Planet Crafter"
+home = "https://discord.com/channels/731205301247803413/1218433486398947368"
+default_url = "https://github.com/Hawkrex/Archipelago-ThePlanetCrafter/releases/download/v{{version}}/the_planet_crafter.apworld"
+
+[versions]
+"0.0.1-poc" = {}

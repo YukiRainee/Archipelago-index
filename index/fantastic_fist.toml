@@ -1,0 +1,6 @@
+name = "Fantastic Fist"
+home = "https://discord.com/channels/731205301247803413/1493467824407187526"
+default_url = "https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/download/V{{version}}/fantastic_fist.apworld"
+
+[versions]
+"0.0.4" = {}

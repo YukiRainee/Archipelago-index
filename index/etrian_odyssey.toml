@@ -1,0 +1,6 @@
+name = "Etrian Odyssey"
+home = "https://discord.com/channels/731205301247803413/1463329745797124218"
+default_url = "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago/releases/download/v{{version}}/etrian_odyssey.apworld"
+
+[versions]
+"0.4.1" = {}

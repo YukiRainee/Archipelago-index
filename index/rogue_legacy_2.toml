@@ -1,0 +1,6 @@
+name = "Rogue Legacy 2"
+home = "https://discord.com/channels/731205301247803413/1200179848442826904"
+default_url = "https://github.com/zaphim12/RL2Archipelago/releases/download/v{{version}}/rogue_legacy_2.apworld"
+
+[versions]
+"1.1.3" = {}

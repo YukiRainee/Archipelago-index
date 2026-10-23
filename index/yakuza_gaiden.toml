@@ -1,0 +1,5 @@
+name = "Yakuza Gaiden"
+home = "https://discord.com/channels/1085716850370957462/1549831655064080404"
+
+[versions]
+"0.8.0" = {url = "https://github.com/zorasknight/YakLaDGaiRando/releases/download/Beta-3/yakuza_gaiden.apworld"}

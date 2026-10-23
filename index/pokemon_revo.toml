@@ -1,0 +1,10 @@
+name = "Pokémon Battle Revolution"
+home = "https://discord.com/channels/731205301247803413/1556487860427816990"
+default_url = "https://github.com/Axcel-Snowpix/PokemonRevoAP/releases/download/v{{version}}/pokemon_revo.apworld"
+disabled = true
+
+[releases]
+"0.1.1" = {min_ap_version = "0.6.8"}
+
+[base.">=0.6.8"]
+disabled = false

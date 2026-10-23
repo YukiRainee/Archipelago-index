@@ -1,0 +1,6 @@
+name = "Toy Story 2"
+home = "https://discord.com/channels/731205301247803413/1343725532004749322"
+default_url = "https://github.com/imklubb/Archipelago-Toy-Story-2/releases/download/{{version}}/toystory2.apworld"
+
+[versions]
+"2.3.3" = {}

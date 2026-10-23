@@ -1,0 +1,6 @@
+name = "Tomba!"
+home = "https://discord.com/channels/731205301247803413/1529954935368581313"
+default_url = "https://github.com/T4g1/ArchipelagoTomba/releases/download/v{{version}}/tomba.apworld"
+
+[versions]
+"1.6.1" = {}

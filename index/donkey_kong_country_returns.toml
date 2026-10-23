@@ -1,0 +1,6 @@
+name = "Donkey Kong Country Returns"
+home = "https://discord.com/channels/731205301247803413/1258198433152499743"
+default_url = "https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v{{version}}/donkey_kong_country_returns.apworld"
+
+[versions]
+"0.2.0-beta" = {}

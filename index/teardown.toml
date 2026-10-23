@@ -1,0 +1,6 @@
+name = "Teardown"
+home = "https://discord.com/channels/731205301247803413/1212530181655498752/1504993635366735952"
+default_url = "https://github.com/Evereliquest/Archipelago/releases/download/v{{version}}/teardown.apworld"
+
+[versions]
+"0.1.0-beta" = {}

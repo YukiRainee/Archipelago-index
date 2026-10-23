@@ -1,0 +1,6 @@
+name = "Outward: Definitive Edition"
+home = "https://discord.com/channels/731205301247803413/1340029949553278996"
+default_url = "https://github.com/Daemonarian/AP_Outward/releases/download/v{{version}}/outward.apworld"
+
+[versions]
+"0.2.2" = {}

@@ -1,0 +1,6 @@
+name = "Cyberpunk 2077"
+home = "https://discord.com/channels/1085716850370957462/1315514026331082833"
+default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/{{version}}/cyberpunk2077.apworld"
+
+[versions]
+"0.7.3" = {}

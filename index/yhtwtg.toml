@@ -1,0 +1,6 @@
+name = "You Have to Win the Game"
+home = "https://discord.com/channels/731205301247803413/1057732388924440646"
+default_url = "https://github.com/blitzashspear/ap-yhtwtg/releases/download/release-{{version}}/yhtwtg.apworld"
+
+[versions]
+"1.1.0" = {}

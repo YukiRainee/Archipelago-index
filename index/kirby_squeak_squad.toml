@@ -1,0 +1,6 @@
+name = "Kirby Squeak Squad"
+home = "https://discord.com/channels/731205301247803413/1172742801977520168"
+default_url = "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD/releases/download/v{{version}}/kirby_squeak_squad.apworld"
+
+[versions]
+"0.0.9" = {}

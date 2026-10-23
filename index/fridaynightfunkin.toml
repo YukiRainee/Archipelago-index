@@ -1,0 +1,5 @@
+name = "Friday Night Funkin"
+home = "https://discord.com/channels/731205301247803413/1142560423594430576"
+
+[versions]
+"13.3.0" = {url = "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/download/beta13.3/fridaynightfunkin.apworld"}

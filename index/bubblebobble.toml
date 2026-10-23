@@ -1,0 +1,6 @@
+name = "Bubble Bobble"
+home = "https://discord.com/channels/731205301247803413/1558669600596430858"
+default_url = "https://github.com/sensokaeru/bubblebobbleAP/releases/download/v{{version}}/bubblebobble.apworld"
+
+[versions]
+"1.2.2" = {}

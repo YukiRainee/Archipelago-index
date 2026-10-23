@@ -1,0 +1,6 @@
+name = "Bomberman Quest"
+home = "https://discord.com/channels/731205301247803413/1409932342017134655"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bombquest_v{{version}}/bomberman_quest.apworld"
+
+[versions]
+"0.1.2" = {}

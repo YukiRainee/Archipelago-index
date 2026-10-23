@@ -1,0 +1,6 @@
+name = "Jet Island"
+home = "https://discord.com/channels/731205301247803413/1370901827826094192"
+default_url = "https://github.com/Nullctipus/JetIslandArchipelago/releases/download/{{version}}/jet_island.apworld"
+
+[versions]
+"0.0.3" = {}

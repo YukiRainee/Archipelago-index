@@ -1,0 +1,6 @@
+name = "Super Hexagon"
+home = "https://discord.com/channels/731205301247803413/1560095268148609054"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Hexagon/releases/download/{{version}}/super_hexagon.apworld"
+
+[versions]
+"1.1.0" = {}

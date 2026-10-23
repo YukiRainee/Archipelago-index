@@ -1,0 +1,6 @@
+name = "Okami HD"
+home = "https://discord.com/channels/731205301247803413/1196620860405067848"
+default_url = "https://github.com/Ragmoa/Archipelago/releases/download/{{version}}/okamihd.apworld"
+
+[versions]
+"0.5.3" = {}

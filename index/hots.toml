@@ -1,0 +1,6 @@
+name = "Heroes of the Storm"
+home = "https://discord.com/channels/731205301247803413/1409603703282995391"
+default_url = "https://github.com/POD-io/HotS-ArchipelagoWorld/releases/download/v{{version}}/hots.apworld"
+
+[versions]
+"0.6.1" = {}

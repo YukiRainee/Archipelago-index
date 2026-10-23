@@ -1,0 +1,6 @@
+name = "Final Fantasy 1 PSP"
+home = "https://discord.com/channels/731205301247803413/1500609270620885032"
+default_url = "https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/download/v{{version}}/ff1psp.apworld"
+
+[versions]
+"0.2.4" = {}

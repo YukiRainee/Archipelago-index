@@ -1,0 +1,6 @@
+name = "Hunie Pop 2"
+home = "https://discord.com/channels/1085716850370957462/1302838551679074415"
+default_url = "https://github.com/DotsofdarknessArchipelago/HuniePop2Archipelago/releases/download/v{{version}}/huniepop2.apworld"
+
+[versions]
+"3.1.0" = {}

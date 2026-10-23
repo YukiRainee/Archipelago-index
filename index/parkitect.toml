@@ -1,0 +1,6 @@
+name = "Parkitect"
+home = "https://discord.com/channels/731205301247803413/1417531615956963439"
+default_url = "https://github.com/CrusherRL/AP_Parkitect_World/releases/download/{{version}}/parkitect.apworld"
+
+[versions]
+"1.7.0" = {}

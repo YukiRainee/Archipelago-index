@@ -1,0 +1,5 @@
+name = "White Knuckle"
+home = "https://discord.com/channels/731205301247803413/1362729523136827432"
+
+[versions]
+"0.0.0" = {url = "https://github.com/Makshime/White-Knuckle-Archipelago/releases/download/Release/whiteknuckle.apworld"}

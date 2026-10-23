@@ -1,0 +1,5 @@
+name = "Toy Story Racer"
+home = "https://discord.com/channels/731205301247803413/1545483227647713353"
+
+[versions]
+"0.1.0" = {url = "https://github.com/Vzencio/Toy-Story-Racer-Archipelago/releases/download/v0.1/toy_story_racer.apworld"}

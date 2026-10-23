@@ -1,0 +1,6 @@
+name = "IAmYourBeast"
+home = "https://discord.com/channels/731205301247803413/1511568289669578923"
+default_url = "https://github.com/petiboy7/IAYBArchipelago/releases/download/{{version}}/i_am_your_beast.apworld"
+
+[versions]
+"0.3.4" = {}

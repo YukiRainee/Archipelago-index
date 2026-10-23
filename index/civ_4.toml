@@ -1,0 +1,5 @@
+name = "Civilization IV"
+home = "https://discord.com/channels/731205301247803413/1326231506682904576"
+
+[versions]
+"0.0.1" = {url = "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/download/Alpha_0_3/civ_4.apworld"}

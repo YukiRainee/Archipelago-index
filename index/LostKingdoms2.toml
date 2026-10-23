@@ -1,0 +1,6 @@
+name = "Lost Kingdoms II"
+home = "https://discord.com/channels/731205301247803413/1470124765640654849"
+default_url = "https://github.com/cokeman5/LK2Archipelago/releases/download/V{{version}}/LostKingdoms2.apworld"
+
+[versions]
+"0.2.12" = {}

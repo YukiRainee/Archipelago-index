@@ -1,0 +1,6 @@
+name = "Atlyss"
+home = "https://discord.com/channels/1085716850370957462/1325009807031144448"
+default_url = "https://github.com/Blitz0070/ATLYSS-Archipelago/releases/download/v{{version}}/atlyss.apworld"
+
+[versions]
+"0.2.2" = {}

@@ -1,0 +1,6 @@
+name = "raccoin"
+home = "https://discord.com/channels/731205301247803413/1489050432201560105"
+default_url = "https://github.com/SoaringWyvern/RaccoinArchipeligo/releases/download/{{version}}/raccoin.apworld"
+
+[versions]
+"1.4.1" = {}

@@ -1,0 +1,5 @@
+name = "Archipelaballs"
+home = "https://discord.com/channels/731205301247803413/1520698911944216606"
+
+[versions]
+"1.0.1" = {url = "https://archipelago.shinten.moe/games/Archipelaballs/archipelaballs.apworld"}

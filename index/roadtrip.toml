@@ -1,0 +1,6 @@
+name = "Road Trip Adventure"
+home = "https://discord.com/channels/731205301247803413/1266360646442815560"
+default_url = "https://github.com/Phenra/RoadTripAdventure-AP/releases/download/v{{version}}/roadtrip.apworld"
+
+[versions]
+"0.3.0" = {}

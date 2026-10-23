@@ -1,0 +1,6 @@
+name = "Harry Potter 2 PC"
+home = "https://discord.com/channels/731205301247803413/1503776935891701861"
+default_url = "https://github.com/Kryen112/HP2PC_AP/releases/download/v{{version}}/harry_potter_2_pc.apworld"
+
+[versions]
+"2.12.0" = {}

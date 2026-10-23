@@ -1,0 +1,6 @@
+name = "Rune Factory 4"
+home = "https://discord.com/channels/731205301247803413/1284284032355536907"
+default_url = "https://github.com/Happyhappyism/Rune-Factory-4-Archipelago/releases/download/rune4_v{{version}}/rune4.apworld"
+
+[versions]
+"0.3.2" = {}

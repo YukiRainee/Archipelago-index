@@ -1,0 +1,6 @@
+name = "Sonic Colours (DS)"
+home = "https://discord.com/channels/731205301247803413/1489432803287502948"
+default_url = "https://github.com/SilicDev/Archipelago/releases/download/scds-v{{version}}/sonic_colours_ds.apworld"
+
+[versions]
+"0.2.4" = {}

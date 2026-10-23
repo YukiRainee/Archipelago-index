@@ -1,0 +1,6 @@
+name = "Secret of Mana"
+home = "https://discord.com/channels/731205301247803413/1228235556589146193"
+default_url = "https://github.com/black-sliver/som-apworld/releases/download/v{{version}}a3/som.apworld"
+
+[versions]
+"1.48.0" = {}

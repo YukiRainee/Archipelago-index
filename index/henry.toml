@@ -1,0 +1,5 @@
+name = "The Henry Stickmin Collection"
+home = "https://discord.com/channels/731205301247803413/1189635727454113972"
+
+[versions]
+"0.5.0" = {url = "https://github.com/funjeff/HenryStickminArchipelagoIntegration/releases/download/0.5/henry.apworld"}

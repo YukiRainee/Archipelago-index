@@ -1,0 +1,6 @@
+name = "I Hate You, Please Suffer"
+home = "https://discord.com/channels/731205301247803413/1472295997978706247"
+default_url = "https://github.com/chloebangbang/Archipelago/releases/download/ihyps-v{{version}}/ihyps.apworld"
+
+[versions]
+"0.2.0" = {}

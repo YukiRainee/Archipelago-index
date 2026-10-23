@@ -1,0 +1,6 @@
+name = "Door to Door Door Salesman"
+home = "https://discord.com/channels/731205301247803413/1515118401654231090"
+default_url = "https://github.com/TheOmnipresence/DoorSalesman/releases/download/{{version}}/dtdds.apworld"
+
+[versions]
+"0.0.3" = {}

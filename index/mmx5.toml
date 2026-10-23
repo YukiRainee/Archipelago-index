@@ -1,0 +1,6 @@
+name = "Mega Man X5"
+home = "https://discord.com/channels/731205301247803413/1511403799267250386"
+default_url = "https://github.com/Shinnuu/Archipelago/releases/download/mmx5-v{{version}}/mmx5.apworld"
+
+[versions]
+"0.7.4" = {}

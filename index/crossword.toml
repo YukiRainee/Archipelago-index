@@ -1,0 +1,6 @@
+name = "Crossword"
+home = "https://discord.com/channels/731205301247803413/1510357788222685184"
+default_url = "https://github.com/jm771/apworld_crossword/releases/download/v{{version}}/crossword.apworld"
+
+[versions]
+"0.1.6" = {}

@@ -1,0 +1,6 @@
+name = "Factorio Modpacks"
+home = "https://discord.com/channels/731205301247803413/1426234278462750860/1426234585393397993"
+default_url = "https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/download/V{{version}}/factorio_modpacks.apworld"
+
+[versions]
+"2.3.1" = {}

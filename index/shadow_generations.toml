@@ -1,0 +1,6 @@
+name = "Shadow Generations"
+home = "https://discord.com/channels/731205301247803413/1300834656156913705"
+default_url = "https://github.com/OnakuTV/ShadGensAP/releases/download/v{{version}}/shadow_generations.apworld"
+
+[versions]
+"0.1.0" = {}

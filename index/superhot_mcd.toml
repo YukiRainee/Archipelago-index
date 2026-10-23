@@ -1,0 +1,5 @@
+name = "SUPERHOT: MIND CONTROL DELETE"
+home = "https://discord.com/channels/731205301247803413/1544356897958658059"
+
+[versions]
+"0.1.0" = {url = "https://github.com/Temperz87/SUPERHOT_MCD_Archipelago/releases/download/0.01/superhot_mcd.apworld"}

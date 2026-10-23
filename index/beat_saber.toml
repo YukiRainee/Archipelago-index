@@ -1,0 +1,6 @@
+name = "Beat Saber"
+home = "https://discord.com/channels/731205301247803413/1305538189070700604"
+default_url = "https://github.com/CurrentlyPending/BeatSaberAP/releases/download/v{{version}}/beat_saber.apworld"
+
+[versions]
+"0.0.5" = {}

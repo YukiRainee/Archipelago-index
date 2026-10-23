@@ -1,0 +1,5 @@
+name = "Brutal Orchestra"
+home = "https://discord.com/channels/731205301247803413/1518060549848694944"
+
+[versions]
+"2.2.0" = {url = "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/releases/download/v2.2/brutal_orchestra.apworld"}

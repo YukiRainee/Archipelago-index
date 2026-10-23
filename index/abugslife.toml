@@ -1,0 +1,6 @@
+name = "A Bug's Life"
+home = "https://discord.com/channels/731205301247803413/1412903842311307355"
+default_url = "https://github.com/WalWalrus/ABLAP/releases/download/v{{version}}/abugslife.apworld"
+
+[versions]
+"0.1.2" = {}

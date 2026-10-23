@@ -1,0 +1,6 @@
+name = "Vertical Drop Heroes HD"
+home = "https://discord.com/channels/731205301247803413/1539752376481751170"
+default_url = "https://github.com/zane31415/APVerticalDropHeroesHD/releases/download/v{{version}}/vertical_drop_heroes.apworld"
+
+[versions]
+"0.4.0" = {}

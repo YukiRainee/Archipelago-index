@@ -1,0 +1,6 @@
+name = "The Legend of Spyro: Dawn of the Dragon"
+home = "https://discord.com/channels/731205301247803413/1445437839259996224"
+default_url = "https://github.com/IcyPenguin28/DotDAP/releases/download/{{version}}/spyro_dotd.apworld"
+
+[versions]
+"0.2.0" = {}

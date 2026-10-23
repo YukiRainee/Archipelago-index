@@ -1,0 +1,6 @@
+name = "Donut County"
+home = "https://discord.com/channels/731205301247803413/1364668628351455384"
+default_url = "https://github.com/1e1001/DonutCountyAP/releases/download/v{{version}}/donutcounty.apworld"
+
+[versions]
+"0.2.0-preview.3" = {}

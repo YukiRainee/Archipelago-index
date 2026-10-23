@@ -1,0 +1,6 @@
+name = "Widget Inc"
+home = "https://discord.com/channels/731205301247803413/1466377012653461548"
+default_url = "https://github.com/SWCreeperKing/Widgitpelago/releases/download/v{{version}}/widget_inc.apworld"
+
+[versions]
+"0.2.1" = {}

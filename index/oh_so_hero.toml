@@ -1,0 +1,6 @@
+name = "Oh So Hero!"
+home = "https://discord.com/channels/1085716850370957462/1518099677227122828"
+default_url = "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/download/v{{version}}/oh_so_hero.apworld"
+
+[versions]
+"1.0.5" = {}

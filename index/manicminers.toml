@@ -1,0 +1,6 @@
+name = "Manic Miners"
+home = "https://discord.com/channels/731205301247803413/1170769670350045284"
+default_url = "https://github.com/fogmike/Archipelago_ManicMiners/releases/download/v{{version}}/manicminers.apworld"
+
+[versions]
+"1.5.2" = {}

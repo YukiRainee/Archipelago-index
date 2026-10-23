@@ -1,0 +1,6 @@
+name = "The Farmer Was Replaced"
+home = "https://discord.com/channels/731205301247803413/1421220753717592205"
+default_url = "https://github.com/seadoggie001/TFWR-APMod/releases/download/v{{version}}/tfwr.apworld"
+
+[versions]
+"0.0.10-beta" = {}

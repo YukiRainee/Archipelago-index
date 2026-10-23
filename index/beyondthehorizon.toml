@@ -1,0 +1,6 @@
+name = "Trails Beyond the Horizon"
+home = "https://discord.com/channels/1085716850370957462/1560665116075233280"
+default_url = "https://github.com/brimaster2000/Trails-Beyond-the-Horizon-Archipelago/releases/download/v{{version}}/beyondthehorizon.apworld"
+
+[versions]
+"0.1.2-alpha" = {}

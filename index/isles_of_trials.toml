@@ -1,0 +1,6 @@
+name = "Isles of Trials"
+home = "https://discord.com/channels/731205301247803413/1517809344551456838"
+default_url = "https://github.com/NyanMC/ap-islesoftrials/releases/download/{{version}}d/isles_of_trials.apworld"
+
+[versions]
+"0.2.0" = {}

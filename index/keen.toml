@@ -5,3 +5,4 @@ default_url = "https://github.com/kodbyte/Archipelago-Keen/releases/download/v{{
 [versions]
 # This has an extra period in it, but the others don't have one.
 "0.0.4" = { url = "https://github.com/kodbyte/Archipelago-Keen/releases/download/v.0.0.4/keen.apworld" }
+"0.0.8" = {url = "https://github.com/Joxtacy/Archipelago-Keen/releases/download/v0.0.8/keen.apworld"}

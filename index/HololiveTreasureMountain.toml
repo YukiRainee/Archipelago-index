@@ -1,0 +1,6 @@
+name = "Hololive Treasure Mountain"
+home = "https://discord.com/channels/731205301247803413/1435070203460583445"
+default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/v{{version}}/HololiveTreasureMountain.apworld"
+
+[versions]
+"1.0.0" = {}

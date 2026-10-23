@@ -1,0 +1,6 @@
+name = "Age Of Empires II: Definitive Edition"
+home = "https://discord.com/channels/731205301247803413/1364201827113107526"
+default_url = "https://github.com/dmwever/Ageipelago/releases/download/v{{version}}/age2de.apworld"
+
+[versions]
+"0.2.3" = {}

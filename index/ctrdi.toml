@@ -1,0 +1,6 @@
+name = "Chrono Trigger Rando-Dalton Imperial"
+home = "https://discord.com/channels/731205301247803413/1545974806619361390"
+default_url = "https://github.com/Anguirel86/ap_ctrdi/releases/download/v{{version}}/ctrdi.apworld"
+
+[versions]
+"0.0.3" = {}

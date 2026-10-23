@@ -1,0 +1,6 @@
+name = "Age Of Mythology Retold"
+home = "https://discord.com/channels/731205301247803413/1302047515482390588"
+default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
+
+[versions]
+"1.3.7" = {}

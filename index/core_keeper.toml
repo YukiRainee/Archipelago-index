@@ -1,0 +1,6 @@
+name = "Core Keeper"
+home = "https://discord.com/channels/731205301247803413/1287618157116260366"
+default_url = "https://github.com/URAQTDev/Core-Keeper-Archipelago-APWorld-Tracker/releases/download/v{{version}}/core_keeper.apworld"
+
+[versions]
+"1.1.0" = {}

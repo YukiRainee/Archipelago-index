@@ -1,0 +1,6 @@
+name = "Factorio: Platformer"
+home = "https://discord.com/channels/731205301247803413/1493358480218788041"
+default_url = "https://github.com/lepideble/factorio-apworld/releases/download/platformer-{{version}}/factorio_platformer.apworld"
+
+[versions]
+"0.4.6" = {}

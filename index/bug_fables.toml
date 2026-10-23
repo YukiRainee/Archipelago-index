@@ -1,0 +1,6 @@
+name = "Bug Fables"
+home = "https://discord.com/channels/731205301247803413/1085282891149344798"
+default_url = "https://github.com/Tsukino-uwu/Bug-Fables-Archipelago/releases/download/v{{version}}/bug_fables.apworld"
+
+[versions]
+"0.4.0" = {}

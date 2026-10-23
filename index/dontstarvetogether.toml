@@ -1,0 +1,6 @@
+name = "Don't Starve Together"
+home = "https://discord.com/channels/731205301247803413/1149971904447385751"
+default_url = "https://github.com/DragonWolfLeo/Archipelago-DST/releases/download/dst-v{{version}}/dontstarvetogether.apworld"
+
+[versions]
+"1.3.3" = {}

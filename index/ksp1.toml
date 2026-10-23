@@ -1,0 +1,6 @@
+name = "Kerbal Space Program 1"
+home = "https://discord.com/channels/731205301247803413/1227259836027244544"
+default_url = "https://github.com/nickdavies/Archipelago/releases/download/v{{version}}/ksp1.apworld"
+
+[versions]
+"0.9.1" = {}

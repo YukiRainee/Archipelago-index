@@ -1,0 +1,6 @@
+name = "Armored Core VI"
+home = "https://discord.com/channels/731205301247803413/1346932094445817887"
+default_url = "https://github.com/DeltaSilver/Armored-Core-6-Archipelago/releases/download/v{{version}}/armored_core_6.apworld"
+
+[versions]
+"0.2.1-Beta" = {}

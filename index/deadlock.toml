@@ -1,0 +1,6 @@
+name = "Deadlock"
+home = "https://discord.com/channels/731205301247803413/1476976528171597875"
+default_url = "https://github.com/ArchipelagoBrad/deadlockipelago/releases/download/{{version}}/deadlock.apworld"
+
+[versions]
+"1.2.0" = {}

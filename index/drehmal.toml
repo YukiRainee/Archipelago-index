@@ -1,0 +1,6 @@
+name = "Drehmal"
+home = "https://discord.com/channels/731205301247803413/1535048401182392340"
+default_url = "https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld/releases/download/v{{version}}/drehmal.apworld"
+
+[versions]
+"0.3.0-beta" = {}

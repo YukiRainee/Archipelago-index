@@ -1,0 +1,6 @@
+name = "Super Metroid Map Rando"
+home = "https://discord.com/channels/731205301247803413/1156395911874875473"
+default_url = "https://github.com/lordlou/Archipelago/releases/download/v{{version}}/sm_map_rando.apworld"
+
+[versions]
+"0.119.4" = {}

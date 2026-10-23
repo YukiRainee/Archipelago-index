@@ -1,0 +1,6 @@
+name = "Equilinox"
+home = "https://discord.com/channels/731205301247803413/1550351167345795102"
+default_url = "https://github.com/AAces17/EquilinoxAPClient/releases/download/{{version}}/equilinox.apworld"
+
+[versions]
+"0.1.1" = {}

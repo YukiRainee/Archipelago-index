@@ -1,0 +1,6 @@
+name = "Bayonetta"
+home = "https://discord.com/channels/1085716850370957462/1254571344524214373"
+default_url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v{{version}}/bayonetta.apworld"
+
+[versions]
+"3.3.0" = {}

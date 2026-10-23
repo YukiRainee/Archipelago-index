@@ -1,0 +1,5 @@
+name = "Yooka-Replaylee"
+home = "https://discord.com/channels/731205301247803413/1429778419180109997"
+
+[versions]
+"0.0.3" = {url = "https://github.com/ninpalk/Archipelago/releases/download/Archipelago/yooka_replaylee.apworld"}

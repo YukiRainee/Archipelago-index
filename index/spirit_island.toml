@@ -1,0 +1,6 @@
+name = "Spirit Island"
+home = "https://discord.com/channels/731205301247803413/1463727125784956949"
+default_url = "https://github.com/Wouter17/Spirit-Archipelago/releases/download/{{version}}/spirit_island.apworld"
+
+[versions]
+"0.1.5" = {}

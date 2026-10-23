@@ -1,0 +1,6 @@
+name = "Cyber Hook"
+home = "https://discord.com/channels/731205301247803413/1507137575259738162"
+default_url = "https://github.com/PieOrPi/CyberHookAPWorld/releases/download/{{version}}/cyberhook.apworld"
+
+[versions]
+"0.1.0" = {}

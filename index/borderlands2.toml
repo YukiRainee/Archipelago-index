@@ -1,0 +1,6 @@
+name = "Borderlands 2"
+home = "https://discord.com/channels/1085716850370957462/1522284807780831313"
+default_url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v{{version}}/borderlands2.apworld"
+
+[versions]
+"0.5.5" = {}

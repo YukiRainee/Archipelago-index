@@ -1,0 +1,6 @@
+name = "Sly 3: Honor Among Thieves"
+home = "https://discord.com/channels/731205301247803413/1403124437464649868"
+default_url = "https://github.com/NikolajDanger/ApSly3/releases/download/v{{version}}/sly3.apworld"
+
+[versions]
+"0.3.0" = {}

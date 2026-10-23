@@ -1,0 +1,6 @@
+name = "Yarimono"
+home = "https://discord.com/channels/1085716850370957462/1510881130197418025"
+default_url = "https://github.com/msent0/Yarimono-Archipelago/releases/download/v{{version}}/yarimono.apworld"
+
+[versions]
+"1.1.1" = {}

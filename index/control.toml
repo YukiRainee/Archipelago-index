@@ -1,0 +1,6 @@
+name = "Control"
+home = "https://discord.com/channels/731205301247803413/1537608948121866371"
+default_url = "https://github.com/Alias-Cynestal/Archipelago/releases/download/v{{version}}/control.apworld"
+
+[versions]
+"1.2.0" = {}

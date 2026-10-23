@@ -1,0 +1,6 @@
+name = "Untitled Goose Game"
+home = "https://discord.com/channels/731205301247803413/1350670556545941536"
+default_url = "https://github.com/PixelShake92/Untitled-Goose-Game-Archipelago/releases/download/Alpha_{{version}}/untitled_goose_game.apworld"
+
+[versions]
+"2.2.1" = {}

@@ -1,0 +1,6 @@
+name = "Zelda's Adventure GDX"
+home = "https://discord.com/channels/731205301247803413/1505576871763640350"
+default_url = "https://github.com/nebbii/za-gdx/releases/download/v{{version}}/zagdx.apworld"
+
+[versions]
+"0.1.3" = {}

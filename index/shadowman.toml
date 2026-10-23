@@ -1,0 +1,6 @@
+name = "Shadow Man Remastered"
+home = "https://discord.com/channels/731205301247803413/1538574903178039307"
+default_url = "https://github.com/bropacman/shadow-man-remastered-ap-world/releases/download/v{{version}}/shadowman.apworld"
+
+[versions]
+"0.2.0" = {}

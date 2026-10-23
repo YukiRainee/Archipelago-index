@@ -2,3 +2,6 @@ name = "Ocarina of Time"
 home = "https://archipelago.gg"
 supported = true
 disabled = true # Don't think this needs an explanation
+
+[versions]
+"9.1.0-release7" = {url = "https://github.com/TreZc0/OoTR-APWorld/releases/download/v9.1.0-release7/oot.apworld"}

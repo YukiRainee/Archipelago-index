@@ -1,0 +1,6 @@
+name = "Armored Core"
+home = "https://discord.com/channels/731205301247803413/1393754231214837861"
+default_url = "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/releases/download/v{{version}}/armoredcore.apworld"
+
+[versions]
+"0.3.0" = {}

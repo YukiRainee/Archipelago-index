@@ -1,0 +1,5 @@
+name = "Deep Rock Galactic"
+home = "https://discord.com/channels/731205301247803413/1513961996859740313"
+
+[versions]
+"0.20.0" = {url = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/download/0.20/deep_rock_galactic.apworld"}

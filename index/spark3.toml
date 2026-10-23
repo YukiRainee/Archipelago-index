@@ -1,0 +1,6 @@
+name = "Spark the Electric Jester 3"
+home = "https://discord.com/channels/731205301247803413/1119029066562011216"
+default_url = "https://github.com/TwinklePillar/Spark3-Archipelago/releases/download/v{{version}}/spark3.apworld"
+
+[versions]
+"0.11.3-beta" = {}

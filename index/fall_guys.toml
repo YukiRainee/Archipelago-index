@@ -1,0 +1,6 @@
+name = "Fall Guys"
+home = "https://discord.com/channels/731205301247803413/1559388863049375855"
+default_url = "https://github.com/ninpalk/FallGuysAP/releases/download/{{version}}/fall_guys.apworld"
+
+[versions]
+"0.0.2" = {}

@@ -1,0 +1,6 @@
+name = "Phoenotopia: Awakening"
+home = "https://discord.com/channels/731205301247803413/1439694594936668210"
+default_url = "https://github.com/Amphyros/Phoenotopia-Awakening-AP-client/releases/download/v{{version}}/phoa.apworld"
+
+[versions]
+"0.4.1" = {}

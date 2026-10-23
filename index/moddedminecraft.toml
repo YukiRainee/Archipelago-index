@@ -1,0 +1,6 @@
+name = "Modded Minecraft"
+home = "https://discord.com/channels/731205301247803413/1466921831369015399"
+default_url = "https://github.com/Stuff691734/ModdedMCArchipelago/releases/download/v{{version}}/moddedminecraft.apworld"
+
+[versions]
+"3.0.11" = {}

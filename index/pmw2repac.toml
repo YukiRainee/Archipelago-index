@@ -1,0 +1,6 @@
+name = "Pac-Man World 2 Re-Pac"
+home = "https://discord.com/channels/731205301247803413/1534736950035091536"
+default_url = "https://github.com/DepressingChild/Archipelago/releases/download/v{{version}}/pmw2repac.apworld"
+
+[versions]
+"0.1.2" = {}

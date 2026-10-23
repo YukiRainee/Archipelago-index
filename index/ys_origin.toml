@@ -1,0 +1,6 @@
+name = "Ys Origin"
+home = "https://discord.com/channels/731205301247803413/1526510955708813363"
+default_url = "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v{{version}}/ys_origin.apworld"
+
+[versions]
+"2.1.1" = {}

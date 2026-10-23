@@ -1,0 +1,6 @@
+name = "Cowtastic Cafe"
+home = "https://discord.com/channels/1085716850370957462/1524513935439695882"
+default_url = "https://github.com/zane31415/APCowtasticCafe/releases/download/v{{version}}/cowtastic_cafe.apworld"
+
+[versions]
+"1.0.2" = {}

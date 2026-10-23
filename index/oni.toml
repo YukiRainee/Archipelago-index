@@ -1,0 +1,6 @@
+name = "Oxygen Not Included"
+home = "https://github.com/ShadowKitty42/ONI-Archipelago/issues"
+default_url = "https://github.com/ShadowKitty42/ONI-Archipelago/releases/download/v{{version}}/oni.apworld"
+
+[versions]
+"0.9.11" = {}

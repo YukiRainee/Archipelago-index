@@ -1,0 +1,6 @@
+name = "Getting Over It"
+home = "https://discord.com/channels/731205301247803413/1123510506884444250"
+default_url = "https://github.com/BlastSlimey/CheckingOverIt/releases/download/{{version}}/getting_over_it.apworld"
+
+[versions]
+"0.2.3" = {}

@@ -1,0 +1,6 @@
+name = "Total War Warhammer III"
+home = "https://discord.com/channels/731205301247803413/1136329107370684538"
+default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/download/v{{version}}/tww3.apworld"
+
+[versions]
+"0.10.19" = {}

@@ -1,0 +1,6 @@
+name = "Codeforces"
+home = "https://discord.com/channels/731205301247803413/1456244014318751819"
+default_url = "https://github.com/glipR/Archipelago/releases/download/codeforces-v{{version}}/codeforces.apworld"
+
+[versions]
+"0.0.3" = {}

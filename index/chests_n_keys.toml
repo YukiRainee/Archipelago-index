@@ -1,0 +1,6 @@
+name = "Chests "
+home = "https://discord.com/channels/731205301247803413/1537540791654940773"
+default_url = "https://github.com/not-aoyama/ChestsNKeys-Web/releases/download/v{{version}}/chests_n_keys.apworld"
+
+[versions]
+"0.3.0" = {}

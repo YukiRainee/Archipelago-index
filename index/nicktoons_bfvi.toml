@@ -1,0 +1,5 @@
+name = "Nicktoons: Battle for Volcano Island"
+home = "https://discord.com/channels/731205301247803413/1533180659663769770"
+
+[versions]
+"2.1.0" = {url = "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP/releases/download/Archipelago/nicktoons_bfvi.apworld"}
