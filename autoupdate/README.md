@@ -34,6 +34,11 @@ Any of these work. Give it a repo link, a release page, or a direct `.apworld` U
   (add `--dry-run` to preview), then commit and push. In a Claude Code
   session in this repo you can just say "add <link>".
 
+- **Many at once**: put entries in `autoupdate/bulk/queue.json`
+  (`{"game": ..., "link": ..., "home": ...}`) and push. *Fork: bulk add
+  apworlds from queue* works through it and logs every outcome, including
+  why a world couldn't be added, in `autoupdate/bulk/results.md`.
+
 It reads the game name, folder name, version and supported AP range from the
 apworld itself. When the release tag contains the version, it sets
 `default_url`, so future releases get picked up automatically.

@@ -25,23 +25,38 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import tomllib
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 import tomlkit
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
-REPO_RE = re.compile(r"^https://(?P<host>[^/]+)/(?P<owner>[^/]+)/(?P<repo>[^/#?]+?)(?:\.git)?/?$")
+REPO_RE = re.compile(r"^https://(?P<host>[^/]+)/(?P<owner>[^/]+)/(?P<repo>[^/#?]+?)(?:\.git)?"
+                     r"(?:/releases(?:/latest)?)?/?(?:[?#].*)?$")
 TAG_RE = re.compile(r"^https://(?P<host>[^/]+)/(?P<owner>[^/]+)/(?P<repo>[^/]+)/releases/tag/(?P<tag>[^/?#]+)")
+
+_release_cache: dict[tuple, list] = {}
 
 
 class Fail(Exception):
     pass
 
 
-def pick_asset(assets: dict[str, str], wanted: str | None) -> tuple[str, str]:
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def releases_for(host: str, owner: str, repo: str, deep: bool = False) -> list:
+    key = (host, owner.lower(), repo.lower(), deep)
+    if key not in _release_cache:
+        _release_cache[key] = common.list_releases(host, owner, repo, pages=5 if deep else 1)
+    return _release_cache[key]
+
+
+def pick_asset(assets: dict[str, str], wanted: str | None, hint: str | None = None) -> tuple[str, str]:
     apworlds = {n: u for n, u in assets.items() if n.lower().endswith(".apworld")}
     if wanted:
         if wanted not in apworlds:
@@ -49,14 +64,23 @@ def pick_asset(assets: dict[str, str], wanted: str | None) -> tuple[str, str]:
         return wanted, apworlds[wanted]
     if not apworlds:
         raise Fail("that release has no .apworld file attached")
+    if len(apworlds) > 1 and hint:
+        # e.g. a release shipping "foo.apworld" + "foo_beta.apworld": take the
+        # one whose name matches the game, if exactly one does.
+        h = _norm(hint)
+        matches = [n for n in apworlds if _norm(n.rsplit(".", 1)[0]) and
+                   (_norm(n.rsplit(".", 1)[0]) in h or h in _norm(n.rsplit(".", 1)[0]))]
+        if len(matches) == 1:
+            return matches[0], apworlds[matches[0]]
     if len(apworlds) > 1:
         raise Fail("that release has several .apworld files - say which one with the asset field: "
                    + ", ".join(sorted(apworlds)))
     return next(iter(apworlds.items()))
 
 
-def resolve(link: str, asset: str | None) -> dict:
-    """-> {url, host, owner, repo, tag, filename, repo_home}"""
+def resolve(link: str, asset: str | None, hint: str | None = None) -> dict:
+    """-> {url, host, owner, repo, tag, filename, repo_home}. `hint` is the game
+    name, used to pick among several .apworld files in one release."""
     link = link.strip().rstrip("/")
     if "discord.com" in link or "discordapp" in link:
         raise Fail("Discord links can't be downloaded reliably - the index needs a stable direct link "
@@ -68,15 +92,21 @@ def resolve(link: str, asset: str | None) -> dict:
         return {"url": link, **m.groupdict(), "filename": unquote(m["filename"]),
                 "repo_home": f"https://{m['host']}/{m['owner']}/{m['repo']}"}
 
-    if m := TAG_RE.match(link):
-        releases = common.list_releases(m["host"], m["owner"], m["repo"])
-        rel = next((r for r in releases if r.tag == unquote(m["tag"])), None)
-        if rel is None:
-            raise Fail(f"couldn't find release '{m['tag']}'")
-        name, url = pick_asset(rel.assets, asset)
+    def found(m, rel):
+        name, url = pick_asset(rel.assets, asset, hint)
         return {"url": url, "host": m["host"], "owner": m["owner"], "repo": m["repo"],
                 "tag": rel.tag, "filename": name,
                 "repo_home": f"https://{m['host']}/{m['owner']}/{m['repo']}"}
+
+    if m := TAG_RE.match(link):
+        tag = unquote(m["tag"])
+        rel = next((r for r in releases_for(m["host"], m["owner"], m["repo"]) if r.tag == tag), None)
+        if rel is None:  # older release: dig further back
+            rel = next((r for r in releases_for(m["host"], m["owner"], m["repo"], deep=True)
+                        if r.tag == tag), None)
+        if rel is None:
+            raise Fail(f"couldn't find release '{m['tag']}'")
+        return found(m, rel)
 
     if urlparse(link).path.lower().endswith(".apworld"):
         return {"url": link, "host": urlparse(link).hostname, "owner": None, "repo": None,
@@ -84,16 +114,19 @@ def resolve(link: str, asset: str | None) -> dict:
                 "repo_home": None}
 
     if m := REPO_RE.match(link):
-        releases = common.list_releases(m["host"], m["owner"], m["repo"])
+        # Monorepos (one repo, a release per world) link as /releases?q=<world>.
+        q = parse_qs(urlparse(link).query).get("q", [""])[0].strip().strip('"').strip()
+        releases = releases_for(m["host"], m["owner"], m["repo"], deep=bool(q))
+        if q:
+            nq = _norm(q)
+            releases = [r for r in releases if nq in _norm(r.tag) or nq in _norm(r.name)]
+            if not releases:
+                raise Fail(f"no release in that repo matches '{q}'")
         with_apworld = [r for r in releases if any(n.lower().endswith(".apworld") for n in r.assets)]
         stable = [r for r in with_apworld if not r.prerelease] or with_apworld
         if not stable:
             raise Fail("no release in that repo has a .apworld file attached")
-        rel = stable[0]
-        name, url = pick_asset(rel.assets, asset)
-        return {"url": url, "host": m["host"], "owner": m["owner"], "repo": m["repo"],
-                "tag": rel.tag, "filename": name,
-                "repo_home": f"https://{m['host']}/{m['owner']}/{m['repo']}"}
+        return found(m, stable[0])
 
     raise Fail("didn't recognise that link - give a repo, release page, or direct .apworld URL")
 
@@ -118,7 +151,7 @@ def default_url_for(src: dict, version: str) -> str | None:
 
 
 def run(args) -> str:
-    src = resolve(args.link, args.asset)
+    src = resolve(args.link, args.asset, getattr(args, "name", None) or getattr(args, "hint", None))
     data = common.download(src["url"])
     info = common.inspect_apworld(data)
     stem = info.module
@@ -152,7 +185,7 @@ def run(args) -> str:
         if not game:
             raise Fail("couldn't read the game name from the apworld - fill in the name field")
         for other in common.INDEX_DIR.glob("*.toml"):
-            if tomlkit.parse(other.read_text(encoding="utf-8")).get("name") == game:
+            if tomllib.loads(other.read_text(encoding="utf-8")).get("name") == game:
                 raise Fail(f"game '{game}' is already in the index as {other.name} "
                            f"(but this apworld's folder is '{stem}') - not adding a duplicate")
         doc = tomlkit.document()

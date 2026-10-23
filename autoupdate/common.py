@@ -84,6 +84,7 @@ class Release:
     tag: str
     prerelease: bool
     assets: dict[str, str] = field(default_factory=dict)  # filename -> download url
+    name: str = ""
 
 
 def _api_get(url: str, **kw) -> requests.Response:
@@ -94,28 +95,34 @@ def _api_get(url: str, **kw) -> requests.Response:
     return session.get(url, headers=headers, timeout=30, **kw)
 
 
-def list_releases(host: str, owner: str, repo: str) -> list[Release]:
-    """Newest-first releases (drafts excluded). Raises RuntimeError on failure."""
-    if host == "github.com":
-        url = f"https://api.github.com/repos/{owner}/{repo}/releases"
-        params = {"per_page": 50}
-    else:
-        # Gitea / Forgejo (Codeberg etc.) expose a near-identical API.
-        url = f"https://{host}/api/v1/repos/{owner}/{repo}/releases"
-        params = {"limit": 50}
-    resp = _api_get(url, params=params)
-    if resp.status_code == 404:
-        raise RuntimeError(f"{host}/{owner}/{repo} not found (404) - moved or deleted?")
-    if resp.status_code in (403, 429):
-        raise RuntimeError(f"rate limited / forbidden ({resp.status_code}) by {host}")
-    if not resp.ok:
-        raise RuntimeError(f"unexpected HTTP {resp.status_code} listing releases on {host}")
+def list_releases(host: str, owner: str, repo: str, pages: int = 1) -> list[Release]:
+    """Newest-first releases (drafts excluded). Raises RuntimeError on failure.
+    `pages` > 1 digs further back, for monorepos with one release per world."""
     out = []
-    for rel in resp.json():
-        if rel.get("draft"):
-            continue
-        assets = {a["name"]: a["browser_download_url"] for a in rel.get("assets", [])}
-        out.append(Release(rel.get("tag_name", ""), bool(rel.get("prerelease")), assets))
+    for page in range(1, pages + 1):
+        if host == "github.com":
+            url = f"https://api.github.com/repos/{owner}/{repo}/releases"
+            params = {"per_page": 100 if pages > 1 else 50, "page": page}
+        else:
+            # Gitea / Forgejo (Codeberg etc.) expose a near-identical API.
+            url = f"https://{host}/api/v1/repos/{owner}/{repo}/releases"
+            params = {"limit": 50, "page": page}
+        resp = _api_get(url, params=params)
+        if resp.status_code == 404:
+            raise RuntimeError(f"{host}/{owner}/{repo} not found (404) - moved or deleted?")
+        if resp.status_code in (403, 429):
+            raise RuntimeError(f"rate limited / forbidden ({resp.status_code}) by {host}")
+        if not resp.ok:
+            raise RuntimeError(f"unexpected HTTP {resp.status_code} listing releases on {host}")
+        batch = resp.json()
+        for rel in batch:
+            if rel.get("draft"):
+                continue
+            assets = {a["name"]: a["browser_download_url"] for a in rel.get("assets", [])}
+            out.append(Release(rel.get("tag_name", ""), bool(rel.get("prerelease")), assets,
+                               rel.get("name") or ""))
+        if len(batch) < params.get("per_page", params.get("limit")):
+            break
     return out
 
 

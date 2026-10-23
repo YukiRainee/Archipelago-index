@@ -1,0 +1,60 @@
+name: "Fork: bulk add apworlds from queue"
+
+# Works through autoupdate/bulk/queue.json (see autoupdate/bulk_add.py).
+# Runs whenever the queue changes on main, or by hand from the Actions tab.
+# Results are appended to autoupdate/bulk/results.md.
+
+on:
+  push:
+    branches: [main]
+    paths: ["autoupdate/bulk/queue.json"]
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max entries this run (0 = all)"
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: index-write
+  cancel-in-progress: false
+
+jobs:
+  bulk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install tomlkit requests packaging
+
+      - name: Add queued apworlds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          LIMIT: ${{ inputs.limit || '0' }}
+        run: python autoupdate/bulk_add.py --limit "$LIMIT"
+
+      - name: Summary
+        if: always()
+        run: '[ -f bulk_summary.md ] && cat bulk_summary.md >> "$GITHUB_STEP_SUMMARY" || true'
+
+      - name: Commit and push
+        if: always()
+        run: |
+          git config user.name "index-auto-updater"
+          git config user.email "actions@users.noreply.github.com"
+          git add index/ index.lock autoupdate/bulk/
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          added=$(git diff --cached --name-only --diff-filter=A -- index/ | wc -l)
+          git commit -m "Bulk add apworlds (${added} new)" -m "See autoupdate/bulk/results.md"
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
