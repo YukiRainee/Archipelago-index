@@ -4,3 +4,4 @@ default_url = "https://github.com/AAces17/EquilinoxAPClient/releases/download/{{
 
 [versions]
 "0.1.1" = {}
+"0.1.2" = {}
