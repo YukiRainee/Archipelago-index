@@ -4,3 +4,4 @@ default_url = "https://github.com/sitskin/apCassetteBeasts/releases/download/v{{
 
 [versions]
 "0.0.6" = {}
+"0.0.7" = {}
