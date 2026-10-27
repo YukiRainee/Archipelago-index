@@ -4,3 +4,4 @@ default_url = "https://github.com/Anguirel86/ap_ctrdi/releases/download/v{{versi
 
 [versions]
 "0.0.3" = {}
+"0.0.4" = {}
