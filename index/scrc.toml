@@ -3,3 +3,4 @@ home = "https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago"
 
 [versions]
 "0.29.0" = { url = "https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/download/v0.29.1/scrc.apworld" }
+"0.30.0" = {url = "https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/download/v0.30.0/scrc.apworld"}

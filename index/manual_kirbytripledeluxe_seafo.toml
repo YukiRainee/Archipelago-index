@@ -4,3 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1207547321370279987"
 
 [versions]
 "2.0.0" = { url = "https://github.com/Seatori/ManualAPWorlds/releases/download/KTD-v2.0.0-beta/manual_kirbytripledeluxe_seafo.apworld" }
+"2.1.0" = {url = "https://github.com/Seatori/ManualAPWorlds/releases/download/KTD-v2.1.0/manual_kirbytripledeluxe_seafo.apworld"}

@@ -4,3 +4,4 @@ default_url = "https://github.com/ksteve35/ScritchyScratchyAP/releases/download/
 
 [versions]
 "0.1.2-hotfix.2-linuxtest.2" = {}
+"0.1.2" = {}

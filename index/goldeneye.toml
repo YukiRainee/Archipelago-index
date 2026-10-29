@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1168391642282201219"
 
 [versions]
 "0.1.0" = {url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/alpha_v0.1/goldeneye.apworld"}
+"0.1.1" = {url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/v0%2C2/goldeneye.apworld"}

@@ -3,3 +3,6 @@ home = "https://discord.com/channels/731205301247803413/1475176727235002571"
 
 [versions]
 "0.3.0" = {url = "https://github.com/Arenes214/APWorld-Tombola/releases/download/0.3/aptombola.apworld"}
+
+[releases]
+"0.4.0" = {min_ap_version = "0.6.8", url = "https://github.com/Arenes214/APWorld-Tombola/releases/download/0.4/aptombola.apworld"}

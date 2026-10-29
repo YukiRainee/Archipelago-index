@@ -72,8 +72,13 @@ def normalize_version(raw: str) -> str | None:
 
 def version_from_tag(tag: str) -> str | None:
     """'v1.2' -> '1.2.0', 'DRG_1.1.2' -> '1.1.2'. Needs at least 'X.Y' somewhere in the tag,
-    so 'apraiser_v134' or 'Archipelago' give None."""
-    return normalize_version(tag) or normalize_version(re.sub(r"^.*?(?=\d+\.\d+)", "", tag))
+    so 'apraiser_v134' or 'Archipelago' give None, and exactly one such number, so a tag
+    naming two worlds' versions ('wordipelago-1.0.1_wordsearch-0.5.0') gives None too."""
+    if normalize_version(tag):
+        return normalize_version(tag)
+    if len(re.findall(r"\d+\.\d+", tag)) != 1:
+        return None
+    return normalize_version(re.sub(r"^.*?(?=\d+\.\d+)", "", tag))
 
 
 def is_prerelease(v: str) -> bool:

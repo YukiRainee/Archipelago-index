@@ -203,14 +203,18 @@ def check_pinned(path: Path, doc, lock: dict, args) -> tuple[str, str]:
     if info.module != stem:
         return "ERROR", f"{rel.tag}: apworld contains '{info.module}', expected '{stem}' - not adding"
 
-    # The tag first, like add_apworld: authors forget to bump world_version more often
-    # than they mistag a release. The apworld's own version covers tags without one.
+    # The apworld's own version if it moved past the pin: it's the world's numbering,
+    # where tags may follow a randomizer's ('v1.6.5' for world 0.7.5). The tag if the
+    # apworld's version is stale (authors forget to bump it) or missing.
+    from_apworld = common.normalize_version(info.world_version) if info.world_version else None
+    from_tag = common.version_from_tag(rel.tag)
     version = None
-    for v in (common.version_from_tag(rel.tag),
-              common.normalize_version(info.world_version) if info.world_version else None):
-        if v and common.is_semver(v):
+    for v in (from_apworld, from_tag):
+        if v and common.is_semver(v) and common.parse_version(v) > current_pv:
             version = v
             break
+    if version is None:
+        version = next((v for v in (from_apworld, from_tag) if v and common.is_semver(v)), None)
     if version is None:
         return "SKIP", f"{rel.tag}: can't tell its version (not in the tag or the apworld)"
     if version in known or common.parse_version(version) <= current_pv:
