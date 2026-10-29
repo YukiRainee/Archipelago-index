@@ -99,7 +99,8 @@ jobs:
             echo "No changes."; exit 0
           fi
           git add index/ index.lock
-          git commit -m "Auto-update apworld versions" -m "$(grep '^- \*\*' update_summary.md | head -50)"
+          { printf 'Auto-update apworld versions\n\n'; cat commit_message.txt; } > "$RUNNER_TEMP/commit_msg"
+          git commit -F "$RUNNER_TEMP/commit_msg"
           for i in 1 2 3; do
             git push origin HEAD:main && echo "pushed=1" >> "$GITHUB_OUTPUT" && exit 0
             git pull --rebase origin main

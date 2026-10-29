@@ -12,6 +12,10 @@ Two passes over index/*.toml:
    own GitLab pipeline, which this fork doesn't have -- a version without a
    lock hash is useless to the lobby.)
 
+   Entries without a default_url (one pinned `url` per version, because the tags
+   don't carry the version) follow the newest release that ships the same .apworld
+   file instead, take its version from the tag or the apworld, and pin its link.
+
 2. Lock repair -- any listed version that has no hash in index.lock gets one.
    Covers entries added by hand and anything a sync left half-done.
 
@@ -40,6 +44,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
 
+_release_cache: dict[tuple, list] = {}
+
+
+def releases_for(host: str, owner: str, repo: str, pages: int = 1) -> list:
+    """list_releases, once per repo per run - monorepos hold many worlds."""
+    key = (host, owner.lower(), repo.lower(), pages)
+    if key not in _release_cache:
+        _release_cache[key] = common.list_releases(host, owner, repo, pages=pages)
+    return _release_cache[key]
+
+
 def tag_regex(tag_template: str) -> re.Pattern | None:
     if tag_template.count("{{version}}") != 1:
         return None
@@ -56,7 +71,7 @@ def check_entry(path: Path, lock: dict, args) -> tuple[str, str]:
 
     default_url = doc.get("default_url")
     if not default_url:
-        return "SKIP", "no default_url (explicit per-version URLs - needs manual updates)"
+        return check_pinned(path, doc, lock, args)
     m = common.RELEASE_DOWNLOAD_RE.match(str(default_url))
     if not m:
         return "SKIP", "default_url isn't a standard releases/download URL"
@@ -71,7 +86,7 @@ def check_entry(path: Path, lock: dict, args) -> tuple[str, str]:
     tracks_pre = bool(current and common.is_prerelease(current))
 
     try:
-        releases = common.list_releases(m["host"], m["owner"], m["repo"])
+        releases = releases_for(m["host"], m["owner"], m["repo"])
     except RuntimeError as e:
         return "ERROR", str(e)
 
@@ -121,6 +136,101 @@ def check_entry(path: Path, lock: dict, args) -> tuple[str, str]:
     where = "[versions]" if placement["in_versions"] else "[releases]"
     extra = ", ".join(f"{k} AP {v}" for k, v in (("min", placement["min"]), ("max", placement["max"])) if v)
     return "ADDED", f"{best} (was {current}) -> {where}" + (f" ({extra})" if extra else "")
+
+
+_TRAILING_VERSION = re.compile(r"[-_ .]*v?\d+(?:[._]\d+)*(?:-[0-9A-Za-z.]+)?$", re.I)
+
+
+def asset_key(filename: str) -> str:
+    """'Foo_v1.2.apworld' and 'foo.apworld' -> 'foo': the same asset across releases
+    even when the author puts the version in the file name."""
+    name = re.sub(r"\.apworld$", "", filename, flags=re.I)
+    return (_TRAILING_VERSION.sub("", name) or name).lower()
+
+
+def check_pinned(path: Path, doc, lock: dict, args) -> tuple[str, str]:
+    """Entries with no default_url: every version has its own `url`, usually because the
+    release tags don't contain the version (e.g. 'apraiser_v134', or one fixed tag reused
+    for every build). Follow the newest release that ships the same .apworld file, read
+    its version from the apworld itself, and pin it if it's newer."""
+    stem = path.stem
+    known = common.all_versions(doc)
+    pinned = [(common.parse_version(v), v, i["url"]) for v, i in known.items()
+              if i.get("url") and common.parse_version(v)]
+    if not pinned:
+        if any("local" in i for i in known.values()):
+            return "SKIP", "local files only - can't be updated automatically"
+        return "SKIP", "no download links (core world or stub)"
+    current_pv, current, current_url = max(pinned)
+    m = common.RELEASE_DOWNLOAD_RE.match(current_url)
+    if not m:
+        return "SKIP", "pinned link isn't a releases/download link - needs manual updates"
+    key = asset_key(m["filename"])
+
+    def matching(releases):
+        # Same file name if any release still has it; otherwise the same name minus a
+        # version number (kh1.apworld vs kh2.apworld would clash, so it's only a fallback).
+        exact = [(r, n) for r in releases for n in r.assets if n == m["filename"]]
+        return exact or [(r, n) for r in releases for n in r.assets if asset_key(n) == key]
+
+    try:
+        found = matching(releases_for(m["host"], m["owner"], m["repo"]))
+        if not found:  # monorepo: this world's last release may be further back
+            found = matching(releases_for(m["host"], m["owner"], m["repo"], pages=3))
+    except RuntimeError as e:
+        return "ERROR", str(e)
+    if not found:
+        return "SKIP", f"no recent release ships '{m['filename']}' any more"
+
+    flag_meaningful = any(not r.prerelease for r, _ in found)
+    tracks_pre = common.is_prerelease(current)
+    usable = [(r, n) for r, n in found
+              if not (r.prerelease and flag_meaningful) or args.include_prereleases or tracks_pre]
+    if not usable:
+        return "OK", "only pre-releases are newer"
+    rel, asset = usable[0]  # releases come newest first
+    url = rel.assets[asset]
+    same_link = url == current_url
+
+    try:
+        data = common.download(url)
+        info = common.inspect_apworld(data)
+    except RuntimeError as e:
+        return "ERROR", f"{rel.tag}: {e}"
+    digest = common.sha256(data)
+    if same_link and lock.get(stem, {}).get(current) == digest:
+        return "OK", f"up to date ({current})"
+    if info.module != stem:
+        return "ERROR", f"{rel.tag}: apworld contains '{info.module}', expected '{stem}' - not adding"
+
+    # The tag first, like add_apworld: authors forget to bump world_version more often
+    # than they mistag a release. The apworld's own version covers tags without one.
+    version = None
+    for v in (common.version_from_tag(rel.tag),
+              common.normalize_version(info.world_version) if info.world_version else None):
+        if v and common.is_semver(v):
+            version = v
+            break
+    if version is None:
+        return "SKIP", f"{rel.tag}: can't tell its version (not in the tag or the apworld)"
+    if version in known or common.parse_version(version) <= current_pv:
+        if same_link:
+            # The file behind the pinned link was swapped without a version bump, so the
+            # lock hash for the pinned version no longer matches what gets downloaded.
+            return "ERROR", (f"file at the pinned link for {current} was replaced but still says "
+                             f"{version} - the lobby will reject it until the author bumps the version")
+        return "OK", f"newest release {rel.tag} is {version}, not newer than pinned {current}"
+
+    if args.dry_run:
+        return "WOULD-ADD", f"{version} (currently {current}) from {rel.tag}"
+
+    placement = common.placement_for(info, known.get(current))
+    common.add_release(doc, version, placement, url=url)
+    path.write_text(tomlkit.dumps(doc), encoding="utf-8", newline="\n")
+    lock.setdefault(stem, {})[version] = digest
+    where = "[versions]" if placement["in_versions"] else "[releases]"
+    extra = " (file replaced at the same link)" if same_link else ""
+    return "ADDED", f"{version} (was {current}) -> {where}, pinned link{extra}"
 
 
 def repair_lock(path: Path, lock: dict, dry_run: bool) -> list[str]:
@@ -205,6 +315,10 @@ def main():
 
     Path("update_summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     Path("changes_made.flag").write_text("1" if changed and not args.dry_run else "0")
+    # Commit message body: only what actually changed.
+    body = [f"- {s}: {m}" for s, m in rows.get("ADDED", [])]
+    body += [f"- {s}: {m} (index.lock)" for s, m in repaired if m.startswith("hashed")]
+    Path("commit_message.txt").write_text("\n".join(body) + "\n", encoding="utf-8")
     print(f"\nDone: {len(rows.get('ADDED', []))} added, {len(rows.get('ERROR', []))} errors, "
           f"{len(repaired)} lock repairs.")
 

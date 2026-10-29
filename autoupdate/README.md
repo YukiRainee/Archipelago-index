@@ -18,6 +18,11 @@ from the Actions tab). It does three things:
    in `index.lock`. The lobby needs that hash, and upstream only fills it in
    from its own pipeline. It also fills in any missing lock hashes.
 
+Worlds pinned to one exact link per version (their release tags don't contain
+the version, as in `apraiser_v134` or a fixed `Archipelago` tag) are updated
+too. It finds the newest release that ships the same `.apworld` file, reads
+the version from the tag or from the apworld, and pins that link.
+
 It never guesses. Worlds it can't update safely (no `default_url`, odd tag
 names, a release whose apworld folder got renamed, ...) are listed in the
 run's summary page.
