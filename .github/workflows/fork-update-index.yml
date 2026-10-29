@@ -63,6 +63,11 @@ jobs:
           # Upstream is the authority: on a conflict (e.g. both sides bumped the
           # same world / index.lock) take theirs; our bumps get redone below.
           git merge upstream/main -X theirs --no-edit -m "Sync with upstream ionium-ap/Archipelago-index"
+          # Taking theirs would also take back upstream's homepage link; keep this fork's.
+          sed -i 's#^index_homepage = .*#index_homepage = "https://github.com/${{ github.repository }}"#' index.toml
+          if ! git diff --quiet -- index.toml; then
+            git commit -q -m "Keep index_homepage pointing at this fork" -- index.toml
+          fi
           if [ "${{ inputs.dry_run }}" != "true" ]; then
             git push origin HEAD:main
           fi

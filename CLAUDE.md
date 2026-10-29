@@ -2,7 +2,8 @@
 
 This is YukiRainee's fork of ionium-ap/Archipelago-index. Fork-only tooling is in
 `autoupdate/` (see `autoupdate/README.md`); don't edit upstream files except
-`index/*.toml` and `index.lock`.
+`index/*.toml`, `index.lock`, and `index_homepage` in `index.toml` (it points at
+this fork, and the sync workflow re-applies it).
 
 When the user gives a link to an apworld (repo, release page, or .apworld URL) and
 asks to add or update it:
