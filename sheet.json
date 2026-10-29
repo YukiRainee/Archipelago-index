@@ -1,0 +1,4264 @@
+{
+ "source": "https://docs.google.com/spreadsheets/d/1iuzDTOAvdoNe8Ne8i461qGNucg5OuEoF-Ikqs8aUQZw/htmlview?gid=58422002",
+ "worlds": {
+  "2048": {
+   "game": "2048",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "7dtd_world": {
+   "game": "7 Days to Die",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "DeliveringHope": {
+   "game": "Delivering Hope",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "DuckLife4": {
+   "game": "Duck Life 4",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "Hades2Rogue": {
+   "game": "Hades 2 (Rogue)",
+   "stability": "Stable",
+   "ai_disclosure": "Extensive"
+  },
+  "HololiveTreasureMountain": {
+   "game": "Hololive Treasure Mountain",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "HungryPumkinAP": {
+   "game": "Hungry Pumkin",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "LostKingdoms2": {
+   "game": "Lost Kingdoms 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "Schedule_I": {
+   "game": "Schedule I",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "TerraNil": {
+   "game": "Terra Nil",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "Twilight Princess": {
+   "game": "The Legend of Zelda: Twilight Princess",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted",
+   "notes": "Generally stable, current limitations on amount of options that can be changed. Requires US version of the game for auto-release.\nCheck the pins in its channel in the Archipelago Discord for the .gci files you'll need."
+  },
+  "VHAP": {
+   "game": "Minecraft: Vault Hunters (Modpack)",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "ZeldaFSA": {
+   "game": "The Legend of Zelda: Four Swords Adventure",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "a1800": {
+   "game": "Anno 1800",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "abugslife": {
+   "game": "A Bug's Life",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Uses NTSC"
+  },
+  "actraiser": {
+   "game": "ActRaiser",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "acww": {
+   "game": "Animal Crossing: Wild World",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "adofai": {
+   "game": "A Dance Of Fire And Ice",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "adventure": {
+   "game": "Adventure",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "ae2": {
+   "game": "Ape Escape 2",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "against_the_storm": {
+   "game": "Against the Storm",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "age2de": {
+   "game": "Age of Empires II: Definite Edition",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal",
+   "notes": "!WARNING! Logicless Proof of Concept World, don't bring to public games"
+  },
+  "ahit": {
+   "game": "A Hat in Time",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "ahlcg": {
+   "game": "Arkham Horror The Card Game",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "air_delivery": {
+   "game": "Air Delivery",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "albw": {
+   "game": "The Legend of Zelda: A Link Between Worlds",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "alttpr": {
+   "game": "The Legend of Zelda: A Link to the Past",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Minimal",
+   "notes": "Original randomizer Archipelago was built off of."
+  },
+  "animal_crossing": {
+   "game": "Animal Crossing (GameCube)",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "animal_well": {
+   "game": "ANIMAL WELL",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "anodyne": {
+   "game": "Anodyne",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "another_crab": {
+   "game": "Another Crab's Treasure",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal",
+   "notes": "Relatively stable, but a VERY small few checks don't send, and it has a few bugs.\nVersion 0.4.x and older do not have AI usage."
+  },
+  "aom": {
+   "game": "Age of Mythology: Retold",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate",
+   "notes": "3+ randomized campaigns, randomized major gods, relicsanity, god power traps, and more"
+  },
+  "ape_escape_3": {
+   "game": "Ape Escape 3",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "apeescape": {
+   "game": "Ape Escape",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "apgo": {
+   "game": "Archipela-Go!",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "AP where you have to walk around in the real world to get checks."
+  },
+  "apquest": {
+   "game": "APQuest",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Consulted"
+  },
+  "aptombola": {
+   "game": "Tombola",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "aquaria": {
+   "game": "Aquaria",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Consulted"
+  },
+  "archipelaballs": {
+   "game": "Archipelaballs",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Made for the Archipelago Game Jam 2026"
+  },
+  "archipelacode": {
+   "game": "Archipelacode",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires a Leetcode Account"
+  },
+  "archipeladoku": {
+   "game": "Archipeladoku (Sudoku)",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate",
+   "notes": "Not the hint game, an actual game with checks"
+  },
+  "armored_core_6": {
+   "game": "Armored Core VI: Fires of Rubicon",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "armoredcore": {
+   "game": "Armored Core (PSX)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable! A bit feature light currently"
+  },
+  "armoredcore3": {
+   "game": "Armored Core 3",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "arzette": {
+   "game": "Arzette: The Jewel of Faramore",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "astalon": {
+   "game": "Astalon: Tears of the Earth",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Has some issues with bell logic occasionally"
+  },
+  "atlyss": {
+   "game": "Atlyss",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "aus": {
+   "game": "An Untitled Story",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "autopelago": {
+   "game": "Autopelago",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Consulted",
+   "notes": "Like a complicated ArchipIDLE with flavor, goal is to help solo practice by adding slots with automatic players."
+  },
+  "axiomverge": {
+   "game": "Axiom Verge",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "baba_is_you": {
+   "game": "Baba Is You",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "balatro": {
+   "game": "Balatro",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "banjo_tooie": {
+   "game": "Banjo-Tooie",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "bannerlord": {
+   "game": "Mount & Blade II: Bannerlord",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Currently requires the War Sails DLC to work"
+  },
+  "bat_to_the_heavens": {
+   "game": "Bat to the Heavens",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "bayonetta": {
+   "game": "Bayonetta",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "beat_saber": {
+   "game": "Beat Saber",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "beyondthehorizon": {
+   "game": "The Legend of Heroes: Trails Beyond the Horizon",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "bfm": {
+   "game": "Brave Fencer Musashi",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "bg3": {
+   "game": "Baldur's Gate 3",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "bg3tot": {
+   "game": "Baldur's Gate 3 - Trials of Tav",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "bits_and_bops": {
+   "game": "Bits & Bops",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "bitty_buddies": {
+   "game": "Bitty Buddies",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "bksim": {
+   "game": "BK Simulator",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "None"
+  },
+  "blasphemous": {
+   "game": "Blasphemous",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "blasphemous2": {
+   "game": "Blasphemous 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "blender": {
+   "game": "Blender",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "blockupelago": {
+   "game": "Blockupelago",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "bloonstd6": {
+   "game": "Bloons Tower Defense 6",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "bluefire": {
+   "game": "Blue Fire",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "blueprince": {
+   "game": "Blue Prince",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "bomb_rush_cyberfunk": {
+   "game": "Bomb Rush Cyberfunk",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "bomberman_64": {
+   "game": "Bomberman 64",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "bomberman_hero": {
+   "game": "Bomberman Hero",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "bomberman_quest": {
+   "game": "Bomberman Quest",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "bomberman_tsa": {
+   "game": "Bomberman 64: The Second Attack",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "borderlands2": {
+   "game": "Borderlands 2",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Moderate"
+  },
+  "brotato": {
+   "game": "Brotato",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "brutal_orchestra": {
+   "game": "Brutal Orchestra",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "bubblebobble": {
+   "game": "Bubble Bobble",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "buckshot": {
+   "game": "Buckshot Roulette",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "budokai3": {
+   "game": "Dragon Ball Z: Budokai 3",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "PS2 version"
+  },
+  "budokai_tenkaichi2": {
+   "game": "Dragon Ball Z: Budokai Tenkaichi 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "PS2 version"
+  },
+  "bugsnax": {
+   "game": "Bugsnax",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "build_a_jetpack": {
+   "game": "Build a Jetpack",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "bumpstik": {
+   "game": "Bumper Stickers",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "burger_shop": {
+   "game": "Burger Shop",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Both 1 and 2 are in the releases"
+  },
+  "burger_shop_2": {
+   "game": "Burger Shop 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Both 1 and 2 are in the releases"
+  },
+  "burnout3": {
+   "game": "Burnout 3: Takedown",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "candybox2": {
+   "game": "Candy Box 2",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Consulted"
+  },
+  "carnival_games_minigolf": {
+   "game": "Carnival Games MiniGolf",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "cassette_beasts": {
+   "game": "Cassette Beasts",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Mod Utils from Steam Workshop needed"
+  },
+  "casualtiesunknown": {
+   "game": "Casualties: Unknown (Scav Prototype Demo)",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Consulted"
+  },
+  "cat_quest": {
+   "game": "Cat Quest",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "cave_story": {
+   "game": "Cave Story",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "cavern_of_dreams": {
+   "game": "Cavern of Dreams",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cavesofqud": {
+   "game": "Caves of Qud",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Early alpha - might contain logic and gameplay bugs, but should be fairly playable now"
+  },
+  "cccharles": {
+   "game": "Choo Choo Charles",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Consulted"
+  },
+  "ccs": {
+   "game": "Cash Cleaner Simulator",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires downpatching to before the Pound update"
+  },
+  "celeste": {
+   "game": "Celeste",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has some generation issues. This is not the Open World one."
+  },
+  "celeste64": {
+   "game": "Celeste 64",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "celeste_classic": {
+   "game": "Celeste Classic",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Explicitly abandoned and is not maintained."
+  },
+  "celeste_open_world": {
+   "game": "Celeste (Open World)",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "chainedechoes": {
+   "game": "Chained Echoes",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "checksfinder": {
+   "game": "ChecksFinder",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "checksmate": {
+   "game": "ChecksMate (Chess)",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "chests_n_keys": {
+   "game": "Chests 'n' Keys",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "children_of_morta": {
+   "game": "Children of Morta",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "civ_4": {
+   "game": "Civilization IV",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate",
+   "notes": "See Release Notes for notes on settings in this alpha state"
+  },
+  "civ_6": {
+   "game": "Civilization VI",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "civv": {
+   "game": "Civilization V",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "clair_obscur": {
+   "game": "Clair Obscur Expedition 33",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "cloverpit": {
+   "game": "CloverPit",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "cluster_truck": {
+   "game": "ClusterTruck",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "cnc_reloaded": {
+   "game": "C&C Reloaded",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive",
+   "notes": "This mod includes C&C Tiberian Sun, Firestorm, Red Alert 2 and Yuris Revenge in the Red Alert 2 engine with QoL improvements"
+  },
+  "cobalt_core": {
+   "game": "Cobalt Core",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cod_bo3": {
+   "game": "Call of Duty: Black Ops 3 - Zombies",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "codeforces": {
+   "game": "Codeforces",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable from inside the client,"
+  },
+  "commandmission": {
+   "game": "Mega Man X Command Mission",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "conbunn_cardboard": {
+   "game": "Conbunn Cardboard",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "content_warning": {
+   "game": "Content Warning",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "control": {
+   "game": "Control (Ultimate Edition)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "cookieclicker": {
+   "game": "Cookie Clicker",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown",
+   "notes": "Newer fork of the Cookie Clicker APWorld made by Charlignon"
+  },
+  "cookingmama3": {
+   "game": "Cooking Mama 3",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted",
+   "notes": "Only recommended to be played if a tablet device can be used"
+  },
+  "cornkidz64": {
+   "game": "Corn Kidz 64",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "corruobserver": {
+   "game": "corru.observer",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "cotnd": {
+   "game": "Crypt of the NecroDancer",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
+  },
+  "cowtastic_cafe": {
+   "game": "Cowtastic Cafe",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "crabchampions": {
+   "game": "Crab Champions",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "crash2": {
+   "game": "Crash Bandicoot 2: Cortex Strikes Back",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "PAL version"
+  },
+  "crash3": {
+   "game": "Crash Bandicoot 3: Warped",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Minimal",
+   "notes": "NTSC and PAL versions"
+  },
+  "crashbash": {
+   "game": "Crash Bash",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "create": {
+   "game": "Create",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "crosscode": {
+   "game": "CrossCode",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "crossword": {
+   "game": "Crosswords",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "crystal_project": {
+   "game": "Crystal Project",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Game is fully playable with a built-in tracker and a healthy amount of customization available via the yaml"
+  },
+  "crystalis": {
+   "game": "Crystalis",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "ctjot": {
+   "game": "Chrono Trigger: Jets of Time",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Recently revamped Item distribution, should interact with other games more frequently."
+  },
+  "ctr": {
+   "game": "Crash Team Racing",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "ctrdi": {
+   "game": "Chrono Trigger Rando-Dalton Imperial (SNES)",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted"
+  },
+  "cult_of_the_lamb": {
+   "game": "Cult of the Lamb",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "cuphead": {
+   "game": "Cuphead",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal",
+   "notes": "In alpha, but considered mostly stable. There are bugs here and there, but overall is consistently playable without major issues"
+  },
+  "cursed_words": {
+   "game": "Cursed Words: The Word Game That Isn't",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "custom_robo": {
+   "game": "Custom Robo",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "cv64": {
+   "game": "Castlevania 64",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "cv_dos": {
+   "game": "Castlevania: Dawn of Sorrow",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cv_ooe": {
+   "game": "Castlevania: Order of Ecclesia",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cv_por": {
+   "game": "Castlevania: Portrait of Ruin",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Bizhawk 2.10 or newer is required. Auto Save RAM does not work with DS games, you will need to disable it if it is enabled."
+  },
+  "cvaos": {
+   "game": "Castlevania: Aria of Sorrow",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate",
+   "notes": "Playable, early alpha"
+  },
+  "cvcotm": {
+   "game": "Castlevania: Circle of the Moon",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "cvhodis": {
+   "game": "Castlevania: Harmony of Dissonance",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cvlod": {
+   "game": "Castlevania: Legacy of Darkness",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "cyberhook": {
+   "game": "Cyber Hook",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "cyberpunk2077": {
+   "game": "Cyberpunk 2077",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Moderate"
+  },
+  "dark_souls_2": {
+   "game": "Dark Souls II",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Works for Vanilla and Scholar of the First Sin editions"
+  },
+  "dark_souls_3": {
+   "game": "Dark Souls III",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "dc1": {
+   "game": "Dark Cloud 1",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Georama and miracle chests are shuffled"
+  },
+  "dead_cells": {
+   "game": "Dead Cells",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "deadlock": {
+   "game": "Deadlock",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "death_road_to_canada": {
+   "game": "Death Road to Canada",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "deathbulge": {
+   "game": "Deathbulge Battle of the Bands",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Fully playable without known softlocks, but requires downpatching to the version just before the 2.0"
+  },
+  "deaths_door": {
+   "game": "Death's Door",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal",
+   "notes": "Be sure to also grab the mods the setup guide tells you to."
+  },
+  "deep_rock_galactic": {
+   "game": "Deep Rock Galactic",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Developer Taz (Cousinit117) & SipcoGamingGuild Please ping for relevant details on AP discord\nFor more details visit the Deep Rock Galactic future game design channel in the Archipelago Discord"
+  },
+  "deltarune": {
+   "game": "DELTARUNE",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "diceydungeons": {
+   "game": "Dicey Dungeons",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "diddy_kong_racing": {
+   "game": "Diddy Kong Racing",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "difficult_climbing": {
+   "game": "A Difficult Game About Climbing",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "dk64": {
+   "game": "Donkey Kong 64",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted",
+   "notes": "Stable in multiworlds, may have difficulty generating solo. Requires a ROM to generate."
+  },
+  "dkc": {
+   "game": "Donkey Kong Country",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "dkc2": {
+   "game": "Donkey Kong Country 2: Diddy's Kong Quest",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "dkc3": {
+   "game": "Donkey Kong Country 3",
+   "stability": "Broken on Main",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 85"
+  },
+  "dktoluca": {
+   "game": "Donkey Kong Toluca (DKC3)",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Alternate DKC3 implementation"
+  },
+  "dlcquest": {
+   "game": "DLCQuest",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "dmc3": {
+   "game": "Devil May Cry 3 (Special Edition)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "dome_keeper": {
+   "game": "Dome Keeper",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal",
+   "notes": "Works for the modding branch version of the game (see thread) until the official branch allows modding"
+  },
+  "donkey_kong_country_returns": {
+   "game": "Donkey Kong Country Returns",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted",
+   "notes": "Wii version (USA, Revision 1)"
+  },
+  "dontstarvetogether": {
+   "game": "Don't Starve Together",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "donutcounty": {
+   "game": "Donut County",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "doom_1993": {
+   "game": "DOOM 1993",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "doom_ii": {
+   "game": "DOOM II",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "doometernal": {
+   "game": "DOOM Eternal",
+   "stability": "Unstable",
+   "after_dark": true,
+   "ai_disclosure": "Consulted"
+  },
+  "doronko_wanko": {
+   "game": "DORONKO WANKO",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "dos2": {
+   "game": "Divinity: Original Sin 2",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "dota_2": {
+   "game": "DOTA 2",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate"
+  },
+  "dq2": {
+   "game": "Dragon Quest 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "dq3": {
+   "game": "Dragon Quest III HD-2D Remake",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Steam/PC version"
+  },
+  "dqix": {
+   "game": "Dragon Quest IX",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "dracomino": {
+   "game": "Dracomino",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "dragon_warrior": {
+   "game": "Dragon Warrior",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "dredge": {
+   "game": "DREDGE",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "drehmal": {
+   "game": "Drehmal APOTHEOSIS (Minecraft Map)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "It's a Minecraft Map"
+  },
+  "dsr": {
+   "game": "Dark Souls Remastered",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "dtdds": {
+   "game": "Door to Door Door Salesman",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Made as a part of the Archipelago Game Jam 2026."
+  },
+  "duckgame": {
+   "game": "Duck Game",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "duke3d": {
+   "game": "Duke Nukem 3D",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "dusk": {
+   "game": "DUSK",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "dw1": {
+   "game": "Digimon World 1",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Very early alpha, expect bugs, crashes, UI issues, etc."
+  },
+  "dwarf_fortress": {
+   "game": "Dwarf Fortress",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "earthbound": {
+   "game": "Earthbound",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "easy_delivery_co": {
+   "game": "Easy Delivery Co.",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Setup Guide also found in the thread"
+  },
+  "eldenring": {
+   "game": "Elden Ring",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "elementipelago": {
+   "game": "Elementipelago",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Alchemy game made for Archipelago"
+  },
+  "enderlilies": {
+   "game": "Ender Lilies: Quietus of the Knights",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "endermagnolia": {
+   "game": "Ender Magnolia: Bloom In The Mist",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "enter_the_gungeon": {
+   "game": "Enter the Gungeon",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown",
+   "notes": "Has no logic, fails to generate its template yaml (but you can still use the provided one)"
+  },
+  "equilinox": {
+   "game": "Equilinox",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "eso": {
+   "game": "The Elder Scrolls Online",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "etrian_odyssey": {
+   "game": "Etrian Odyssey (DS)",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "everhood_2": {
+   "game": "Everhood 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "exocolonist": {
+   "game": "I Was A Teenage Exocolonist",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires Exoloader"
+  },
+  "factorio": {
+   "game": "Factorio",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None",
+   "notes": "First implimentation for Archipelago."
+  },
+  "factorio_modpacks": {
+   "game": "Factorio w/ Bob's Mods",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "List of required mods in the discord thread."
+  },
+  "factorio_platformer": {
+   "game": "Factorio Platformer",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "It's basically skyblock but for Factorio. Should have a similar setup to base Factorio."
+  },
+  "factorio_saws": {
+   "game": "Factorio - Space Age Without Space",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "factorio_space_age": {
+   "game": "Factorio: Space Age",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "fakutori": {
+   "game": "Fakutori",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "fall_guys": {
+   "game": "Fall Guys",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "fantastic_fist": {
+   "game": "Fantastic Fist",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Some YAML options are not implemented yet"
+  },
+  "faxanadu": {
+   "game": "Faxanadu",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "fe8": {
+   "game": "Fire Emblem: The Sacred Stones",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "feeding_frenzy_2": {
+   "game": "Feeding Frenzy 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "fez": {
+   "game": "Fez",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Known bugs and workarounds in the bug tracker: FEZ AP Bug Tracker"
+  },
+  "ff1": {
+   "game": "Final Fantasy",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "ff132": {
+   "game": "Final Fantasy XIII-2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ff1psp": {
+   "game": "Final Fantasy 1 (PSP)",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive",
+   "notes": "Bestiarysanity with interactive map, Deathlink, Missing party members, Traps, Job upgrade items, On-the-fly difficulty changing, Super dash"
+  },
+  "ff4fe": {
+   "game": "Final Fantasy IV: Free Enterprise",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "ff7": {
+   "game": "Final Fantasy VII",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "ffmq": {
+   "game": "Final Fantasy Mystic Quest",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "ffps": {
+   "game": "Freddy Fazbear's Pizzeria Simulator",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ffta": {
+   "game": "Final Fantasy Tactics Advance",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "ffta2": {
+   "game": "Final Fantasy Tactics A2: Grimoire of the Rift",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable, occasionally hardlocks so save often"
+  },
+  "fftii": {
+   "game": "Final Fantasy Tactics: Ivalice Island (FFT PSX)",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "ffx": {
+   "game": "Final Fantasy X",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Semi-private availability for the client due to the modding framework being not publicly available."
+  },
+  "ffxiitm": {
+   "game": "Final Fantasy XII: Trial Mode",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Playable, occasionally softlocks so save often"
+  },
+  "flipwitch": {
+   "game": "Flipwitch",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "fm": {
+   "game": "Yu-Gi-Oh! Forbidden Memories",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "fnafw": {
+   "game": "FNAF World",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Bosses do not have specific combat strength requirements, you may need to grind to beat certain bosses in logic"
+  },
+  "forestsend": {
+   "game": "The Forest's End",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "fridaynightfunkin": {
+   "game": "Friday Night Funkin'",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable but is alpha, so expect some bugs, also......LOTS of errors"
+  },
+  "frogmonster": {
+   "game": "Frogmonster",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted"
+  },
+  "funi_raccoon": {
+   "game": "Funi Raccoon Game",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate",
+   "notes": "A few bugs, but mostly stable. Improvements are planned soon, features are waiting on an upcoming game update."
+  },
+  "garfkart": {
+   "game": "Garfield Kart: Furious Racing",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate"
+  },
+  "gatoroboto": {
+   "game": "Gato Roboto",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "PS: Uses the Archipelago Client to patch \nSometimes requires warping a way from a spot to avoid a soft lock"
+  },
+  "gatoroboto_b_side": {
+   "game": "Gato Roboto B-Side",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "An alternate, more updated version for the Gato Roboto Randomizer"
+  },
+  "gbapquest": {
+   "game": "GBAPQuest",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "gcfw": {
+   "game": "Gemcraft: Frostborn Wrath",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "geometrydash": {
+   "game": "Geometry Dash",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has bare-bones and incomplete logic. Approach with caution. You will most likely encounter unbeatable seeds, which will make multiworlds significantly worse if you are not ready to have individual checks or the slot itself released."
+  },
+  "getting_over_it": {
+   "game": "Getting Over It with Bennett Foddy",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "gl": {
+   "game": "Gauntlet Legends",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Moderate"
+  },
+  "glover": {
+   "game": "Glover",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "None"
+  },
+  "glyphs": {
+   "game": "GLYPHS",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "gmod_apadv": {
+   "game": "Garry's Mod (apAdventure)",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None",
+   "notes": "After Dark only because it supports HL2"
+  },
+  "gnosia": {
+   "game": "Gnosia",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted",
+   "notes": "Not sync-viable. Many yaml options are still missing. Both of which to be resolved in the next big update!"
+  },
+  "goldeneye": {
+   "game": "GoldenEye 007",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "grandia": {
+   "game": "Grandia HD Remaster",
+   "stability": "Stable",
+   "ai_disclosure": "Extensive"
+  },
+  "grappledog": {
+   "game": "Grapple Dog",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "grim_dawn": {
+   "game": "Grim Dawn",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "grinch": {
+   "game": "The Grinch",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted",
+   "notes": "Tested with a 10+ grinch only multiworld. Didn't run into any issue. Changed to Stable."
+  },
+  "grunn": {
+   "game": "Grunn",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "gstla": {
+   "game": "Golden Sun: The Lost Age",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "gta_sa": {
+   "game": "Grand Theft Auto: San Andreas",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "gtfo": {
+   "game": "GTFO",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "guardianlegend": {
+   "game": "The Guardian Legend",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown",
+   "notes": "Not allowed on the main discord due to no content rating and no re-release. Thread is in the After Dark discord"
+  },
+  "hacknet": {
+   "game": "Hacknet",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "hades": {
+   "game": "Hades",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "None"
+  },
+  "half_life_sven": {
+   "game": "Sven Co-op",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "halo_mcc": {
+   "game": "Halo The Master Chief Collection",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "ONLY Halo CE Anniversary supported for now"
+  },
+  "hammerwatch": {
+   "game": "Hammerwatch",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "harry_potter_2_pc": {
+   "game": "Harry Potter and the Chamber of Secrets",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "haste": {
+   "game": "HASTE: Broken Worlds",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "hcniko": {
+   "game": "Here Comes Niko!",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "henry": {
+   "game": "The Henry Stickmin Collection",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "heretic": {
+   "game": "Heretic",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "herocore": {
+   "game": "Hero Core",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "hexcells_infinite": {
+   "game": "Hexcells Infinite",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "hi_fi_rush": {
+   "game": "Hi-Fi Rush",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "high_roller": {
+   "game": "High Roller",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "hitman_woa": {
+   "game": "HITMAN: World of Assassination",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "hk": {
+   "game": "Hollow Knight",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Minimal",
+   "notes": "The beta modernizes the code, implements new skip options, starting location options, entrance randomizer support, and more"
+  },
+  "hkrr": {
+   "game": "Hello Kitty: Roller Rescue",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "holo8": {
+   "game": "holo8",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "horse_magnifier": {
+   "game": "Horse Magnifier: The Full Horse",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "hot_lava": {
+   "game": "Hot Lava",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "hots": {
+   "game": "Heroes of the Storm",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "huniecamstudio": {
+   "game": "Huniecam Studio",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "huniepop": {
+   "game": "Huniepop",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "huniepop2": {
+   "game": "Huniepop 2: Double Date",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "hylics2": {
+   "game": "Hylics 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "hyperrogue": {
+   "game": "HyperRogue",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "hytale": {
+   "game": "Hytale",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "i_am_your_beast": {
+   "game": "I am Your Beast",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "icewall": {
+   "game": "ICEwall",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "idleloops": {
+   "game": "Idle Loops",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "ihyps": {
+   "game": "I Hate You, Please Suffer",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "iji": {
+   "game": "Iji",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "inscryption": {
+   "game": "Inscryption",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown",
+   "notes": "Has issues with very large multiworlds. If it fails to download the datapackage, you can make a room with Inscryption and fewer worlds to cache the datapackage for those worlds, then try to connect to the larger room, and it might succeed that time."
+  },
+  "into_the_breach": {
+   "game": "Into the Breach",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has problems with a few achievements activating, requiring the host to manually release those checks"
+  },
+  "isles_of_sea_and_sky": {
+   "game": "Isles of Sea and Sky",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "isles_of_trials": {
+   "game": "Isles of Trials",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "ittle_dew_2": {
+   "game": "Ittle Dew 2+",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "jak3": {
+   "game": "Jak 3",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "jakanddaxter": {
+   "game": "Jak and Daxter: The Precursor Legacy",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "jakii": {
+   "game": "Jak II",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "jet_island": {
+   "game": "Jet Island",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Early Development but playable"
+  },
+  "johnny_upgrade": {
+   "game": "Johnny Upgrade",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive",
+   "notes": "Coolmath Web Game"
+  },
+  "k64": {
+   "game": "Kirby 64 - The Crystal Shards",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "kdl3": {
+   "game": "Kirby's Dream Land 3",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "keen": {
+   "game": "Commander Keen in Goodbye, Galaxy",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "keywe": {
+   "game": "KeyWe",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "kh1": {
+   "game": "Kingdom Hearts",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "kh2": {
+   "game": "Kingdom Hearts 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "kh3": {
+   "game": "Kingdom Hearts III",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "khbbs": {
+   "game": "Kingdom Hearts: Birth by Sleep Final Mix",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "khcom": {
+   "game": "Kingdom Hearts: Chain of Memories (GBA)",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "khddd": {
+   "game": "Kingdom Hearts Dream Drop Distance",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "khrecom": {
+   "game": "Kingdom Hearts: RE Chain of Memories",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown",
+   "notes": "PR in draft"
+  },
+  "kirby_air_ride": {
+   "game": "Kirby Air Ride",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "kirby_robobot": {
+   "game": "Kirby Planet Robobot",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "kirby_squeak_squad": {
+   "game": "Kirby Squeak Squad",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "kirbyam": {
+   "game": "Kirby & The Amazing Mirror",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "kon": {
+   "game": "K-On! After School Live!!",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "ksp1": {
+   "game": "Kerbal Space Program",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "kss": {
+   "game": "Kirby Super Star",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Multiple games in the releases"
+  },
+  "kssu": {
+   "game": "Kirby Super Star Ultra",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "ktane": {
+   "game": "Keep Talking and Nobody Explodes",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Windows and MacOS only for the time being."
+  },
+  "ladx": {
+   "game": "The Legend of Zelda: Links Awakening DX",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "laika_aged_through_blood": {
+   "game": "Laika: Aged Through Blood",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "lamulana2": {
+   "game": "La-Mulana 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "landstalker": {
+   "game": "Landstalker - The Treasures of King Nole",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "layer8problem": {
+   "game": "Layer8Problem",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Only in German currently"
+  },
+  "legend_of_dragoon": {
+   "game": "The Legend of Dragoon",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires all four discs AND Severed Chains,"
+  },
+  "lego_batman_1": {
+   "game": "LEGO Batman: The Video Game",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "lego_star_wars_tcs": {
+   "game": "Lego Star Wars: The Complete Saga",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "lethal_company": {
+   "game": "Lethal Company",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires use of Thunderstore, read instructions available on the GitHub. \nCustom content (mod) support requires additional steps found on the mod page or in the GitHub README."
+  },
+  "lethalcrisis": {
+   "game": "Lethal Crisis",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "librarian": {
+   "game": "Librarian: Tidy Up the Arcane Library",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "liesofp": {
+   "game": "Lies of P",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "lil_gator_game": {
+   "game": "Lil Gator Game",
+   "stability": "Broken on Main",
+   "ai_disclosure": "Unknown",
+   "notes": "Does not work on 0.6.7 or higher, requires downpatching the game itself too"
+  },
+  "lingo": {
+   "game": "Lingo",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "little_witch_nobeta": {
+   "game": "Little Witch Nobeta",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "lobap": {
+   "game": "Library of Babel",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown",
+   "notes": "Library of Babel is an overhaul mod of Library of Ruina."
+  },
+  "lobotomycorporation": {
+   "game": "Lobotomy Corporation",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "lol": {
+   "game": "League of Legends",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Read the instructions given in the GitHub and future game design channel to set up"
+  },
+  "look_outside": {
+   "game": "Look Outside",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Alpha build is finished but not all locations are tested and some areas may have crashes."
+  },
+  "loonyland": {
+   "game": "Loonyland: Halloween Hill",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "lor": {
+   "game": "Library of Ruina",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "los": {
+   "game": "Castlevania: Lords of Shadow",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "lrff13": {
+   "game": "Final Fantasy XIII - Lightning Returns",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "lsw3": {
+   "game": "LEGO Star Wars III (Wii)",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "lufia2ac": {
+   "game": "Lufia II Ancient Cave",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "luigismansion": {
+   "game": "Luigi's Mansion",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "lunacid": {
+   "game": "Lunacid",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "There are also some less stable pre-release versions in the releases"
+  },
+  "magical_quest": {
+   "game": "The Magical Quest starring Mickey Mouse",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "manicminers": {
+   "game": "LEGO Rock Raiders/Manic Miners",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "manual_pizzatower_steph": {
+   "game": "Pizza Tower",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "manual_pokemonplatinum_linneus": {
+   "game": "Pokémon Platinum",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "manual_powerwashsimulator_hallojasper": {
+   "game": "PowerWash Simulator",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "You can only play levels which are unlocked in a vanilla game"
+  },
+  "manual_slimerancher_axxroy": {
+   "game": "Slime Rancher",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "manual_spyrothedragon_muffinjets": {
+   "game": "Spyro the Dragon",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "manual_ssbmslippi_delta": {
+   "game": "Super Smash Bros. Melee",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Possible that a newer version exists in the discord thread's pins"
+  },
+  "manual_supermariogalaxy_rowsmg": {
+   "game": "Super Mario Galaxy",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "manual_welovekatamarireroll_sapphisylph": {
+   "game": "We Love Katamari Reroll",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "marbles_balance_challenge": {
+   "game": "Marbles! Balance Challenge",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "mario_kart_double_dash": {
+   "game": "Mario Kart: Double Dash",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Be sure to closely follow the setup guide to avoid issues"
+  },
+  "mario_sports_mix": {
+   "game": "Mario Sports Mix",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Minimal"
+  },
+  "mario_super_sluggers": {
+   "game": "Mario Super Sluggers",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "mario_tennis_gbc": {
+   "game": "Mario Tennis (GBC)",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "marioland2": {
+   "game": "Super Mario Land 2: The Golden Coins",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "mariomissing": {
+   "game": "Mario is Missing (SNES)",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "The setup is implicitly identical to other SNES/SNI implimentaions."
+  },
+  "medievil": {
+   "game": "MediEvil (1998)",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "medievil2": {
+   "game": "MediEvil 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "megamix": {
+   "game": "Hatsune Miku: Project Diva Megamix+",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "melatonin": {
+   "game": "Melatonin",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "mental_omega": {
+   "game": "Command & Conquer: Mental Omega",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "meritous": {
+   "game": "Meritous",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "messenger": {
+   "game": "The Messenger",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "metal_hellsinger": {
+   "game": "Metal Hellsinger",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "metrocubevania": {
+   "game": "MetroCUBEvania",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "metroidfusion": {
+   "game": "Metroid Fusion",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Potential logic issues with Open Sectors and randomized sector connections, but very stable otherwise"
+  },
+  "metroidprime": {
+   "game": "Metroid Prime",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "mgs": {
+   "game": "Metal Gear Solid",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "mgtt": {
+   "game": "Mario Golf: Toadstool Tour",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "mhfu": {
+   "game": "Monster Hunter Freedom Unite",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "mhrise": {
+   "game": "Monster Hunter Rise",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "mhw": {
+   "game": "Monster Hunter World",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted",
+   "notes": "ONLY ICEBORNE HAS LOGIC - Monster Hunter World: Iceborne, late game has also not properly been tested"
+  },
+  "mina_the_hollower": {
+   "game": "Mina the Hollower",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "mindustry": {
+   "game": "Mindustry",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "minecraft": {
+   "game": "Minecraft",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "A rewrite of the original randomizer for NeoForge and 1.21.11+. The APWorld contains the client."
+  },
+  "minecraft_aem": {
+   "game": "Minecraft [AEM]",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "minecraft_dig": {
+   "game": "Minecraft Dig",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "minecraft_fabric": {
+   "game": "Minecraft Fabric",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires the Koala Lib and Fabric API mods"
+  },
+  "minishoot": {
+   "game": "Minishoot' Adventures",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
+  },
+  "minit": {
+   "game": "Minit",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "It's important that you read the instructions on the GitHub page to ensure all requirements are met."
+  },
+  "mio": {
+   "game": "MIO: Memories in Orbit",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "mirrors_edge": {
+   "game": "Mirror's Edge",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted"
+  },
+  "miuultra": {
+   "game": "Marble It Up! Ultra",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "mk64": {
+   "game": "Mario Kart 64",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires a ROM to generate."
+  },
+  "mksm": {
+   "game": "Mortal Kombat: Shaolin Monks",
+   "stability": "Unstable",
+   "after_dark": true,
+   "ai_disclosure": "Moderate"
+  },
+  "mkwii": {
+   "game": "Mario Kart Wii",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "mldt": {
+   "game": "Mario & Luigi: Dream Team",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "GPL"
+  },
+  "mlss": {
+   "game": "Mario & Luigi Superstar Saga",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "mm2": {
+   "game": "Mega Man 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "mm3": {
+   "game": "Mega Man 3",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "mm4": {
+   "game": "Mega Man 4",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "mm7": {
+   "game": "Mega Man 7",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "mmbn3": {
+   "game": "Mega Man Battle Network 3",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "mmbn6": {
+   "game": "Mega Man Battle Network 6",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Now compatible with both Gregar and Falzar"
+  },
+  "mml": {
+   "game": "Mega Man Legends",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "mmx": {
+   "game": "Mega Man X",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "mmx2": {
+   "game": "Mega Man X2",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "mmx3": {
+   "game": "Mega Man X3",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "mmx4": {
+   "game": "Mega Man X4",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "mmzero3": {
+   "game": "Mega Man Zero 3",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "mmzx": {
+   "game": "Mega Man ZX",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "moddedminecraft": {
+   "game": "Minecraft Modded",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "momodoramoonlitfarewell": {
+   "game": "Momodora: Moonlit Farewell",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "monster_sanctuary": {
+   "game": "Monster Sanctuary",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Check the pins in the future game design channel for an updated apworld and instructions."
+  },
+  "moonlighter": {
+   "game": "Moonlighter",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "mpadv": {
+   "game": "Mario Party Advance",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Unlikely to receive updates"
+  },
+  "msr": {
+   "game": "Metroid: Samus Returns",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "muck": {
+   "game": "Muck",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "musedash": {
+   "game": "Muse Dash",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "mzm": {
+   "game": "Metroid: Zero Mission",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Check future game design pins for tracker and known issues"
+  },
+  "naruto_con_2": {
+   "game": "Naruto Clash of Ninja 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "neonwhite": {
+   "game": "Neon White",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "neotwewy": {
+   "game": "NEO: The World Ends with You",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "nep_rb3": {
+   "game": "Hyperdimension Neptunia Re;Birth3 V Generation",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Google doc with a map of locations"
+  },
+  "nicktoons_bfvi": {
+   "game": "Nicktoons: Battle for Volcano Island",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "nine_sols": {
+   "game": "Nine Sols",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "no100f": {
+   "game": "Scooby-Doo! Night of 100 Frights",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "None"
+  },
+  "nodebuster": {
+   "game": "Nodebuster",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "noita": {
+   "game": "Noita",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "nonograhmm": {
+   "game": "Nonograhmm",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "nonopelagram": {
+   "game": "Nonopelagram",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "northgard": {
+   "game": "Northgard",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "novalands": {
+   "game": "Nova Lands",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "nsmbds": {
+   "game": "New Super Mario Bros DS",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate",
+   "notes": "Info Page"
+  },
+  "nsmbw": {
+   "game": "New Super Mario Bros Wii",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "nubbys_number_factory": {
+   "game": "Nubby's Number Factory",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "nuclear_throne": {
+   "game": "Nuclear Throne",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "oblivion": {
+   "game": "The Elder Scrolls IV: Oblivion Remastered",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown",
+   "notes": "Only works on the Steam version"
+  },
+  "oh_so_hero": {
+   "game": "Oh So Hero",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "okamihd": {
+   "game": "Okami HD",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "oni": {
+   "game": "Oxygen Not Included",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted"
+  },
+  "oot": {
+   "game": "The Legend Zelda: Ocarina of Time (Updated, not Ship)",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal",
+   "notes": "Updated OoTR APWorld that is updated to match upstream OoTR version 9.1.\nThis has the same world name as the base OoT in core, so it requires deleting it from your lib/worlds folder"
+  },
+  "oot_soh": {
+   "game": "The Legend of Zelda: Ocarina of Time - Ship of Harkinian",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Although the Archipelago implementation did not utilize AI, it is known that SoH itself did."
+  },
+  "ootbijmqwt": {
+   "game": "Ocarina of Time but it's just Master Quest Water Temple",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires a ROM to generate."
+  },
+  "openomf": {
+   "game": "One Must Fall: 2097",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive",
+   "notes": "Default values of YAML are not balanced, playtesting more to hone the default values."
+  },
+  "openrct2": {
+   "game": "OpenRCT2",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown",
+   "notes": "Report logic issues, bugs, or crashes to Crazycolbster in the future game design channel."
+  },
+  "openttd": {
+   "game": "OpenTTD",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "openttd_cargolock": {
+   "game": "OpenTTD Cargolock",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "operationocto": {
+   "game": "Operation Octo",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ori_wotw": {
+   "game": "Ori and the Will of the Wisps",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Has occasional generation issues"
+  },
+  "osrs": {
+   "game": "Old School Runescape",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "osu": {
+   "game": "osu!",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "ouakatamari": {
+   "game": "Once Upon a Katamari",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ourascent": {
+   "game": "Our Ascent",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "outer_wilds": {
+   "game": "Outer Wilds",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "outward": {
+   "game": "Outward: Definitive Edition",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "overcooked2": {
+   "game": "Overcooked! 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "p5r": {
+   "game": "Persona 5 Royal",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Currently only up to the Kamoshida boss fight. Check the discord thread for more details. Requires a ROM to generate."
+  },
+  "paint": {
+   "game": "Paint",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "papermario": {
+   "game": "Paper Mario 64",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable alpha v0.4.4, very stable with an assortment of randomization options."
+  },
+  "paquerette_down_the_bunburrows": {
+   "game": "Paquerette Down the Bunburrows",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "parkitect": {
+   "game": "Parkitect",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pd2_crimdawn": {
+   "game": "PAYDAY 2: Criminal Dawn",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "peak": {
+   "game": "PEAK",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "peaks_of_yore": {
+   "game": "Peaks of Yore",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "peggle_deluxe": {
+   "game": "Peggle Deluxe",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "peggle_nights": {
+   "game": "Peggle Nights",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "perfect_dark": {
+   "game": "Perfect Dark",
+   "stability": "Unstable",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "phantasy_star_2": {
+   "game": "Phantasy Star II",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "phoa": {
+   "game": "Phoenotopia: Awakening",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Only a set of items in Panselo, Doki Forest and Anuri Temple are randomized, testing and thread discussion appreciated!"
+  },
+  "pikmin": {
+   "game": "Pikmin 1",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "pikmin2": {
+   "game": "Pikmin 2",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "pikuniku": {
+   "game": "Pikuniku",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive",
+   "notes": "Missing Co-op levels, otherwise fully stable and feature complete"
+  },
+  "pinball_fx": {
+   "game": "Pinball FX",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "pinball_fx3": {
+   "game": "Pinball FX3",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "pipistrello": {
+   "game": "Pipistrello and the Cursed Yoyo",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "piranesi": {
+   "game": "Piranesi Restoration Project (Luanti)",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pixeldraw": {
+   "game": "PixelDraw",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "pkmn_ranger_quest": {
+   "game": "Pokémon Ranger (Quest)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "placidplasticducksim": {
+   "game": "Placid Plastic Duck Simulator",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "planetzoo": {
+   "game": "Planet Zoo",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "plateup": {
+   "game": "Plateup!",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pmd_eos": {
+   "game": "Pokémon Mystery Dungeon: Explorers of Sky",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "pmw2repac": {
+   "game": "PAC-MAN WORLD 2 Re-PAC",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "pocket_dungeon": {
+   "game": "Shovel Knight Pocket Dungeon",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted",
+   "notes": "Playable, mod support for the game is still in active development however"
+  },
+  "poco": {
+   "game": "Poco",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "poe": {
+   "game": "Path of Exile",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown",
+   "notes": "Use of the tracker is highly recommended."
+  },
+  "pokemon_bw": {
+   "game": "Pokémon Black and White",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_crystal": {
+   "game": "Pokémon Crystal",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate"
+  },
+  "pokemon_emerald": {
+   "game": "Pokémon Emerald",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_frlg": {
+   "game": "Pokémon FireRed and LeafGreen",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "pokemon_hgss": {
+   "game": "Pokémon HeartGold & SoulSilver (TrueBlue)",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "pokemon_pinball": {
+   "game": "Pokémon Pinball",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_pinball_rs": {
+   "game": "Pokémon Pinball Ruby & Sapphire",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_rb": {
+   "game": "Pokémon Red and Blue",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_revo": {
+   "game": "Pokémon Battle Revolution",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "pokemon_snap": {
+   "game": "Pokémon Snap",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "pokemon_stadium": {
+   "game": "Pokémon Stadium",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Setup Guide can be found on the first release page"
+  },
+  "pokemon_xd": {
+   "game": "Pokémon XD: Gale of Darkness",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "pokepark": {
+   "game": "PokéPark Wii: Pikachu's Adventure",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pokepelago": {
+   "game": "Poképelago",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate",
+   "notes": "A Pokémon guessing game"
+  },
+  "pools": {
+   "game": "POOLS",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "portal2": {
+   "game": "Portal 2",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "prisma_road": {
+   "game": "Prisma Road",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "prodigal": {
+   "game": "Prodigal",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "pseudoregalia": {
+   "game": "Pseudoregalia",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "psychonauts": {
+   "game": "Psychonauts",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "pvzr": {
+   "game": "Plants vs. Zombies: GOTY",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted",
+   "notes": "Uses the same APworld as the Replanted world due to basically identical logic."
+  },
+  "q_up": {
+   "game": "Q-Up",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "quake": {
+   "game": "Quake",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "rabbit_and_steel": {
+   "game": "Rabbit and Steel",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "rabi_ribi": {
+   "game": "Rabi-Ribi",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "rac1": {
+   "game": "Ratchet & Clank",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "rac2": {
+   "game": "Ratchet & Clank 2: Going Commando",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "rac3": {
+   "game": "Ratchet & Clank 3: Up Your Arsenal",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Also supports Universal Tracker"
+  },
+  "rac_size_matters": {
+   "game": "Ratchet & Clank: Size Matters",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "PS2 Version"
+  },
+  "raccoin": {
+   "game": "Raccoin",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "raft": {
+   "game": "Raft",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "rain_world": {
+   "game": "Rain World",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "rayman2": {
+   "game": "Rayman 2: The Great Escape",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "refunct": {
+   "game": "Refunct",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
+  },
+  "repo": {
+   "game": "R.E.P.O",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires use of Thunderstore. A mod manager is recommended."
+  },
+  "residentevil2remake": {
+   "game": "Resident Evil 2 Remake",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "residentevil3remake": {
+   "game": "Resident Evil 3 Remake",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "residentevil7biohazard": {
+   "game": "Resident Evil 7",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "reventure": {
+   "game": "Reventure",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "rhythm_doctor": {
+   "game": "Rhythm Doctor",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "rhythm_tengoku": {
+   "game": "Rhythm Tengoku",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Info Page: https://thelx5.github.io/tengoku/index.html"
+  },
+  "riftwizard": {
+   "game": "Rift Wizard",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "rimworld": {
+   "game": "Rimworld",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "riven": {
+   "game": "Riven",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "roadtrip": {
+   "game": "Road Trip Adventure",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "rogue_legacy": {
+   "game": "Rogue Legacy",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "rogue_legacy_2": {
+   "game": "Rogue Legacy 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ror1": {
+   "game": "Risk of Rain",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Works with 2013 and Returns. Uses the same APWorld."
+  },
+  "ror2": {
+   "game": "Risk of Rain 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "rotn": {
+   "game": "Rift of the Necrodancer",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "rummy": {
+   "game": "AP Rummy",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "rune4": {
+   "game": "Rune Factory 4 Special",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires the Steam version of the game"
+  },
+  "rusted_moss": {
+   "game": "Rusted Moss",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "rwby_ge": {
+   "game": "RWBY: Grimm Eclipse",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "rwr": {
+   "game": "Running with Rifles",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sa2b": {
+   "game": "Sonic Adventure 2 Battle",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "sadv2": {
+   "game": "Sonic Advance 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sadx": {
+   "game": "Sonic Adventure DX",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "saints_row_2": {
+   "game": "Saints Row 2",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "satisfactory": {
+   "game": "Satisfactory",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Consulted"
+  },
+  "saving_princess": {
+   "game": "Saving Princess",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "sayonarawildhearts": {
+   "game": "Sayonara Wild Hearts",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sc2": {
+   "game": "Starcraft 2",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "scooby_doo_unmasked": {
+   "game": "Scooby-Doo! Unmasked",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "PS2 version"
+  },
+  "scorpion_swamp": {
+   "game": "Scorpion Swamp",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Is a book"
+  },
+  "scritchy_scratchy": {
+   "game": "Scritchy Scratchy",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sdc": {
+   "game": "Sonic Dreams Collection",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "None"
+  },
+  "sekiro": {
+   "game": "Sekiro: Shadows Die Twice",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Consulted"
+  },
+  "seum": {
+   "game": "SEUM: Speedrunners from Hell",
+   "stability": "Unstable",
+   "ai_disclosure": "—"
+  },
+  "severed_soul": {
+   "game": "Severed Soul",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Has issues where it can spam the server with bad location check messages"
+  },
+  "severed_steel": {
+   "game": "Severed Steel",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "sfa": {
+   "game": "Star Fox Adventures",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sgtpuzzles": {
+   "game": "Simon Tatham's Portable Puzzle Collection",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Some customization options are still being added, but it's stable and feature-complete as far as checks go."
+  },
+  "shadow_generations": {
+   "game": "Shadow Generations",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "shadow_the_hedgehog": {
+   "game": "Shadow the Hedgehog",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "shadowgate64": {
+   "game": "Shadowgate 64: Trials of the Four Towers",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "shadowman": {
+   "game": "Shadow Man Remastered",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "shapez": {
+   "game": "shapez",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown",
+   "notes": "QoL Masterlist (note)"
+  },
+  "shapez_2": {
+   "game": "shapez 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "shellipelago": {
+   "game": "Shellipelago",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown",
+   "notes": "Made for the Archipelago Game Jam 2026."
+  },
+  "shining_itd": {
+   "game": "Shining in the Darkness",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "shivers": {
+   "game": "Shivers",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Minimal"
+  },
+  "shorthike": {
+   "game": "A Short Hike",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "signalis": {
+   "game": "Signalis",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "silksong": {
+   "game": "Hollow Knight: Silksong (Batsong)",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "simpsonshitnrun": {
+   "game": "The Simpsons: Hit & Run",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "sims4": {
+   "game": "The Sims 4",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "skul": {
+   "game": "Skul: The Hero Slayer",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive",
+   "notes": "Feature complete and playable, no extra features are planned for now"
+  },
+  "slay_the_princess": {
+   "game": "Slay the Princess — The Pristine Cut",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "slime_rancher_2": {
+   "game": "Slime Rancher 2",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
+  },
+  "sly1": {
+   "game": "Sly Cooper and the Thievius Raccoonus",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "sly2": {
+   "game": "Sly 2: Band of Thieves",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "sly3": {
+   "game": "Sly 3: Honor Among Thieves",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sm": {
+   "game": "Super Metroid",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "sm64ex": {
+   "game": "Super Mario 64",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "sm64ex_spicy": {
+   "game": "Super Mario 64 - Spicy Mycena 64",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive",
+   "notes": "Build sm64ex by choosing \"Compile custom build\" in sm64ap-launcher and pointing it at https://github.com/Alchav/sm64ex"
+  },
+  "sm_map_rando": {
+   "game": "Super Metroid Map Rando",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Implementation rewrite is being tested, may contain bugs"
+  },
+  "smash64": {
+   "game": "Super Smash Bros. (N64)",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "smrpg": {
+   "game": "Super Mario RPG",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires a North American rom, as well as editing your host.yaml file to play"
+  },
+  "sms": {
+   "game": "Super Mario Sunshine",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Remember to start the game up and have it fully running BEFORE opening the client at all."
+  },
+  "smsa2": {
+   "game": "Super Mario Sunshine Arcade 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "smushi_come_home": {
+   "game": "Smushi Come Home",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "smw": {
+   "game": "Super Mario World",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "smz3": {
+   "game": "SMZ3",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "sneak_king": {
+   "game": "Sneak King",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "soe": {
+   "game": "Secret of Evermore",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "som": {
+   "game": "Secret of Mana",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Requires a ROM to generate."
+  },
+  "sonic1": {
+   "game": "Sonic the Hedgehog",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "sonic_battle": {
+   "game": "Sonic Battle",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "The latest build is NOT the pinned one as of currently"
+  },
+  "sonic_colours_ds": {
+   "game": "Sonic Colors (DS)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "sonic_frontiers": {
+   "game": "Sonic Frontiers",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Make sure to use the \"Tutorial Skip\" Code in HedgeModManager to avoid the game softlocking."
+  },
+  "sonic_heroes": {
+   "game": "Sonic Heroes",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "sonic_rush": {
+   "game": "Sonic Rush",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "sonicriders": {
+   "game": "Sonic Riders",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "sotm": {
+   "game": "Sentinels of the Multiverse",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "sotn": {
+   "game": "Castlevania: Symphony of the Night",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Enabling Deathlink and receiving one can brick your save file"
+  },
+  "soulblazer": {
+   "game": "SoulBlazer",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "spark3": {
+   "game": "Spark the Electric Jester 3",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "spelunker": {
+   "game": "Spelunker",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "spelunky2": {
+   "game": "Spelunky 2",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has some mod-side issues regarding reconnection\nRequires Archipelago 0.6.6 or higher"
+  },
+  "spinball": {
+   "game": "Spinball",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "spire": {
+   "game": "Slay the Spire",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "spirit_island": {
+   "game": "Spirit Island",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "spiritvalley": {
+   "game": "Spirit Valley",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "splasher": {
+   "game": "Splasher",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "spyro2": {
+   "game": "Spyro 2: Ripto's Rage",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "spyro3": {
+   "game": "Spyro 3: Year of the Dragon",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "spyro_aht": {
+   "game": "Spyro: A Hero's Tail",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "spyro_dotd": {
+   "game": "The Legend of Spyro: Dawn of The Dragons",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ss": {
+   "game": "The Legend of Zelda: Skyward Sword",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "ss2": {
+   "game": "System Shock 2",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "ssbb_sse": {
+   "game": "Super Smash Bros. Brawl - The Subspace Emissary",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "stacklands": {
+   "game": "Stacklands",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable and currently considered stable for vanilla boards (Mainland, Forest and Island) - requires manual goal trigger (but won't allow goal to be sent if not yet reached)"
+  },
+  "star_fox_64": {
+   "game": "Star Fox 64",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "stardew_valley": {
+   "game": "Stardew Valley",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Consulted"
+  },
+  "starship_titanic": {
+   "game": "Starship Titanic",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate"
+  },
+  "stella": {
+   "game": "Stella",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "sternly_worded_adventures": {
+   "game": "Sternly Worded Adventures",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "stick_ranger": {
+   "game": "Stick Ranger",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "None",
+   "notes": "Very playable!"
+  },
+  "stray": {
+   "game": "Stray",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "streets_of_rage": {
+   "game": "Streets of Rage",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Only the MegaDrive (W) (REV00), 3D Streets of Rage and Sega Classics (Steam) ROMs are supported"
+  },
+  "subnautica": {
+   "game": "Subnautica",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "suikapelago": {
+   "game": "Suikapelago",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown",
+   "notes": "Reimplementation of Suika Game"
+  },
+  "super_chipflake_u": {
+   "game": "Super Chipflake Ü: Quest for the Uncooked Schnitzel",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Alpha version, may be buggy, but should be completeable. Unstable until further tests prove stability."
+  },
+  "super_hexagon": {
+   "game": "Super Hexagon",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "super_meat_boy": {
+   "game": "Super Meat Boy",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "superhot": {
+   "game": "SUPERHOT",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "superhot_mcd": {
+   "game": "SUPERHOT: Mind Control Delete",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "superjunkoid": {
+   "game": "Super Junkoid",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Hack of Super Metroid. Refer to the Super Metroid setup."
+  },
+  "supermarket_simulator": {
+   "game": "Supermarket Simulator",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "supraland": {
+   "game": "Supraland",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Early Alpha, full runs not expected to work"
+  },
+  "sweet_defeat": {
+   "game": "Sweet Defeat",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "APWorld is in the download. Part of Archipelago Game Jam 2026."
+  },
+  "swr": {
+   "game": "Star Wars: Episode 1 Racer",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tabs": {
+   "game": "Totally Accurate Battle Simulator (TABS)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "talos_principle_reawakened": {
+   "game": "The Talos Principle Reawakened",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tazwanted": {
+   "game": "Taz: Wanted",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tboir": {
+   "game": "The Binding of Isaac: Repentance",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "tcg_card_shop_simulator": {
+   "game": "TCG Card Shop Simulator",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "teardown": {
+   "game": "Teardown",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Some bugs are present but is being worked on."
+  },
+  "terraria": {
+   "game": "Terraria",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "tetrisattack": {
+   "game": "Tetris Attack",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "tevi": {
+   "game": "Tevi",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Please use the Tevi Randomizer release page to get the correct AP World."
+  },
+  "tf2_mvm": {
+   "game": "Team Fortress 2 (Mann vs Machine)",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "tfwr": {
+   "game": "The Farmer Was Replaced",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "th06": {
+   "game": "Touhou Koumakyou ~ the Embodiment of Scarlet Devil",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "th07": {
+   "game": "Touhou Youyoumu ~ Perfect Cherry Blossom",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "th08": {
+   "game": "Touhou Eiyashou ~ Imperishable Night",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "th10": {
+   "game": "Touhou Fuujinroku ~ Mountain of Faith",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "th185": {
+   "game": "Black Market of Bulletphilia ~ 100th Black Market (Touhou 18.5)",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Ability Cards, Lookup Tables"
+  },
+  "thaw": {
+   "game": "Tony Hawk's American Wasteland",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "the_escapists_2": {
+   "game": "The Escapists 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "the_planet_crafter": {
+   "game": "The Planet Crafter",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "the_werecleaner": {
+   "game": "The WereCleaner",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "three_goblin_wobblin": {
+   "game": "Three Goblin Wobblin'",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable, but some crashes and one major but rare bug which is mentioned in the readme, also currently lacking in whimsy"
+  },
+  "timerifters": {
+   "game": "Time Rifters",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "timespinner": {
+   "game": "Timespinner",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "timesplitters_2": {
+   "game": "Timesplitters 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "timesplitters_future_perfect": {
+   "game": "TimeSplitters: Future Perfect",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "tits_the_3rd": {
+   "game": "The Legend of Heroes: Trails in the Sky the 3rd",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tje": {
+   "game": "Toejam & Earl",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has issues with elevator keys going missing after reconnecting sometimes, may require manual sends or manual releases"
+  },
+  "tloz": {
+   "game": "The Legend of Zelda",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "tloz_ooa": {
+   "game": "The Legend of Zelda: Oracle of Ages",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tloz_oos": {
+   "game": "The Legend of Zelda: Oracle of Seasons",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "tloz_ph": {
+   "game": "The Legend of Zelda: Phantom Hourglass",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "tloz_st": {
+   "game": "The Legend of Zelda: Spirit Tracks",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "tmc": {
+   "game": "The Legend of Zelda: The Minish Cap",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "tmosth": {
+   "game": "The Murder of Sonic the Hedgehog",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "toem": {
+   "game": "TOEM: A Photo Adventure",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "tomba": {
+   "game": "Tomba!",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "tony_hawks_pro_skater_1_2": {
+   "game": "Tony Hawk's Pro Skater 1 + 2",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Consulted"
+  },
+  "toy_story_racer": {
+   "game": "Toy Story Racer",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "toystory2": {
+   "game": "Toy Story 2 (PS1)",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
+  "trackmania": {
+   "game": "Trackmania",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "ttyd": {
+   "game": "Paper Mario: The Thousand Year Door",
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
+  },
+  "tunic": {
+   "game": "TUNIC",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "turnipboy": {
+   "game": "Turnip Boy Commits Tax Evasion",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "turok2": {
+   "game": "Turok 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal"
+  },
+  "twistycube": {
+   "game": "Twisty Cube",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "tww": {
+   "game": "The Legend of Zelda: The Wind Waker",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "tww3": {
+   "game": "Total War: Warhammer III",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "twwhd": {
+   "game": "The Legend of Zelda: Wind Waker HD",
+   "stability": "Stable",
+   "ai_disclosure": "None",
+   "notes": "Requires the US dump of the game."
+  },
+  "ty_the_tasmanian_tiger_2": {
+   "game": "Ty the Tasmanian Tiger 2",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Public prerelease for testing, do not bring to other people's multiworlds"
+  },
+  "ty_the_tasmanian_tiger_3": {
+   "game": "Ty the Tasmanian Tiger 3",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ucg": {
+   "game": "Uncanny Cat Golf",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Moderate"
+  },
+  "ucn": {
+   "game": "Ultimate Custom Night",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "ufo50": {
+   "game": "UFO 50",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "ultrakill": {
+   "game": "ULTRAKILL",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Unknown"
+  },
+  "undertale": {
+   "game": "Undertale",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "undertale_yellow": {
+   "game": "Undertale Yellow",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "unfair_flips": {
+   "game": "Unfair Flips",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Minimal",
+   "notes": "For release off worlds, please make sure to disable \"Allow Goal\" in the mod config to be able to gather all shop checks."
+  },
+  "untitled_goose_game": {
+   "game": "Untitled Goose Game",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "uzdoom": {
+   "game": "UZDoom",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Supports a wide selection of wads and gameplay mods; \"how much the host should worry\" depends somewhat on what wad is selected"
+  },
+  "v6": {
+   "game": "VVVVVV",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "valheim": {
+   "game": "Valheim",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "The .apworld file is inside the zip file"
+  },
+  "vampire_survivors": {
+   "game": "Vampire Survivors",
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Requires downpatching, has some logic bugs, has an issue with sending goal sometimes, see pins in its channel for instructions"
+  },
+  "vardrain--": {
+   "game": "vardrain--",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "vertical_drop_heroes": {
+   "game": "Vertical Drop Heroes HD",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "very_very_valet": {
+   "game": "Very Very Valet",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "vespadian": {
+   "game": "Vespadian",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "viscera_cleanup_detail": {
+   "game": "Viscera Cleanup Details",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Extensive"
+  },
+  "vision_soft_reset": {
+   "game": "Vision Soft Reset",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "void_sols": {
+   "game": "Void Sols",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "voidstranger": {
+   "game": "Void Stranger",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "voltorb_flip": {
+   "game": "Voltorb Flip (from Pokémon HG & SS)",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Very silly little thing, only a handful of checks and all items are filler"
+  },
+  "votv": {
+   "game": "Voices of the Void",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "vrchat": {
+   "game": "VRChat",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "vrising": {
+   "game": "V Rising",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "vsim": {
+   "game": "Vacation Simulator",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "waffles": {
+   "game": "Super Mario World: Spicy Mycena Waffles",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None",
+   "notes": "Fork of the Super Mario World AP Randomizer"
+  },
+  "wargroove": {
+   "game": "Wargroove",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "wargroove2": {
+   "game": "Wargroove 2",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "wario_ware_inc": {
+   "game": "WarioWare, Inc. - Mega Microgame$!",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "waterywords": {
+   "game": "Watery Words",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
+  "wc3": {
+   "game": "Warcraft 3",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "webfishing": {
+   "game": "WEBFISHING",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "westofloathing": {
+   "game": "West of Loathing",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Minimal"
+  },
+  "whiteknuckle": {
+   "game": "White Knuckle",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "widget_inc": {
+   "game": "Widget Inc",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "wikipelago": {
+   "game": "Wikipelago",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "witness": {
+   "game": "The Witness",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "wizardoflegend": {
+   "game": "Wizard of Legende",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Minimal"
+  },
+  "wl3": {
+   "game": "Wario Land 3",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "Extensive"
+  },
+  "wl4": {
+   "game": "Wario Land 4",
+   "stability": "Stable",
+   "pr_status": "In Review",
+   "ai_disclosure": "Unknown"
+  },
+  "wordipelago": {
+   "game": "Wordipelago",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Often a slow starter, but gets rolling reasonably well"
+  },
+  "wordsearch": {
+   "game": "Word Search",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Has some logic bugs, currently playable"
+  },
+  "wynncraft": {
+   "game": "Wynncraft (Minecraft Server)",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "x2wotc": {
+   "game": "XCOM 2: War of the Chosen",
+   "stability": "Stable",
+   "ai_disclosure": "Consulted"
+  },
+  "xenobladex": {
+   "game": "Xenoblade Chronicles X",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Early state, has logic issues, game is very long"
+  },
+  "yachtdice": {
+   "game": "Yacht Dice",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Minimal"
+  },
+  "yachtdicebliss": {
+   "game": "Yacht Dice Bliss",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal",
+   "notes": "Beta version of Yacht Dice with new features"
+  },
+  "yakuza_gaiden": {
+   "game": "Yakuza | Like a Dragon Gaiden: The Man Who Erased His Name",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Minimal"
+  },
+  "yarg": {
+   "game": "YARG (Guitar Hero/Rockband)",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
+  },
+  "yarimono": {
+   "game": "Yarimono",
+   "stability": "Unstable",
+   "pr_status": "Not PRing",
+   "after_dark": true,
+   "ai_disclosure": "Unknown"
+  },
+  "yayarg": {
+   "game": "YAYARG (YARG Custom Songs)",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "yellowtaxi": {
+   "game": "Yellow Taxi Goes Vroom",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "ygo_lotd": {
+   "game": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "yhtwtg": {
+   "game": "You Have to Win the Game",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "yohane_deepblue": {
+   "game": "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "yoku": {
+   "game": "Yoku's Island Express",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown",
+   "notes": "Playable, occasionally crashes. See its thread in the future-game-design channel."
+  },
+  "yooka_laylee": {
+   "game": "Yooka-Laylee",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown",
+   "notes": "Check the future game design channel to see if there's a newer version"
+  },
+  "yooka_replaylee": {
+   "game": "Yooka-Replaylee",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "yoshisisland": {
+   "game": "Yoshi's Island",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "None"
+  },
+  "ys_8": {
+   "game": "YS VIII: Lacrimosa of Dana",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "ys_origin": {
+   "game": "Ys Origin",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
+  },
+  "yugioh06": {
+   "game": "Yu-Gi-Oh! 2006",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "yugioh_wc2008": {
+   "game": "Yu-Gi-Oh! World Championship 2008",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "yugiohddm": {
+   "game": "Yu-Gi-Oh! Dungeon Dice Monsters",
+   "stability": "Stable",
+   "ai_disclosure": "Unknown"
+  },
+  "zagdx": {
+   "game": "Zelda's Adventure GDX",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "zelda2": {
+   "game": "Zelda 2: The Adventure of Link",
+   "stability": "Stable",
+   "ai_disclosure": "None"
+  },
+  "zillion": {
+   "game": "Zillion",
+   "stability": "Stable",
+   "pr_status": "Core",
+   "ai_disclosure": "Unknown"
+  },
+  "zoominoes": {
+   "game": "Zoominoes",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  },
+  "zork_grand_inquisitor": {
+   "game": "Zork: Grand Inquisitor",
+   "stability": "Stable",
+   "pr_status": "Not PRing",
+   "ai_disclosure": "None"
+  },
+  "zuma_deluxe": {
+   "game": "Zuma Deluxe",
+   "stability": "Unstable",
+   "ai_disclosure": "Unknown"
+  }
+ }
+}

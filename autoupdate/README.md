@@ -23,6 +23,12 @@ the version, as in `apraiser_v134` or a fixed `Archipelago` tag) are updated
 too. It finds the newest release that ships the same `.apworld` file, reads
 the version from the tag or from the apworld, and pins that link.
 
+It also copies the community APWorld sheet's labels (Stability, PR Status,
+18+ / After Dark, AI-use disclosure, Notes) into `sheet.json`, for the lobby to
+show next to each world. Sheet names that don't match an index world can be
+mapped by hand in `autoupdate/sheet_overrides.json`
+(`{"Sheet game name": "world_stem"}`).
+
 It never guesses. Worlds it can't update safely (no `default_url`, odd tag
 names, a release whose apworld folder got renamed, ...) are listed in the
 run's summary page.

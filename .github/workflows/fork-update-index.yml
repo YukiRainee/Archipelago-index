@@ -97,14 +97,23 @@ jobs:
       - name: Summary
         run: cat update_summary.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit and push version bumps
+      # The community sheet's labels (stability, PR status, 18+, AI disclosure)
+      # for the lobby to show. A failure here never blocks the version bumps.
+      - name: Sync labels from the community APWorld sheet
+        continue-on-error: true
+        run: python autoupdate/sync_sheet.py
+
+      - name: Commit and push
         id: push
         run: |
-          if [ "$(cat changes_made.flag)" != "1" ]; then
-            echo "No changes."; exit 0
+          if [ "${{ inputs.dry_run }}" = "true" ]; then echo "Dry run."; exit 0; fi
+          git add index/ index.lock sheet.json
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          if git diff --cached --quiet -- index/ index.lock; then
+            printf 'Update labels from the community APWorld sheet\n' > "$RUNNER_TEMP/commit_msg"
+          else
+            { printf 'Auto-update apworld versions\n\n'; cat commit_message.txt; } > "$RUNNER_TEMP/commit_msg"
           fi
-          git add index/ index.lock
-          { printf 'Auto-update apworld versions\n\n'; cat commit_message.txt; } > "$RUNNER_TEMP/commit_msg"
           git commit -F "$RUNNER_TEMP/commit_msg"
           for i in 1 2 3; do
             git push origin HEAD:main && echo "pushed=1" >> "$GITHUB_OUTPUT" && exit 0
