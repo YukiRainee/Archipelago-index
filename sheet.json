@@ -1310,7 +1310,7 @@
    "stability": "Stable",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Semi-private availability for the client due to the modding framework being not publicly available."
+   "notes": "Semi-public availability for the client due to the modding framework being not publicly available."
   },
   "ffxiitm": {
    "game": "Final Fantasy XII: Trial Mode",
@@ -1994,7 +1994,7 @@
   "manual_pizzatower_steph": {
    "game": "Pizza Tower",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "manual_pokemonplatinum_linneus": {
    "game": "Pokémon Platinum",
@@ -2607,7 +2607,7 @@
   "parkitect": {
    "game": "Parkitect",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Minimal"
   },
   "pd2_crimdawn": {
    "game": "PAYDAY 2: Criminal Dawn",
@@ -2717,7 +2717,7 @@
   "plateup": {
    "game": "Plateup!",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Moderate"
   },
   "pmd_eos": {
    "game": "Pokémon Mystery Dungeon: Explorers of Sky",
@@ -2816,7 +2816,7 @@
   "pokepark": {
    "game": "PokéPark Wii: Pikachu's Adventure",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Consulted"
   },
   "pokepelago": {
    "game": "Poképelago",
@@ -3005,8 +3005,8 @@
   },
   "rogue_legacy_2": {
    "game": "Rogue Legacy 2",
-   "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "stability": "Stable",
+   "ai_disclosure": "Moderate"
   },
   "ror1": {
    "game": "Risk of Rain",
@@ -3564,7 +3564,7 @@
   "superhot": {
    "game": "SUPERHOT",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Moderate"
   },
   "superhot_mcd": {
    "game": "SUPERHOT: Mind Control Delete",

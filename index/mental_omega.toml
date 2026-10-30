@@ -5,6 +5,7 @@ disabled = true
 [releases]
 "1.44.0" = {min_ap_version = "0.6.8", url = "https://github.com/Heinki/Mental-Omega-Randomizer/releases/download/V1.44/mental_omega.apworld"}
 "1.46.0" = {min_ap_version = "0.6.8", url = "https://github.com/Heinki/Mental-Omega-Randomizer/releases/download/V1.46/mental_omega.apworld"}
+"1.47.0" = {min_ap_version = "0.6.8", url = "https://github.com/Heinki/Mental-Omega-Randomizer/releases/download/V1.47/mental_omega.apworld"}
 
 [base.">=0.6.8"]
 disabled = false
