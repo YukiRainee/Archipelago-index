@@ -68,6 +68,11 @@ jobs:
           if ! git diff --quiet -- index.toml; then
             git commit -q -m "Keep index_homepage pointing at this fork" -- index.toml
           fi
+          # A version both sides added lands twice without a conflict; drop the copy.
+          python3 autoupdate/fix_duplicate_versions.py
+          if ! git diff --quiet -- index/; then
+            git commit -q -m "Drop version keys duplicated by the upstream merge" -- index/
+          fi
           if [ "${{ inputs.dry_run }}" != "true" ]; then
             git push origin HEAD:main
           fi
