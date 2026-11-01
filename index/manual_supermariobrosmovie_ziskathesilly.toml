@@ -1,5 +1,7 @@
 name = "Manual_SuperMarioBrosMovie_ZiskaTheSilly"
 display_name = "Manual: Super Mario Bros. Movie (2023)"
+# Hidden in this fork: a manual for watching a movie, not a game
+disabled = true
 
 [versions]
 "1.0.0" = { url = "https://github.com/ZiTheSilly/Super-Mario-Bros-Movie-Manual/releases/download/v1.0.0/manual_supermariobrosmovie_ziskathesilly.apworld"}
