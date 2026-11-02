@@ -4,3 +4,4 @@ default_url = "https://github.com/dghalfor/V-Rising-APWorld/releases/download/{{
 
 [versions]
 "0.3.3" = {}
+"0.3.4" = {}

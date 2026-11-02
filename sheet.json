@@ -381,6 +381,11 @@
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
   },
+  "bloodstained_rotn": {
+   "game": "Bloodstained: Ritual of the Night",
+   "stability": "Unstable",
+   "ai_disclosure": "Moderate"
+  },
   "bloonstd6": {
    "game": "Bloons Tower Defense 6",
    "stability": "Stable",
@@ -957,7 +962,7 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 85"
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 489"
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
@@ -1277,6 +1282,11 @@
    "game": "Final Fantasy VII",
    "stability": "Unstable",
    "ai_disclosure": "None"
+  },
+  "ffcc": {
+   "game": "Final Fantasy: Crystal Chronicles",
+   "stability": "Unstable",
+   "ai_disclosure": "Consulted"
   },
   "ffmq": {
    "game": "Final Fantasy Mystic Quest",
@@ -1752,11 +1762,6 @@
    "pr_status": "Core",
    "ai_disclosure": "Unknown"
   },
-  "kh3": {
-   "game": "Kingdom Hearts III",
-   "stability": "Unstable",
-   "ai_disclosure": "Moderate"
-  },
   "khbbs": {
    "game": "Kingdom Hearts: Birth by Sleep Final Mix",
    "stability": "Stable",
@@ -1863,7 +1868,7 @@
   "lego_batman_1": {
    "game": "LEGO Batman: The Video Game",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Minimal"
   },
   "lego_star_wars_tcs": {
    "game": "Lego Star Wars: The Complete Saga",
@@ -2772,9 +2777,9 @@
    "ai_disclosure": "None"
   },
   "pokemon_hgss": {
-   "game": "Pokémon HeartGold & SoulSilver (TrueBlue)",
+   "game": "Pokémon HeartGold & SoulSilver (Singe)",
    "stability": "Unstable",
-   "ai_disclosure": "None"
+   "ai_disclosure": "Moderate"
   },
   "pokemon_pinball": {
    "game": "Pokémon Pinball",

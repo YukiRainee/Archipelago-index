@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1378008091450146816"
 
 [versions]
 "1.1.0" = {url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v1.1.0/pokemon_stadium.apworld"}
+"1.2.0" = {url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v1.2.0/pokemon_stadium.apworld"}

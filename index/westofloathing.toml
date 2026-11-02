@@ -4,3 +4,4 @@ default_url = "https://github.com/TylerJG92/WOLAP/releases/download/v{{version}}
 
 [versions]
 "0.3.5-alpha" = {}
+"0.3.6-alpha" = {}
