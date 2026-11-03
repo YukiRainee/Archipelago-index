@@ -4,3 +4,4 @@ default_url = "https://github.com/lepideble/factorio-apworld/releases/download/p
 
 [versions]
 "0.4.6" = {}
+"0.5.0" = {}

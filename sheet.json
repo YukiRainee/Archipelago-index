@@ -390,7 +390,7 @@
    "game": "Bloons Tower Defense 6",
    "stability": "Stable",
    "pr_status": "Not PRing",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Consulted"
   },
   "bluefire": {
    "game": "Blue Fire",
@@ -962,7 +962,7 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 489"
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 490"
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
@@ -1640,7 +1640,7 @@
   "hyperrogue": {
    "game": "HyperRogue",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "hytale": {
    "game": "Hytale",
@@ -3813,7 +3813,7 @@
   },
   "toystory2": {
    "game": "Toy Story 2 (PS1)",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "Moderate"
   },
   "trackmania": {
