@@ -3,5 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1447983047185141830"
 default_url = "https://github.com/Mitchell1711/Archipelago/releases/download/v{{version}}/pocket_dungeon.apworld"
 
 [versions]
-"1.0.0" = {}
 "1.0.1" = {}
