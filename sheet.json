@@ -293,7 +293,7 @@
    "game": "Banjo-Tooie",
    "stability": "Stable",
    "pr_status": "In Review",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "bannerlord": {
    "game": "Mount & Blade II: Bannerlord",
@@ -821,7 +821,7 @@
   "cv_dos": {
    "game": "Castlevania: Dawn of Sorrow",
    "stability": "Stable",
-   "ai_disclosure": "None"
+   "ai_disclosure": "Consulted"
   },
   "cv_ooe": {
    "game": "Castlevania: Order of Ecclesia",
@@ -1670,7 +1670,7 @@
   "iji": {
    "game": "Iji",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "inscryption": {
    "game": "Inscryption",
@@ -1770,7 +1770,7 @@
   "khcom": {
    "game": "Kingdom Hearts: Chain of Memories (GBA)",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "khddd": {
    "game": "Kingdom Hearts Dream Drop Distance",
@@ -1781,7 +1781,7 @@
    "game": "Kingdom Hearts: RE Chain of Memories",
    "stability": "Stable",
    "pr_status": "In Review",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "None",
    "notes": "PR in draft"
   },
   "kirby_air_ride": {
@@ -2697,7 +2697,7 @@
   "piranesi": {
    "game": "Piranesi Restoration Project (Luanti)",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Moderate"
   },
   "pixeldraw": {
    "game": "PixelDraw",
@@ -2757,7 +2757,7 @@
   "pokemon_bw": {
    "game": "Pokémon Black and White",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "pokemon_crystal": {
    "game": "Pokémon Crystal",
