@@ -1118,7 +1118,7 @@
   "dwarf_fortress": {
    "game": "Dwarf Fortress",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Consulted"
   },
   "earthbound": {
    "game": "Earthbound",
@@ -1152,13 +1152,6 @@
    "game": "Ender Magnolia: Bloom In The Mist",
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
-  },
-  "enter_the_gungeon": {
-   "game": "Enter the Gungeon",
-   "stability": "Unstable",
-   "pr_status": "Not PRing",
-   "ai_disclosure": "Unknown",
-   "notes": "Has no logic, fails to generate its template yaml (but you can still use the provided one)"
   },
   "equilinox": {
    "game": "Equilinox",
@@ -2838,7 +2831,8 @@
   "portal2": {
    "game": "Portal 2",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Unknown",
+   "notes": "Single player only,"
   },
   "prisma_road": {
    "game": "Prisma Road",
@@ -3937,7 +3931,7 @@
   "valheim": {
    "game": "Valheim",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "Moderate",
    "notes": "The .apworld file is inside the zip file"
   },
   "vampire_survivors": {
