@@ -4,3 +4,4 @@ default_url = "https://github.com/MaragonMH/Archipelago/releases/download/XenoX{
 
 [versions]
 "0.2.10" = {}
+"0.3.0" = {}

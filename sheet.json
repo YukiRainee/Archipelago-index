@@ -962,7 +962,7 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 490"
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 489"
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
@@ -1517,11 +1517,6 @@
    "game": "Hammerwatch",
    "stability": "Stable",
    "ai_disclosure": "Unknown"
-  },
-  "harry_potter_2_pc": {
-   "game": "Harry Potter and the Chamber of Secrets",
-   "stability": "Unstable",
-   "ai_disclosure": "Extensive"
   },
   "haste": {
    "game": "HASTE: Broken Worlds",
@@ -2430,11 +2425,6 @@
    "game": "Nonopelagram",
    "stability": "Unstable",
    "ai_disclosure": "Minimal"
-  },
-  "northgard": {
-   "game": "Northgard",
-   "stability": "Unstable",
-   "ai_disclosure": "Extensive"
   },
   "novalands": {
    "game": "Nova Lands",
@@ -3808,7 +3798,7 @@
   "toystory2": {
    "game": "Toy Story 2 (PS1)",
    "stability": "Stable",
-   "ai_disclosure": "Moderate"
+   "ai_disclosure": "Extensive"
   },
   "trackmania": {
    "game": "Trackmania",
