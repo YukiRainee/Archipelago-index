@@ -458,7 +458,7 @@
   "budokai3": {
    "game": "Dragon Ball Z: Budokai 3",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "Extensive",
    "notes": "PS2 version"
   },
   "budokai_tenkaichi2": {
@@ -910,6 +910,7 @@
   "deaths_door": {
    "game": "Death's Door",
    "stability": "Unstable",
+   "pr_status": "Not PRing",
    "ai_disclosure": "Minimal",
    "notes": "Be sure to also grab the mods the setup guide tells you to."
   },
