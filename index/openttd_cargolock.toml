@@ -4,3 +4,4 @@ default_url = "https://github.com/kbab13reel/openttd-archipelago/releases/downlo
 
 [versions]
 "0.3.1" = {}
+"0.4.0" = {}
