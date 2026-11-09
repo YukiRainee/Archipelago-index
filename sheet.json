@@ -318,13 +318,6 @@
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
   },
-  "beyondthehorizon": {
-   "game": "The Legend of Heroes: Trails Beyond the Horizon",
-   "stability": "Unstable",
-   "pr_status": "Not PRing",
-   "after_dark": true,
-   "ai_disclosure": "Extensive"
-  },
   "bfm": {
    "game": "Brave Fencer Musashi",
    "stability": "Stable",
@@ -1348,8 +1341,7 @@
   "fridaynightfunkin": {
    "game": "Friday Night Funkin'",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown",
-   "notes": "Playable but is alpha, so expect some bugs, also......LOTS of errors"
+   "ai_disclosure": "Unknown"
   },
   "frogmonster": {
    "game": "Frogmonster",
@@ -1777,16 +1769,6 @@
    "game": "Kirby Air Ride",
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
-  },
-  "kirby_robobot": {
-   "game": "Kirby Planet Robobot",
-   "stability": "Unstable",
-   "ai_disclosure": "Extensive"
-  },
-  "kirby_squeak_squad": {
-   "game": "Kirby Squeak Squad",
-   "stability": "Unstable",
-   "ai_disclosure": "Extensive"
   },
   "kirbyam": {
    "game": "Kirby & The Amazing Mirror",
@@ -3630,7 +3612,7 @@
   "tetrisattack": {
    "game": "Tetris Attack",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "tevi": {
    "game": "Tevi",
