@@ -823,7 +823,7 @@
   },
   "cv_por": {
    "game": "Castlevania: Portrait of Ruin",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "None",
    "notes": "Bizhawk 2.10 or newer is required. Auto Save RAM does not work with DS games, you will need to disable it if it is enabled."
   },
@@ -2683,7 +2683,7 @@
   "planetzoo": {
    "game": "Planet Zoo",
    "stability": "Unstable",
-   "ai_disclosure": "Minimal"
+   "ai_disclosure": "Extensive"
   },
   "plateup": {
    "game": "Plateup!",

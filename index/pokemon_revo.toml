@@ -5,6 +5,7 @@ disabled = true
 
 [releases]
 "0.1.1" = {min_ap_version = "0.6.8"}
+"0.2.0" = {min_ap_version = "0.6.8"}
 
 [base.">=0.6.8"]
 disabled = false
