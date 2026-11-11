@@ -4,3 +4,4 @@ default_url = "https://github.com/carrotinator/Archipelago/releases/download/ph-
 
 [versions]
 "0.10.2" = {}
+"0.10.3" = {}

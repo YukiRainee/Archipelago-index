@@ -5,3 +5,4 @@ default_url = "https://github.com/Haywire32/LoS-Archipelago/releases/download/v{
 [versions]
 "0.7.4" = {}
 "0.7.6" = {}
+"0.7.7" = {}

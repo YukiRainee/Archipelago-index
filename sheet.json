@@ -956,7 +956,7 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 489"
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 490"
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
@@ -1575,6 +1575,11 @@
    "game": "holo8",
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
+  },
+  "homura_hime": {
+   "game": "Homura-Hime",
+   "stability": "Unstable",
+   "ai_disclosure": "Extensive"
   },
   "horse_magnifier": {
    "game": "Horse Magnifier: The Full Horse",
@@ -3492,11 +3497,6 @@
    "ai_disclosure": "None",
    "notes": "Very playable!"
   },
-  "stray": {
-   "game": "Stray",
-   "stability": "Unstable",
-   "ai_disclosure": "Consulted"
-  },
   "streets_of_rage": {
    "game": "Streets of Rage",
    "stability": "Unstable",
@@ -3754,7 +3754,7 @@
   },
   "tmosth": {
    "game": "The Murder of Sonic the Hedgehog",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "None"
   },
   "toem": {
