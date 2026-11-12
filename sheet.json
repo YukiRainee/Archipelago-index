@@ -956,7 +956,7 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 490"
+   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 491"
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
@@ -3109,7 +3109,7 @@
   "seum": {
    "game": "SEUM: Speedrunners from Hell",
    "stability": "Unstable",
-   "ai_disclosure": "—"
+   "ai_disclosure": "Extensive"
   },
   "severed_soul": {
    "game": "Severed Soul",
@@ -3526,7 +3526,8 @@
    "game": "Super Hexagon",
    "stability": "Unstable",
    "pr_status": "Not PRing",
-   "ai_disclosure": "Extensive"
+   "ai_disclosure": "Extensive",
+   "notes": "Requires the Steam version of the game, only works on Windows"
   },
   "super_meat_boy": {
    "game": "Super Meat Boy",
@@ -3584,7 +3585,7 @@
   "tazwanted": {
    "game": "Taz: Wanted",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Extensive"
   },
   "tboir": {
    "game": "The Binding of Isaac: Repentance",
@@ -3954,7 +3955,7 @@
   },
   "voidstranger": {
    "game": "Void Stranger",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "None"
   },
   "voltorb_flip": {
