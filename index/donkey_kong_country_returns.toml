@@ -9,3 +9,4 @@ default_url = "https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v{{v
 [releases]
 "0.2.2-beta" = {min_ap_version = "0.6.8"}
 "0.2.3-beta" = {min_ap_version = "0.6.8"}
+"0.2.4-beta" = {min_ap_version = "0.6.8"}

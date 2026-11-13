@@ -956,11 +956,11 @@
    "stability": "Broken on Main",
    "pr_status": "Not PRing",
    "ai_disclosure": "None",
-   "notes": "Removed from core at the dev's request. Play this version of DKC3 instead: at Row 491"
+   "notes": "Removed from core at the dev's request."
   },
   "dktoluca": {
    "game": "Donkey Kong Toluca (DKC3)",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "None",
    "notes": "Alternate DKC3 implementation"
   },
