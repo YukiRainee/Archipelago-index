@@ -7,6 +7,7 @@ disabled = true
 "1.18.3" = {min_ap_version = "0.6.8"}
 "1.18.4" = {min_ap_version = "0.6.8"}
 "1.18.7" = {min_ap_version = "0.6.8"}
+"1.18.8" = {min_ap_version = "0.6.8"}
 
 [base.">=0.6.8"]
 disabled = false

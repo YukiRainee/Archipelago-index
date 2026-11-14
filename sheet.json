@@ -113,12 +113,6 @@
    "stability": "Stable",
    "ai_disclosure": "Unknown"
   },
-  "age2de": {
-   "game": "Age of Empires II: Definite Edition",
-   "stability": "Unstable",
-   "ai_disclosure": "Minimal",
-   "notes": "!WARNING! Logicless Proof of Concept World, don't bring to public games"
-  },
   "ahit": {
    "game": "A Hat in Time",
    "stability": "Stable",
@@ -1788,7 +1782,7 @@
   "ksp1": {
    "game": "Kerbal Space Program",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Moderate"
   },
   "kss": {
    "game": "Kirby Super Star",

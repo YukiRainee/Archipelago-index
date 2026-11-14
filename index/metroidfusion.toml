@@ -6,3 +6,4 @@ home = "https://discord.com/channels/731205301247803413/1493332737765933137"
 "0.0.21+hotfix3" = { url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v21/metroidfusion.apworld" }
 "1.22.4" = {url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v1.22.4/metroidfusion.apworld"}
 "1.22.5" = {url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v1.22.5/metroidfusion.apworld"}
+"1.22.7" = {url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v1.22.7/metroidfusion.apworld"}
