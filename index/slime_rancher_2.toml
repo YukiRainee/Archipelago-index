@@ -6,3 +6,4 @@ default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{v
 "0.14.2" = {}
 "0.15.0" = {}
 "0.16.0" = {}
+"0.17.0" = {}

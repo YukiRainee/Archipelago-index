@@ -113,6 +113,11 @@
    "stability": "Stable",
    "ai_disclosure": "Unknown"
   },
+  "age2de": {
+   "game": "Age of Empires II: Definitive Edition",
+   "stability": "Stable",
+   "ai_disclosure": "Minimal"
+  },
   "ahit": {
    "game": "A Hat in Time",
    "stability": "Stable",
