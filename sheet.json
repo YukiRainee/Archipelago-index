@@ -1348,6 +1348,12 @@
    "pr_status": "Not PRing",
    "ai_disclosure": "Consulted"
   },
+  "ftl": {
+   "game": "FTL: Faster Than Light",
+   "stability": "Unstable",
+   "ai_disclosure": "Minimal",
+   "notes": "AP exists for both the base game and the Multiverse mod."
+  },
   "funi_raccoon": {
    "game": "Funi Raccoon Game",
    "stability": "Stable",
@@ -2005,6 +2011,11 @@
   },
   "manual_supermariogalaxy_rowsmg": {
    "game": "Super Mario Galaxy",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
+  "manual_vividlope_redpenguiin": {
+   "game": "VIVIDLOPE",
    "stability": "Unstable",
    "ai_disclosure": "None"
   },
@@ -3459,7 +3470,7 @@
   "stacklands": {
    "game": "Stacklands",
    "stability": "Stable",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "Consulted",
    "notes": "Playable and currently considered stable for vanilla boards (Mainland, Forest and Island) - requires manual goal trigger (but won't allow goal to be sent if not yet reached)"
   },
   "star_fox_64": {
@@ -3699,16 +3710,18 @@
    "ai_disclosure": "Unknown"
   },
   "timesplitters_2": {
-   "game": "Timesplitters 2",
+   "game": "Timesplitters 2 (CaptPurpleHeart)",
    "stability": "Unstable",
-   "ai_disclosure": "Extensive"
+   "ai_disclosure": "Extensive",
+   "notes": "Gamecube version"
   },
   "timesplitters_future_perfect": {
-   "game": "TimeSplitters: Future Perfect",
+   "game": "TimeSplitters: Future Perfect (CaptPurpleHeart)",
    "stability": "Unstable",
    "pr_status": "Not PRing",
    "after_dark": true,
-   "ai_disclosure": "Extensive"
+   "ai_disclosure": "Extensive",
+   "notes": "Gamecube version"
   },
   "tits_the_3rd": {
    "game": "The Legend of Heroes: Trails in the Sky the 3rd",
@@ -3935,7 +3948,7 @@
    "ai_disclosure": "Unknown"
   },
   "viscera_cleanup_detail": {
-   "game": "Viscera Cleanup Details",
+   "game": "Viscera Cleanup Detail",
    "stability": "Unstable",
    "pr_status": "Not PRing",
    "after_dark": true,
@@ -4219,7 +4232,7 @@
   "zoominoes": {
    "game": "Zoominoes",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Extensive"
   },
   "zork_grand_inquisitor": {
    "game": "Zork: Grand Inquisitor",
