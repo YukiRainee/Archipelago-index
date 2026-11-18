@@ -1470,7 +1470,7 @@
   },
   "gta_sa": {
    "game": "Grand Theft Auto: San Andreas",
-   "stability": "Unstable",
+   "stability": "Stable",
    "pr_status": "Not PRing",
    "after_dark": true,
    "ai_disclosure": "Minimal"
@@ -3534,7 +3534,7 @@
   },
   "super_hexagon": {
    "game": "Super Hexagon",
-   "stability": "Unstable",
+   "stability": "Stable",
    "pr_status": "Not PRing",
    "ai_disclosure": "Extensive",
    "notes": "Requires the Steam version of the game, only works on Windows"
