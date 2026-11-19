@@ -1350,7 +1350,7 @@
   },
   "ftl": {
    "game": "FTL: Faster Than Light",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "Minimal",
    "notes": "AP exists for both the base game and the Multiverse mod."
   },

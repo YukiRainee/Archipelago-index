@@ -4,3 +4,4 @@ default_url = "https://github.com/CurrentlyPending/BeatSaberAP/releases/download
 
 [versions]
 "0.0.5" = {}
+"0.1.2" = {}
