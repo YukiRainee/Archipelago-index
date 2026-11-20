@@ -2468,7 +2468,7 @@
   "okamihd": {
    "game": "Okami HD",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "oni": {
    "game": "Oxygen Not Included",
@@ -3689,8 +3689,9 @@
   },
   "the_werecleaner": {
    "game": "The WereCleaner",
-   "stability": "Stable",
-   "ai_disclosure": "None"
+   "stability": "Unstable",
+   "ai_disclosure": "None",
+   "notes": "Consistently generates 7 more items than locations. Shouldn't break much, but it might."
   },
   "three_goblin_wobblin": {
    "game": "Three Goblin Wobblin'",
