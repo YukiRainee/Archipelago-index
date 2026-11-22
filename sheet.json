@@ -972,7 +972,7 @@
   "dmc3": {
    "game": "Devil May Cry 3 (Special Edition)",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "dome_keeper": {
    "game": "Dome Keeper",
@@ -984,7 +984,7 @@
    "game": "Donkey Kong Country Returns",
    "stability": "Stable",
    "ai_disclosure": "Consulted",
-   "notes": "Wii version (USA, Revision 1)"
+   "notes": "Wii version (USA, Revision 1 & EU, Revision 0)"
   },
   "dontstarvetogether": {
    "game": "Don't Starve Together",
@@ -3027,7 +3027,7 @@
   "rusted_moss": {
    "game": "Rusted Moss",
    "stability": "Stable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "rwby_ge": {
    "game": "RWBY: Grimm Eclipse",
