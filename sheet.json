@@ -804,6 +804,11 @@
    "stability": "Unstable",
    "ai_disclosure": "Unknown"
   },
+  "cv2_sq": {
+   "game": "Castlevania II: Simon's Quest",
+   "stability": "Unstable",
+   "ai_disclosure": "None"
+  },
   "cv64": {
    "game": "Castlevania 64",
    "stability": "Stable",
@@ -1250,7 +1255,7 @@
   "ff132": {
    "game": "Final Fantasy XIII-2",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "None"
   },
   "ff1psp": {
    "game": "Final Fantasy 1 (PSP)",
@@ -1942,7 +1947,7 @@
   "lrff13": {
    "game": "Final Fantasy XIII - Lightning Returns",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Moderate"
   },
   "lsw3": {
    "game": "LEGO Star Wars III (Wii)",
@@ -3906,7 +3911,7 @@
   "uzdoom": {
    "game": "UZDoom",
    "stability": "Stable",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "None",
    "notes": "Supports a wide selection of wads and gameplay mods; \"how much the host should worry\" depends somewhat on what wad is selected"
   },
   "v6": {
@@ -4106,7 +4111,7 @@
   "xenobladex": {
    "game": "Xenoblade Chronicles X",
    "stability": "Unstable",
-   "ai_disclosure": "Unknown",
+   "ai_disclosure": "Minimal",
    "notes": "Early state, has logic issues, game is very long"
   },
   "yachtdice": {
