@@ -915,7 +915,7 @@
    "game": "Deep Rock Galactic",
    "stability": "Stable",
    "ai_disclosure": "None",
-   "notes": "Developer Taz (Cousinit117) & SipcoGamingGuild Please ping for relevant details on AP discord\nFor more details visit the Deep Rock Galactic future game design channel in the Archipelago Discord"
+   "notes": "Developer Taz (Cousinit117) & SipcoGamingGuild Please ping for relevant details on AP discord\nFor more details visit the Deep Rock Galactic channel in the Archipelago Discord"
   },
   "deltarune": {
    "game": "DELTARUNE",
@@ -1567,7 +1567,8 @@
    "stability": "Unstable",
    "pr_status": "Not PRing",
    "after_dark": true,
-   "ai_disclosure": "Unknown"
+   "ai_disclosure": "Unknown",
+   "notes": "Has deathlink."
   },
   "hk": {
    "game": "Hollow Knight",
@@ -1918,7 +1919,7 @@
    "game": "League of Legends",
    "stability": "Stable",
    "ai_disclosure": "Unknown",
-   "notes": "Read the instructions given in the GitHub and future game design channel to set up"
+   "notes": "Read the instructions given in the GitHub and custom game thread to set up"
   },
   "look_outside": {
    "game": "Look Outside",
@@ -2334,7 +2335,7 @@
    "game": "Monster Sanctuary",
    "stability": "Stable",
    "ai_disclosure": "Unknown",
-   "notes": "Check the pins in the future game design channel for an updated apworld and instructions."
+   "notes": "Check the pins in the thread for an updated apworld and instructions."
   },
   "moonlighter": {
    "game": "Moonlighter",
@@ -2367,7 +2368,7 @@
    "game": "Metroid: Zero Mission",
    "stability": "Stable",
    "ai_disclosure": "None",
-   "notes": "Check future game design pins for tracker and known issues"
+   "notes": "Check channel pins for tracker and known issues"
   },
   "naruto_con_2": {
    "game": "Naruto Clash of Ninja 2",
@@ -2510,7 +2511,7 @@
    "stability": "Stable",
    "pr_status": "In Review",
    "ai_disclosure": "Unknown",
-   "notes": "Report logic issues, bugs, or crashes to Crazycolbster in the future game design channel."
+   "notes": "Report logic issues, bugs, or crashes to Crazycolbster in the channel."
   },
   "openttd": {
    "game": "OpenTTD",
@@ -2654,7 +2655,7 @@
   },
   "pikmin2": {
    "game": "Pikmin 2",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "None"
   },
   "pikuniku": {
@@ -2692,7 +2693,7 @@
   },
   "pkmn_ranger_quest": {
    "game": "Pokémon Ranger (Quest)",
-   "stability": "Unstable",
+   "stability": "Stable",
    "ai_disclosure": "Unknown"
   },
   "placidplasticducksim": {
@@ -2763,9 +2764,9 @@
    "ai_disclosure": "None"
   },
   "pokemon_hgss": {
-   "game": "Pokémon HeartGold & SoulSilver (Singe)",
-   "stability": "Unstable",
-   "ai_disclosure": "Moderate"
+   "game": "Pokémon HeartGold & SoulSilver (TrueBlue)",
+   "stability": "Stable",
+   "ai_disclosure": "None"
   },
   "pokemon_pinball": {
    "game": "Pokémon Pinball",
@@ -4174,13 +4175,13 @@
    "game": "Yoku's Island Express",
    "stability": "Unstable",
    "ai_disclosure": "Unknown",
-   "notes": "Playable, occasionally crashes. See its thread in the future-game-design channel."
+   "notes": "Playable, occasionally crashes. See its custom games thread."
   },
   "yooka_laylee": {
    "game": "Yooka-Laylee",
    "stability": "Stable",
    "ai_disclosure": "Unknown",
-   "notes": "Check the future game design channel to see if there's a newer version"
+   "notes": "Check the thread to see if there's a newer version"
   },
   "yooka_replaylee": {
    "game": "Yooka-Replaylee",

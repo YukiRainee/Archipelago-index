@@ -5,3 +5,4 @@ default_url = "https://github.com/NyanMC/build-a-jetpack/releases/download/{{ver
 [versions]
 "0.2.0" = {}
 "0.3.0" = {}
+"0.3.1" = {}
